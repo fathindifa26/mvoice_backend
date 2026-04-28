@@ -54,9 +54,7 @@ async def get_ai_comparison_summary(
                 "bu_mean_bin": data_a.get("bu_mean_bin")
             }
     
-    # 2. Fetch Performance Summaries (Brand A, Brand B, Market)
-    all_brand_a_data["performance_summary"] = brand_service.get_brand_performance_summary(brand_a, business_unit)
-    all_brand_b_data["performance_summary"] = brand_service.get_brand_performance_summary(brand_b, business_unit)
+    # 2. Fetch Market Performance Benchmarks
     all_benchmarks["market_performance"] = brand_service.get_market_performance_summary(business_unit, exclude_brands=[brand_a, brand_b])
 
     # 3. Fetch Top Leaders for Context

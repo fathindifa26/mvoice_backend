@@ -27,9 +27,8 @@ class AIService:
         return f"""
         You are a Senior Creative Strategist. Analyze the following performance data comparing two brands in the same business unit.
         The data contains:
-        1. Performance Summaries: Average views and performance breakdown by talent type for each brand.
-        2. Market Benchmarks: Average performance for the whole category and a breakdown of the Top 3 Our Brands and Top 3 Competitors (Market Leaders).
-        3. Graph Metrics: Detailed distributions for various creative attributes (e.g., Topic, Hook Type, etc.) and how they compare to the market average (BU Mean).
+        1. Market Benchmarks: Average performance for the whole category and a breakdown of the Top 3 Our Brands and Top 3 Competitors (Market Leaders).
+        2. Graph Metrics: Detailed distributions for various creative attributes (e.g., Topic, Hook Type, etc.) and how they compare to the market average (BU Mean).
 
         DATA CONTEXT (JSON):
         {json.dumps(context, indent=2)}
