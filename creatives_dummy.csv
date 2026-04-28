@@ -1,0 +1,51 @@
+link,account,brand,business_unit,date_post,talent_type,is_our_brand,views,duration_sec,face_present,face_emotion,text_overlay_count,scene_cut_estimate,speech_ratio,voice_sentiment,topic,format,tone,hook_present,hook_duration_sec,hook_type,word_density_wps
+https://tiktok.com/v1,dove_official,Dove,Beauty and Wellbeing,2024-03-01,Mega,True,1200000,15,1,happy,3,5,0.8,energetic,beauty,storytelling,inspirational,True,3,relatable statement,3.2
+https://tiktok.com/v2,sunsilk_id,Sunsilk,Beauty and Wellbeing,2024-03-02,Makro,True,850000,30,2,surprised,5,12,0.6,excited,beauty,tutorial,funny,True,2,question,2.8
+https://tiktok.com/v3,vaseline_id,Vaseline,Beauty and Wellbeing,2024-03-05,Mikro,True,450000,45,1,neutral,2,8,0.9,calm,beauty,storytelling,serious,False,null,null,2.1
+https://tiktok.com/v4,wardah_id,Wardah,Beauty and Wellbeing,2024-03-10,Mega,False,2500000,20,1,happy,4,6,0.7,energetic,beauty,talking head,inspirational,True,3,relatable statement,3.5
+https://tiktok.com/v5,scarlett_whitening,Scarlett,Beauty and Wellbeing,2024-03-12,Makro,False,920000,25,1,neutral,6,10,0.5,serious,beauty,tutorial,calm,True,4,shocking statement,2.5
+https://tiktok.com/v6,biore_id,Biore,Beauty and Wellbeing,2024-03-15,Nano,False,120000,60,0,null,8,20,0.0,null,beauty,vlog,funny,False,null,null,0.0
+https://tiktok.com/v7,lux_id,Lux,Beauty and Wellbeing,2024-03-18,Mega,True,2100000,12,1,happy,2,4,0.4,calm,beauty,aesthetic,emotional,True,2,curiosity gap,1.8
+https://tiktok.com/v8,ponds_id,Pond's,Beauty and Wellbeing,2024-03-20,Mikro,True,320000,40,2,happy,4,15,0.8,energetic,beauty,storytelling,funny,True,5,relatable statement,3.0
+https://tiktok.com/v9,tresemme_id,TRESemmé,Beauty and Wellbeing,2024-03-22,Makro,True,780000,22,1,neutral,5,9,0.7,energetic,beauty,tutorial,inspirational,True,3,question,3.2
+https://tiktok.com/v10,makeover_id,Make Over,Beauty and Wellbeing,2024-03-25,Mega,False,1800000,18,1,happy,3,7,0.6,calm,beauty,storytelling,inspirational,True,2,relatable statement,2.9
+https://tiktok.com/v11,dove_official,Dove,Beauty and Wellbeing,2024-03-28,Mega,True,1500000,15,1,happy,4,5,0.8,energetic,beauty,storytelling,inspirational,True,3,relatable statement,3.4
+https://tiktok.com/v12,wardah_id,Wardah,Beauty and Wellbeing,2024-04-01,Makro,False,650000,35,1,surprised,7,14,0.5,excited,beauty,tutorial,dramatic,True,4,shocking statement,2.7
+https://tiktok.com/v13,vaseline_id,Vaseline,Beauty and Wellbeing,2024-04-05,Makro,True,950000,28,1,happy,4,11,0.7,calm,beauty,vlog,calm,True,3,question,2.4
+https://tiktok.com/v14,pantene_id,Pantene,Beauty and Wellbeing,2024-04-10,Mega,False,1100000,24,1,neutral,3,8,0.6,serious,beauty,storytelling,serious,True,2,relatable statement,3.1
+https://tiktok.com/v15,sunsilk_id,Sunsilk,Beauty and Wellbeing,2024-04-12,Mikro,True,250000,50,1,happy,6,18,0.8,energetic,beauty,tutorial,funny,True,5,question,2.6
+https://tiktok.com/v16,lux_id,Lux,Beauty and Wellbeing,2024-04-15,Mega,True,3200000,10,2,happy,2,3,0.5,calm,beauty,storytelling,emotional,True,2,curiosity gap,2.0
+https://tiktok.com/v17,head_shoulders,Head & Shoulders,Beauty and Wellbeing,2024-04-18,Nano,False,85000,45,0,null,5,15,0.0,null,beauty,vlog,calm,False,null,null,0.0
+https://tiktok.com/v18,ponds_id,Pond's,Beauty and Wellbeing,2024-04-20,Makro,True,880000,32,1,surprised,4,12,0.6,excited,beauty,tutorial,dramatic,True,4,shocking statement,2.8
+https://tiktok.com/v19,tresemme_id,TRESemmé,Beauty and Wellbeing,2024-04-22,Mega,True,1500000,20,2,happy,3,8,0.9,energetic,beauty,storytelling,inspirational,True,3,relatable statement,3.3
+https://tiktok.com/v20,biore_id,Biore,Beauty and Wellbeing,2024-04-25,Makro,False,720000,28,1,neutral,6,11,0.5,calm,beauty,vlog,funny,True,4,question,2.5
+https://tiktok.com/v21,dove_official,Dove,Beauty and Wellbeing,2024-05-01,Mega,True,1300000,12,1,happy,2,4,0.7,energetic,beauty,aesthetic,inspirational,True,2,relatable statement,3.0
+https://tiktok.com/v22,vaseline_id,Vaseline,Beauty and Wellbeing,2024-05-02,Makro,True,1100000,20,1,neutral,4,7,0.5,calm,beauty,tutorial,calm,True,3,question,2.5
+https://tiktok.com/v23,wardah_id,Wardah,Beauty and Wellbeing,2024-05-05,Mega,False,2800000,15,1,happy,5,6,0.8,excited,beauty,storytelling,inspirational,True,3,relatable statement,3.6
+https://tiktok.com/v24,scarlett_whitening,Scarlett,Beauty and Wellbeing,2024-05-08,Mikro,False,550000,40,1,surprised,3,15,0.6,energetic,beauty,vlog,funny,True,4,question,2.7
+https://tiktok.com/v25,sunsilk_id,Sunsilk,Beauty and Wellbeing,2024-05-10,Makro,True,900000,25,1,happy,4,10,0.7,energetic,beauty,storytelling,inspirational,True,2,relatable statement,2.9
+https://tiktok.com/v26,lux_id,Lux,Beauty and Wellbeing,2024-05-12,Mega,True,2400000,14,1,happy,3,5,0.4,calm,beauty,aesthetic,emotional,True,2,curiosity gap,1.9
+https://tiktok.com/v27,ponds_id,Pond's,Beauty and Wellbeing,2024-05-15,Mikro,True,420000,35,1,neutral,2,12,0.8,calm,beauty,storytelling,serious,True,3,relatable statement,2.2
+https://tiktok.com/v28,tresemme_id,TRESemmé,Beauty and Wellbeing,2024-05-18,Mega,True,1700000,18,1,happy,4,8,0.7,energetic,beauty,talking head,inspirational,True,3,shocking statement,3.1
+https://tiktok.com/v29,pantene_id,Pantene,Beauty and Wellbeing,2024-05-20,Mega,False,1900000,22,1,neutral,3,7,0.6,serious,beauty,tutorial,calm,True,2,relatable statement,3.2
+https://tiktok.com/v30,makeover_id,Make Over,Beauty and Wellbeing,2024-05-22,Makro,False,1200000,30,1,happy,6,12,0.5,excited,beauty,tutorial,dramatic,True,4,shocking statement,2.8
+https://tiktok.com/v31,dove_official,Dove,Beauty and Wellbeing,2024-05-25,Mikro,True,500000,45,1,happy,4,18,0.8,calm,beauty,vlog,inspirational,True,5,question,2.3
+https://tiktok.com/v32,vaseline_id,Vaseline,Beauty and Wellbeing,2024-05-28,Mega,True,2200000,10,1,happy,2,3,0.6,calm,beauty,storytelling,emotional,True,2,relatable statement,3.0
+https://tiktok.com/v33,wardah_id,Wardah,Beauty and Wellbeing,2024-06-01,Mega,False,3500000,12,2,happy,3,4,0.9,energetic,beauty,storytelling,inspirational,True,2,relatable statement,3.8
+https://tiktok.com/v34,biore_id,Biore,Beauty and Wellbeing,2024-06-05,Nano,False,150000,60,0,null,7,25,0.0,null,beauty,vlog,calm,False,null,null,0.0
+https://tiktok.com/v35,sunsilk_id,Sunsilk,Beauty and Wellbeing,2024-06-08,Makro,True,980000,28,1,surprised,5,12,0.7,excited,beauty,tutorial,funny,True,3,question,2.9
+https://tiktok.com/v36,lux_id,Lux,Beauty and Wellbeing,2024-06-10,Mikro,True,350000,42,1,happy,3,16,0.5,calm,beauty,aesthetic,emotional,True,4,curiosity gap,1.7
+https://tiktok.com/v37,ponds_id,Pond's,Beauty and Wellbeing,2024-06-12,Mega,True,2800000,15,1,happy,4,6,0.8,energetic,beauty,talking head,inspirational,True,3,relatable statement,3.4
+https://tiktok.com/v38,tresemme_id,TRESemmé,Beauty and Wellbeing,2024-06-15,Makro,True,850000,35,1,neutral,5,14,0.6,excited,beauty,tutorial,funny,True,4,question,2.6
+https://tiktok.com/v39,pantene_id,Pantene,Beauty and Wellbeing,2024-06-18,Makro,False,920000,25,1,happy,4,10,0.7,energetic,beauty,storytelling,inspirational,True,2,relatable statement,2.8
+https://tiktok.com/v40,scarlett_whitening,Scarlett,Beauty and Wellbeing,2024-06-20,Mega,False,3100000,14,1,happy,3,5,0.8,excited,beauty,storytelling,inspirational,True,3,relatable statement,3.5
+https://tiktok.com/v41,dove_official,Dove,Beauty and Wellbeing,2024-06-22,Makro,True,1100000,26,1,neutral,4,9,0.7,calm,beauty,vlog,calm,True,3,question,2.5
+https://tiktok.com/v42,vaseline_id,Vaseline,Beauty and Wellbeing,2024-06-25,Mikro,True,480000,38,1,happy,5,15,0.6,calm,beauty,tutorial,inspirational,True,4,question,2.4
+https://tiktok.com/v43,wardah_id,Wardah,Beauty and Wellbeing,2024-06-28,Makro,False,1400000,22,1,happy,6,11,0.5,excited,beauty,storytelling,funny,True,3,relatable statement,2.9
+https://tiktok.com/v44,makeover_id,Make Over,Beauty and Wellbeing,2024-07-01,Mega,False,2900000,16,1,surprised,3,6,0.8,energetic,beauty,aesthetic,dramatic,True,2,shocking statement,3.2
+https://tiktok.com/v45,sunsilk_id,Sunsilk,Beauty and Wellbeing,2024-07-05,Mega,True,2600000,12,1,happy,4,4,0.7,calm,beauty,storytelling,emotional,True,3,relatable statement,3.1
+https://tiktok.com/v46,lux_id,Lux,Beauty and Wellbeing,2024-07-08,Nano,True,180000,55,0,null,6,22,0.0,null,beauty,vlog,funny,False,null,null,0.0
+https://tiktok.com/v47,ponds_id,Pond's,Beauty and Wellbeing,2024-07-10,Makro,True,1200000,28,1,neutral,4,10,0.6,excited,beauty,tutorial,calm,True,4,question,2.7
+https://tiktok.com/v48,tresemme_id,TRESemmé,Beauty and Wellbeing,2024-07-12,Mikro,True,520000,45,1,happy,3,18,0.9,energetic,beauty,storytelling,inspirational,True,5,relatable statement,2.8
+https://tiktok.com/v49,pantene_id,Pantene,Beauty and Wellbeing,2024-07-15,Mega,False,3800000,10,2,happy,2,3,0.5,calm,beauty,storytelling,emotional,True,2,curiosity gap,2.1
+https://tiktok.com/v50,biore_id,Biore,Beauty and Wellbeing,2024-07-18,Mega,False,2100000,18,1,happy,4,7,0.7,energetic,beauty,talking head,inspirational,True,3,relatable statement,3.3
