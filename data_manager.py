@@ -93,5 +93,24 @@ class DataManager:
             return [{"name": name, "value": f"{(val/max_val)*10:.1f}"} 
                     for name, val in top.items()]
 
+    def get_duration_histogram(self, 
+                               business_unit: Optional[str] = None,
+                               brand: Optional[str] = None,
+                               talent_type: Optional[str] = None,
+                               from_date: Optional[str] = None,
+                               to_date: Optional[str] = None) -> List[Dict]:
+        df = self.filter_creatives(business_unit, brand, talent_type, from_date, to_date)
+        if df.empty:
+            return []
+            
+        # Define bins for duration (0-15s, 15-30s, 30-45s, 45-60s, 60s+)
+        bins = [0, 15, 30, 45, 60, 999]
+        labels = ["0-15s", "15-30s", "30-45s", "45-60s", "60s+"]
+        
+        df['duration_bin'] = pd.cut(df['duration_sec'], bins=bins, labels=labels, right=False)
+        counts = df['duration_bin'].value_counts().reindex(labels, fill_value=0)
+        
+        return [{"bin": label, "count": int(count)} for label, count in counts.items()]
+
 CSV_PATH = os.path.join(os.path.dirname(__file__), "creatives_dummy.csv")
 data_manager = DataManager(CSV_PATH)

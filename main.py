@@ -50,6 +50,22 @@ async def get_top_brands(
         "competitor_brands": data_manager.get_top_brands(business_unit, is_our_brand=False, metric=metric)
     }
 
+@app.get("/api/charts/duration-histogram")
+async def get_duration_histogram(
+    business_unit: Optional[str] = None,
+    brand: Optional[str] = None,
+    talent_type: Optional[str] = None,
+    from_date: Optional[str] = None,
+    to_date: Optional[str] = None
+):
+    return data_manager.get_duration_histogram(
+        business_unit=business_unit,
+        brand=brand,
+        talent_type=talent_type,
+        from_date=from_date,
+        to_date=to_date
+    )
+
 @app.get("/api/stats")
 async def get_stats(business_unit: Optional[str] = None):
     df = data_manager.filter_creatives(business_unit=business_unit)
