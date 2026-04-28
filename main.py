@@ -19,8 +19,9 @@ async def root():
     return {"message": "MVoice Optimization Engine API is running", "docs": "/docs"}
 
 @app.get("/api/filters")
-async def get_filters():
-    return data_manager.get_filter_options()
+async def get_filters(business_unit: Optional[str] = None):
+    """Get unique values for all filters, optionally filtered by BU"""
+    return data_manager.get_filter_options(business_unit)
 
 @app.get("/api/creatives")
 async def get_creatives(
@@ -52,6 +53,7 @@ async def get_top_brands(
 @app.get("/api/analyze")
 async def analyze_metric(
     metric: str,
+    aggregation_metric: str = "frequency", # "frequency" or "views"
     business_unit: Optional[str] = None,
     brand: Optional[str] = None,
     talent_type: Optional[str] = None,
@@ -61,6 +63,7 @@ async def analyze_metric(
     """Generic analysis endpoint for any column in the dataset"""
     return data_manager.analyze_variable(
         column=metric,
+        aggregation_metric=aggregation_metric,
         business_unit=business_unit,
         brand=brand,
         talent_type=talent_type,
