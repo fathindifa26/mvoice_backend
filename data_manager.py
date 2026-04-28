@@ -26,8 +26,6 @@ class DataManager:
             return {"business_units": [], "brands": [], "talent_types": []}
         
         bus = sorted(df["business_unit"].unique().tolist())
-        
-        # If BU is specified, filter brands
         if business_unit and business_unit != "All":
             brands = sorted(df[df["business_unit"] == business_unit]["brand"].unique().tolist())
         else:
@@ -95,64 +93,74 @@ class DataManager:
 
     def analyze_variable(self, 
                          column: str,
-                         aggregation_metric: str = "frequency", # "frequency" or "views"
+                         aggregation_metric: str = "frequency",
                          business_unit: Optional[str] = None,
                          brand: Optional[str] = None,
                          talent_type: Optional[str] = None,
                          from_date: Optional[str] = None,
                          to_date: Optional[str] = None) -> Dict:
+        
         df = self.filter_creatives(business_unit, brand, talent_type, from_date, to_date)
+        df_bench = self.filter_creatives(business_unit, "All", None, from_date, to_date)
+
         if df.empty or column not in df.columns:
             return {"type": "unknown", "data": []}
             
-        col_data = df[column].dropna()
-        if col_data.empty:
-             return {"type": "empty", "data": []}
-
         is_numeric = pd.api.types.is_numeric_dtype(df[column]) and not pd.api.types.is_bool_dtype(df[column])
         
         if is_numeric:
-            # If too few unique values, treat as categorical
-            if df[column].nunique() < 6:
-                if aggregation_metric == "views":
-                    counts = df.groupby(column)["views"].sum().sort_index()
-                else:
-                    counts = df[column].value_counts().sort_index()
-                return {
-                    "type": "categorical",
-                    "data": [{"bin": str(k), "count": float(v)} for k, v in counts.items()]
-                }
-
-            # Numerical histogram
+            bu_mean = float(df_bench[column].mean()) if not df_bench.empty else 0
+            
+            # Use BU data to define bins for consistency
             q = [0, 0.2, 0.4, 0.6, 0.8, 1.0]
-            bins = df[column].quantile(q).unique()
-            if len(bins) < 2:
-                 return {"type": "categorical", "data": [{"bin": str(df[column].iloc[0]), "count": df["views"].sum() if aggregation_metric == "views" else len(df)}]}
-            
-            df_temp = df.copy()
-            df_temp['bin'] = pd.cut(df_temp[column], bins=bins, include_lowest=True)
-            
+            try:
+                bins = df_bench[column].quantile(q).unique()
+                if len(bins) < 2: bins = [df_bench[column].min(), df_bench[column].max() + 0.001]
+            except:
+                bins = [0, 1]
+
+            # Primary Data Histogram
+            temp = df.copy()
+            temp['bin'] = pd.cut(temp[column], bins=bins, include_lowest=True)
             if aggregation_metric == "views":
-                counts = df_temp.groupby('bin', observed=True)['views'].sum().sort_index()
+                counts = temp.groupby('bin', observed=True)['views'].sum()
             else:
-                counts = df_temp['bin'].value_counts().sort_index()
+                counts = temp['bin'].value_counts()
             
-            formatted_data = []
-            for interval, count in counts.items():
-                label = f"{interval.left:.1f}-{interval.right:.1f}" if isinstance(interval.left, float) else f"{interval.left}-{interval.right}"
-                formatted_data.append({"bin": label, "count": float(count)})
-            
-            return {"type": "numerical", "data": formatted_data}
+            total = counts.sum() if counts.sum() > 0 else 1
+            formatted_data = [{"bin": f"{i.left:.1f}-{i.right:.1f}", "count": float(v), "percentage": float(v/total)} 
+                             for i, v in counts.sort_index().items()]
+
+            # Determine BU Mean Bin
+            bu_mean_bin = ""
+            for i in range(len(bins)-1):
+                if bins[i] <= bu_mean <= bins[i+1]:
+                    bu_mean_bin = f"{bins[i]:.1f}-{bins[i+1]:.1f}"
+                    break
+
+            return {
+                "type": "numerical",
+                "data": formatted_data,
+                "bu_mean": bu_mean,
+                "bu_mean_bin": bu_mean_bin
+            }
         else:
             # Categorical
+            bu_mode = str(df_bench[column].mode().iloc[0]) if not df_bench.empty and not df_bench[column].mode().empty else ""
+
             if aggregation_metric == "views":
                 counts = df.groupby(column)["views"].sum().sort_values(ascending=False)
             else:
                 counts = df[column].value_counts().sort_values(ascending=False)
-                
+            
+            total = counts.sum() if counts.sum() > 0 else 1
+            formatted_data = [{"bin": str(k), "count": float(v), "percentage": float(v/total)} for k, v in counts.items()]
+            
             return {
                 "type": "categorical",
-                "data": [{"bin": str(k), "count": float(v)} for k, v in counts.items()]
+                "data": formatted_data,
+                "bu_mean": 0,
+                "bu_mean_bin": bu_mode
             }
 
 CSV_PATH = os.path.join(os.path.dirname(__file__), "creatives_dummy.csv")
