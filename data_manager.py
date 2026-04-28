@@ -14,7 +14,10 @@ class DataManager:
             self._df = pd.DataFrame()
             return
         self._df = pd.read_csv(self.csv_path)
-        self._df['date_post'] = pd.to_datetime(self._df['date_post'])
+        if 'date_post' in self._df.columns:
+            self._df['date_post'] = pd.to_datetime(self._df['date_post'])
+        if 'is_our_brand' in self._df.columns:
+            self._df['is_our_brand'] = self._df['is_our_brand'].map(lambda x: str(x).strip().lower() == 'true')
         self._df = self._df.where(pd.notnull(self._df), None)
 
     def get_df(self):
@@ -58,9 +61,9 @@ class DataManager:
         if talent_type and talent_type != "All":
             df = df[df["talent_type"] == talent_type]
             
-        if from_date:
+        if from_date and "date_post" in df.columns:
             df = df[df["date_post"] >= pd.to_datetime(from_date)]
-        if to_date:
+        if to_date and "date_post" in df.columns:
             df = df[df["date_post"] <= pd.to_datetime(to_date)]
             
         return df
@@ -91,6 +94,45 @@ class DataManager:
             return [{"name": name, "value": f"{(val/max_val)*10:.1f}"} 
                     for name, val in top.items()]
 
+    def get_filtered_creative_list(self, 
+                                   business_unit: Optional[str] = None,
+                                   brand: Optional[str] = None,
+                                   talent_type: Optional[str] = None,
+                                   from_date: Optional[str] = None,
+                                   to_date: Optional[str] = None,
+                                   filters: List[Dict] = [], 
+                                   limit: int = 5) -> List[Dict]:
+        df = self.filter_creatives(business_unit, brand, talent_type, from_date, to_date)
+        
+        if df.empty:
+            return []
+
+        # Apply bar-level filters
+        for f in filters:
+            col = f.get("column")
+            vals = f.get("values", [])
+            if not col or not vals or col not in df.columns:
+                continue
+            
+            is_numeric = pd.api.types.is_numeric_dtype(df[col]) and not pd.api.types.is_bool_dtype(df[col])
+            
+            if is_numeric:
+                combined_mask = pd.Series(False, index=df.index)
+                for v in vals:
+                    try:
+                        low, high = map(float, v.split("-"))
+                        combined_mask |= (df[col] >= low) & (df[col] <= high)
+                    except:
+                        continue
+                df = df[combined_mask]
+            else:
+                df = df[df[col].astype(str).isin(vals)]
+
+        # Sort by views and take top N
+        top_df = df.sort_values(by="views", ascending=False).head(limit)
+        
+        return top_df.to_dict(orient="records")
+
     def analyze_variable(self, 
                          column: str,
                          aggregation_metric: str = "frequency",
@@ -111,7 +153,6 @@ class DataManager:
         if is_numeric:
             bu_mean = float(df_bench[column].mean()) if not df_bench.empty else 0
             
-            # Use BU data to define bins for consistency
             q = [0, 0.2, 0.4, 0.6, 0.8, 1.0]
             try:
                 bins = df_bench[column].quantile(q).unique()
@@ -119,7 +160,6 @@ class DataManager:
             except:
                 bins = [0, 1]
 
-            # Primary Data Histogram
             temp = df.copy()
             temp['bin'] = pd.cut(temp[column], bins=bins, include_lowest=True)
             if aggregation_metric == "views":
@@ -131,7 +171,6 @@ class DataManager:
             formatted_data = [{"bin": f"{i.left:.1f}-{i.right:.1f}", "count": float(v), "percentage": float(v/total)} 
                              for i, v in counts.sort_index().items()]
 
-            # Determine BU Mean Bin
             bu_mean_bin = ""
             for i in range(len(bins)-1):
                 if bins[i] <= bu_mean <= bins[i+1]:
