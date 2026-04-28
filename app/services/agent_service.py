@@ -88,6 +88,14 @@ class AgentService:
                     "type": "object",
                     "properties": {}
                 }
+            },
+            {
+                "name": "get_current_analysis",
+                "description": "Read the current strategic summary and performance data displayed on the dashboard to discuss it with the user",
+                "parameters": {
+                    "type": "object",
+                    "properties": {}
+                }
             }
         ]
 
