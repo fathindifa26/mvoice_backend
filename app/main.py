@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.api.endpoints import filters, analytics, brands, creatives
+from app.api.endpoints import filters, analytics, brands, creatives, ai
 from app.core.config import settings
 from app.services.base import base_data_manager
 
@@ -23,6 +23,7 @@ app.include_router(filters.router, prefix=f"{settings.API_V1_STR}/filters", tags
 app.include_router(analytics.router, prefix=settings.API_V1_STR, tags=["analytics"])
 app.include_router(brands.router, prefix=settings.API_V1_STR, tags=["brands"])
 app.include_router(creatives.router, prefix=f"{settings.API_V1_STR}/creatives", tags=["creatives"])
+app.include_router(ai.router, prefix=f"{settings.API_V1_STR}/ai", tags=["ai"])
 
 @app.get("/api/health", tags=["health"])
 async def health_check():
