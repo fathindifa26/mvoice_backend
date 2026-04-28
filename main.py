@@ -20,7 +20,6 @@ async def root():
 
 @app.get("/api/filters")
 async def get_filters():
-    """Get unique values for all filters (BU, Brands, etc.)"""
     return data_manager.get_filter_options()
 
 @app.get("/api/creatives")
@@ -43,22 +42,25 @@ async def get_creatives(
 @app.get("/api/top-brands")
 async def get_top_brands(
     business_unit: Optional[str] = "All",
-    metric: str = "views" # "views" or "frequency"
+    metric: str = "views"
 ):
     return {
         "our_brands": data_manager.get_top_brands(business_unit, is_our_brand=True, metric=metric),
         "competitor_brands": data_manager.get_top_brands(business_unit, is_our_brand=False, metric=metric)
     }
 
-@app.get("/api/charts/duration-histogram")
-async def get_duration_histogram(
+@app.get("/api/analyze")
+async def analyze_metric(
+    metric: str,
     business_unit: Optional[str] = None,
     brand: Optional[str] = None,
     talent_type: Optional[str] = None,
     from_date: Optional[str] = None,
     to_date: Optional[str] = None
 ):
-    return data_manager.get_duration_histogram(
+    """Generic analysis endpoint for any column in the dataset"""
+    return data_manager.analyze_variable(
+        column=metric,
         business_unit=business_unit,
         brand=brand,
         talent_type=talent_type,
