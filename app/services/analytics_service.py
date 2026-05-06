@@ -10,14 +10,17 @@ class AnalyticsService:
         business_unit: Optional[str] = None,
         brand: Optional[str] = None,
         talent_type: Optional[str] = None,
+        channel: Optional[str] = None,
+        creator_type: Optional[str] = None,
         from_date: Optional[str] = None,
         to_date: Optional[str] = None
     ) -> Dict:
         df = base_data_manager.apply_base_filters(
-            base_data_manager.get_df(), business_unit, brand, talent_type, from_date, to_date
+            base_data_manager.get_df(), business_unit, brand, talent_type, channel, creator_type, from_date, to_date
         )
+        # Benchmark usually only filtered by BU and channel
         df_bench = base_data_manager.apply_base_filters(
-            base_data_manager.get_df(), business_unit=business_unit, from_date=from_date, to_date=to_date
+            base_data_manager.get_df(), business_unit=business_unit, channel=channel, from_date=from_date, to_date=to_date
         )
 
         if df.empty or column not in df.columns:
@@ -39,6 +42,8 @@ class AnalyticsService:
             temp['bin'] = pd.cut(temp[column], bins=bins, include_lowest=True)
             if aggregation_metric == "views":
                 counts = temp.groupby('bin', observed=True)['views'].sum()
+            elif aggregation_metric == "engagements":
+                counts = temp.groupby('bin', observed=True)['engagements'].sum()
             else:
                 counts = temp.groupby('bin', observed=True).size()
             
@@ -64,6 +69,8 @@ class AnalyticsService:
 
             if aggregation_metric == "views":
                 counts = df.groupby(column)["views"].sum().sort_values(ascending=False)
+            elif aggregation_metric == "engagements":
+                counts = df.groupby(column)["engagements"].sum().sort_values(ascending=False)
             else:
                 counts = df[column].value_counts().sort_values(ascending=False)
             

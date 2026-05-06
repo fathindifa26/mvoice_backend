@@ -8,13 +8,15 @@ class CreativeService:
         business_unit: Optional[str] = None,
         brand: Optional[str] = None,
         talent_type: Optional[str] = None,
+        channel: Optional[str] = None,
+        creator_type: Optional[str] = None,
         from_date: Optional[str] = None,
         to_date: Optional[str] = None,
         filters: List[Dict] = [], 
         limit: int = 5
     ) -> List[Dict]:
         df = base_data_manager.apply_base_filters(
-            base_data_manager.get_df(), business_unit, brand, talent_type, from_date, to_date
+            base_data_manager.get_df(), business_unit, brand, talent_type, channel, creator_type, from_date, to_date
         )
         
         if df.empty:
