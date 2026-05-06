@@ -1,0 +1,1001 @@
+link,account,brand,business_unit,date_post,talent_type,is_our_brand,views,duration_sec,face_present,face_emotion,text_overlay_count,scene_cut_estimate,speech_ratio,voice_sentiment,topic,format,tone,hook_present,hook_duration_sec,hook_type,word_density_wps
+https://tiktok.com/v0,pantene_official,Pantene,Beauty and Wellbeing,2024-01-10,Mikro,False,447782,45,0,,1,14,0.32,calm,fragrance,storytelling,serious,True,1.0,shocking statement,
+https://tiktok.com/v1,vanish_official,Vanish,Home Care,2024-07-02,Mikro,False,689946,27,2,happy,5,16,0.23,excited,laundry tips,tutorial,inspirational,True,5.0,curiosity gap,
+https://tiktok.com/v2,pond's_official,Pond's,Beauty and Wellbeing,2024-07-11,Mega,True,797280,45,1,surprised,1,5,0.43,excited,skincare,talking head,calm,True,2.0,question,
+https://tiktok.com/v3,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-03-06,Mikro,True,2612159,16,3,surprised,7,14,0.58,serious,fragrance,reaction,serious,True,5.0,question,1.87
+https://tiktok.com/v4,pantene_official,Pantene,Beauty and Wellbeing,2024-01-27,Mikro,False,310918,50,2,neutral,3,16,0.86,calm,skincare,tutorial,serious,True,1.0,visual hook,1.69
+https://tiktok.com/v5,dove_official,Dove,Beauty and Wellbeing,2024-07-08,Makro,True,297743,26,2,happy,2,4,0.38,calm,haircare,vlog,calm,True,3.0,relatable statement,
+https://tiktok.com/v6,sunlight_official,Sunlight,Home Care,2024-02-27,Mega,True,349337,55,0,,4,8,0.7,neutral,cleaning hacks,vlog,inspirational,True,3.0,relatable statement,3.39
+https://tiktok.com/v7,wipol_official,Wipol,Home Care,2024-07-19,Nano,True,972245,23,2,neutral,3,9,0.85,excited,laundry tips,vlog,emotional,True,5.0,visual hook,2.94
+https://tiktok.com/v8,pond's_official,Pond's,Beauty and Wellbeing,2024-03-01,Nano,True,275013,59,3,surprised,2,8,0.22,calm,makeup,tutorial,dramatic,True,1.0,curiosity gap,
+https://tiktok.com/v9,rinso_official,Rinso,Home Care,2024-06-13,Makro,True,606857,8,3,happy,4,12,0.35,serious,laundry tips,tutorial,dramatic,True,2.0,shocking statement,
+https://tiktok.com/v10,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-06-16,Makro,True,565765,58,0,,1,4,0.77,energetic,fragrance,storytelling,funny,False,,,2.97
+https://tiktok.com/v11,pantene_official,Pantene,Beauty and Wellbeing,2024-06-22,Mikro,False,509709,42,2,neutral,9,5,0.33,excited,fragrance,talking head,dramatic,False,,,
+https://tiktok.com/v12,rinso_official,Rinso,Home Care,2024-04-30,Makro,True,1046593,49,1,happy,4,12,0.59,serious,cleaning hacks,before after,calm,True,5.0,question,3.48
+https://tiktok.com/v13,mama_lemon_official,Mama Lemon,Home Care,2024-05-16,Makro,False,185332,16,1,angry,4,8,0.76,energetic,cleaning hacks,reaction,emotional,True,5.0,shocking statement,3.63
+https://tiktok.com/v14,pantene_official,Pantene,Beauty and Wellbeing,2024-03-30,Nano,False,343863,11,1,happy,5,20,0.73,serious,makeup,aesthetic,dramatic,True,1.0,curiosity gap,2.28
+https://tiktok.com/v15,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-03-04,Makro,True,700495,15,1,happy,2,11,0.35,excited,haircare,before after,calm,True,3.0,curiosity gap,
+https://tiktok.com/v16,pond's_official,Pond's,Beauty and Wellbeing,2024-03-15,Mega,True,206762,26,1,sad,5,6,0.71,excited,haircare,aesthetic,serious,True,5.0,relatable statement,2.89
+https://tiktok.com/v17,wardah_official,Wardah,Beauty and Wellbeing,2024-02-16,Mikro,False,148961,54,1,angry,8,18,0.74,calm,haircare,before after,emotional,True,1.0,relatable statement,3.75
+https://tiktok.com/v18,molto_official,Molto,Home Care,2024-04-08,Mega,True,1676402,24,2,happy,8,9,0.71,serious,cleaning hacks,aesthetic,calm,True,4.0,visual hook,2.24
+https://tiktok.com/v19,wipol_official,Wipol,Home Care,2024-03-13,Makro,True,204126,17,2,happy,9,20,0.1,,disinfecting,tutorial,calm,True,1.0,shocking statement,
+https://tiktok.com/v20,biore_official,Biore,Beauty and Wellbeing,2024-01-17,Makro,False,750026,20,2,happy,8,15,0.61,energetic,fragrance,storytelling,serious,False,,,1.65
+https://tiktok.com/v21,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-03-18,Nano,True,898041,33,1,surprised,10,14,0.78,neutral,makeup,storytelling,calm,True,2.0,question,2.99
+https://tiktok.com/v22,wipol_official,Wipol,Home Care,2024-02-25,Makro,True,435116,47,3,angry,6,19,0.76,serious,disinfecting,reaction,serious,False,,,2.66
+https://tiktok.com/v23,pantene_official,Pantene,Beauty and Wellbeing,2024-03-22,Mega,False,928127,50,1,neutral,10,4,0.29,excited,fragrance,before after,calm,False,,,
+https://tiktok.com/v24,sunlight_official,Sunlight,Home Care,2024-07-13,Mega,True,485679,21,2,happy,6,17,0.57,neutral,disinfecting,storytelling,funny,True,4.0,curiosity gap,2.91
+https://tiktok.com/v25,molto_official,Molto,Home Care,2024-02-05,Nano,True,579656,24,1,sad,4,20,0.89,serious,dishwashing,talking head,serious,True,3.0,relatable statement,3.31
+https://tiktok.com/v26,dove_official,Dove,Beauty and Wellbeing,2024-04-14,Nano,True,436622,49,1,happy,0,20,0.44,excited,makeup,vlog,emotional,True,4.0,relatable statement,
+https://tiktok.com/v27,make_over_official,Make Over,Beauty and Wellbeing,2024-01-10,Makro,False,101101,57,1,sad,4,19,0.44,calm,haircare,tutorial,serious,True,3.0,shocking statement,
+https://tiktok.com/v28,rinso_official,Rinso,Home Care,2024-06-10,Mikro,True,378606,7,2,happy,2,13,0.53,serious,home fragrance,vlog,inspirational,True,4.0,curiosity gap,3.13
+https://tiktok.com/v29,dove_official,Dove,Beauty and Wellbeing,2024-02-29,Mega,True,650564,39,1,sad,6,18,0.23,energetic,skincare,before after,calm,True,5.0,visual hook,
+https://tiktok.com/v30,mama_lemon_official,Mama Lemon,Home Care,2024-02-13,Makro,False,1049933,35,0,,1,14,0.4,neutral,dishwashing,reaction,funny,True,3.0,curiosity gap,
+https://tiktok.com/v31,biore_official,Biore,Beauty and Wellbeing,2024-04-01,Nano,False,306937,20,1,happy,0,6,0.11,energetic,skincare,tutorial,dramatic,True,1.0,relatable statement,
+https://tiktok.com/v32,mama_lemon_official,Mama Lemon,Home Care,2024-01-18,Mikro,False,1054615,28,0,,4,9,0.57,calm,dishwashing,before after,emotional,True,4.0,relatable statement,1.68
+https://tiktok.com/v33,biore_official,Biore,Beauty and Wellbeing,2024-02-17,Makro,False,214353,52,2,sad,1,6,0.88,calm,haircare,reaction,serious,True,1.0,visual hook,1.59
+https://tiktok.com/v34,wipol_official,Wipol,Home Care,2024-03-20,Mega,True,793824,46,2,neutral,5,7,0.36,calm,laundry tips,aesthetic,calm,True,5.0,visual hook,
+https://tiktok.com/v35,wardah_official,Wardah,Beauty and Wellbeing,2024-05-29,Mega,False,285983,29,3,sad,1,8,0.46,excited,wellness,talking head,calm,False,,,
+https://tiktok.com/v36,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-01-12,Makro,True,551393,49,3,happy,1,15,0.28,calm,fragrance,tutorial,calm,True,5.0,visual hook,
+https://tiktok.com/v37,vaseline_official,Vaseline,Beauty and Wellbeing,2024-03-18,Makro,True,2699690,51,1,neutral,0,5,0.06,,wellness,aesthetic,calm,True,2.0,relatable statement,
+https://tiktok.com/v38,wipol_official,Wipol,Home Care,2024-07-03,Mega,True,2561337,59,1,sad,1,19,0.8,calm,home fragrance,storytelling,serious,True,4.0,shocking statement,3.62
+https://tiktok.com/v39,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-02-23,Mega,True,1229899,29,1,angry,0,6,0.45,calm,fragrance,talking head,calm,True,5.0,curiosity gap,
+https://tiktok.com/v40,so_klin_official,So Klin,Home Care,2024-04-22,Makro,False,399238,26,1,neutral,5,18,0.49,serious,home fragrance,vlog,funny,True,1.0,curiosity gap,
+https://tiktok.com/v41,pantene_official,Pantene,Beauty and Wellbeing,2024-01-17,Nano,False,104513,49,2,surprised,9,16,0.88,calm,haircare,talking head,serious,False,,,1.63
+https://tiktok.com/v42,wipol_official,Wipol,Home Care,2024-04-23,Makro,True,118308,21,1,surprised,4,19,0.18,calm,home fragrance,storytelling,dramatic,True,3.0,question,
+https://tiktok.com/v43,biore_official,Biore,Beauty and Wellbeing,2024-02-21,Mega,False,226748,60,0,,3,14,0.62,calm,haircare,before after,calm,False,,,2.66
+https://tiktok.com/v44,attack_official,Attack,Home Care,2024-06-02,Mikro,False,916075,42,0,,9,20,0.1,,laundry tips,tutorial,calm,True,5.0,question,
+https://tiktok.com/v45,biore_official,Biore,Beauty and Wellbeing,2024-01-31,Mikro,False,2034166,30,2,surprised,3,20,0.43,energetic,haircare,aesthetic,funny,True,4.0,shocking statement,
+https://tiktok.com/v46,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-06-05,Mega,True,88882,22,1,sad,5,9,0.46,excited,makeup,before after,emotional,True,5.0,visual hook,
+https://tiktok.com/v47,mama_lemon_official,Mama Lemon,Home Care,2024-05-07,Makro,False,336781,49,3,angry,0,19,0.19,serious,disinfecting,aesthetic,inspirational,True,3.0,shocking statement,
+https://tiktok.com/v48,so_klin_official,So Klin,Home Care,2024-03-14,Mikro,False,1399467,26,1,sad,7,10,0.87,neutral,laundry tips,reaction,serious,True,5.0,relatable statement,2.61
+https://tiktok.com/v49,rinso_official,Rinso,Home Care,2024-03-31,Mikro,True,1253074,12,1,happy,7,18,0.18,neutral,cleaning hacks,before after,funny,False,,,
+https://tiktok.com/v50,pantene_official,Pantene,Beauty and Wellbeing,2024-02-11,Mikro,False,338943,20,2,neutral,8,2,0.61,excited,makeup,aesthetic,calm,True,2.0,question,3.21
+https://tiktok.com/v51,vaseline_official,Vaseline,Beauty and Wellbeing,2024-02-29,Mikro,True,448088,10,1,sad,1,20,0.42,excited,fragrance,tutorial,funny,True,3.0,relatable statement,
+https://tiktok.com/v52,dove_official,Dove,Beauty and Wellbeing,2024-03-18,Mikro,True,4630568,6,1,sad,3,8,0.77,serious,haircare,vlog,calm,True,1.0,visual hook,2.69
+https://tiktok.com/v53,sunlight_official,Sunlight,Home Care,2024-06-22,Mikro,True,1452757,24,1,sad,0,12,0.9,energetic,home fragrance,vlog,inspirational,True,2.0,shocking statement,3.89
+https://tiktok.com/v54,rinso_official,Rinso,Home Care,2024-04-06,Nano,True,184975,16,1,neutral,1,16,0.14,serious,home fragrance,storytelling,calm,True,3.0,curiosity gap,
+https://tiktok.com/v55,molto_official,Molto,Home Care,2024-01-22,Nano,True,271014,35,1,angry,10,18,0.28,serious,cleaning hacks,vlog,serious,False,,,
+https://tiktok.com/v56,scarlett_official,Scarlett,Beauty and Wellbeing,2024-06-23,Mikro,False,30855,55,0,,8,11,0.81,energetic,wellness,aesthetic,dramatic,True,5.0,visual hook,1.78
+https://tiktok.com/v57,rinso_official,Rinso,Home Care,2024-06-29,Makro,True,264731,34,1,happy,7,17,0.24,neutral,disinfecting,talking head,emotional,True,5.0,curiosity gap,
+https://tiktok.com/v58,super_pell_official,Super Pell,Home Care,2024-06-29,Makro,True,402696,55,1,neutral,3,10,0.01,,dishwashing,reaction,serious,False,,,
+https://tiktok.com/v59,downy_official,Downy,Home Care,2024-02-14,Mega,False,362691,28,0,,0,2,0.6,serious,disinfecting,tutorial,funny,False,,,2.62
+https://tiktok.com/v60,dove_official,Dove,Beauty and Wellbeing,2024-07-16,Mikro,True,880749,34,1,neutral,2,8,0.95,energetic,haircare,reaction,serious,True,2.0,relatable statement,2.42
+https://tiktok.com/v61,rinso_official,Rinso,Home Care,2024-04-02,Mega,True,706230,37,1,surprised,6,5,0.44,calm,dishwashing,vlog,calm,True,2.0,visual hook,
+https://tiktok.com/v62,lux_official,Lux,Beauty and Wellbeing,2024-03-08,Mega,True,124993,20,3,angry,4,13,0.07,,fragrance,reaction,dramatic,False,,,
+https://tiktok.com/v63,scarlett_official,Scarlett,Beauty and Wellbeing,2024-03-27,Mega,False,45490,17,1,surprised,10,4,0.58,calm,wellness,tutorial,dramatic,False,,,1.96
+https://tiktok.com/v64,vaseline_official,Vaseline,Beauty and Wellbeing,2024-06-04,Mega,True,574049,12,2,angry,3,14,0.01,,wellness,storytelling,funny,True,2.0,visual hook,
+https://tiktok.com/v65,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-03-19,Nano,True,525292,46,1,angry,4,8,0.67,energetic,skincare,storytelling,inspirational,False,,,1.58
+https://tiktok.com/v66,attack_official,Attack,Home Care,2024-03-01,Makro,False,1369961,36,3,angry,4,9,0.8,energetic,laundry tips,aesthetic,funny,False,,,1.71
+https://tiktok.com/v67,vanish_official,Vanish,Home Care,2024-04-24,Mega,False,536710,25,3,sad,2,4,0.56,energetic,disinfecting,aesthetic,dramatic,True,4.0,relatable statement,3.35
+https://tiktok.com/v68,wipol_official,Wipol,Home Care,2024-02-18,Makro,True,697171,17,1,sad,7,18,0.03,,cleaning hacks,before after,dramatic,True,4.0,question,
+https://tiktok.com/v69,sunlight_official,Sunlight,Home Care,2024-01-18,Mega,True,2025736,5,1,angry,2,15,0.4,excited,disinfecting,talking head,serious,True,5.0,relatable statement,
+https://tiktok.com/v70,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-07-19,Mikro,True,907939,51,1,angry,7,20,0.29,neutral,wellness,tutorial,dramatic,True,2.0,question,
+https://tiktok.com/v71,wipol_official,Wipol,Home Care,2024-02-08,Makro,True,1397906,48,2,happy,2,19,0.23,serious,cleaning hacks,tutorial,inspirational,False,,,
+https://tiktok.com/v72,vanish_official,Vanish,Home Care,2024-02-02,Mega,False,256241,6,3,sad,3,17,0.94,energetic,laundry tips,storytelling,emotional,False,,,2.5
+https://tiktok.com/v73,sunlight_official,Sunlight,Home Care,2024-07-17,Nano,True,48945,20,1,surprised,10,14,0.4,energetic,disinfecting,aesthetic,funny,True,1.0,curiosity gap,
+https://tiktok.com/v74,molto_official,Molto,Home Care,2024-04-05,Nano,True,626534,11,1,angry,5,15,0.98,calm,laundry tips,vlog,funny,True,3.0,question,3.25
+https://tiktok.com/v75,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-06-03,Mega,True,187016,20,1,angry,1,16,0.74,calm,fragrance,before after,emotional,True,5.0,visual hook,2.49
+https://tiktok.com/v76,sunlight_official,Sunlight,Home Care,2024-06-17,Mega,True,648136,60,1,surprised,1,17,0.43,excited,disinfecting,before after,dramatic,True,1.0,visual hook,
+https://tiktok.com/v77,mama_lemon_official,Mama Lemon,Home Care,2024-01-22,Mega,False,570456,55,1,neutral,5,13,0.98,neutral,cleaning hacks,vlog,dramatic,True,1.0,curiosity gap,2.88
+https://tiktok.com/v78,vanish_official,Vanish,Home Care,2024-03-28,Mikro,False,198755,17,1,neutral,6,15,0.75,neutral,home fragrance,before after,calm,True,5.0,shocking statement,2.98
+https://tiktok.com/v79,sunlight_official,Sunlight,Home Care,2024-01-28,Mikro,True,207821,31,0,,1,8,0.79,energetic,home fragrance,aesthetic,dramatic,True,1.0,shocking statement,1.74
+https://tiktok.com/v80,pond's_official,Pond's,Beauty and Wellbeing,2024-02-13,Mega,True,844700,60,1,angry,6,14,0.92,excited,wellness,reaction,inspirational,True,3.0,question,2.97
+https://tiktok.com/v81,vanish_official,Vanish,Home Care,2024-05-16,Mikro,False,585010,30,1,angry,1,14,0.47,energetic,disinfecting,aesthetic,serious,True,2.0,shocking statement,
+https://tiktok.com/v82,so_klin_official,So Klin,Home Care,2024-04-11,Mega,False,2140481,5,0,,8,8,0.15,neutral,laundry tips,vlog,funny,False,,,
+https://tiktok.com/v83,mama_lemon_official,Mama Lemon,Home Care,2024-02-11,Makro,False,173251,39,1,surprised,4,6,0.33,serious,cleaning hacks,aesthetic,calm,True,1.0,visual hook,
+https://tiktok.com/v84,attack_official,Attack,Home Care,2024-05-16,Mega,False,474671,21,1,angry,3,14,0.24,excited,dishwashing,aesthetic,funny,False,,,
+https://tiktok.com/v85,attack_official,Attack,Home Care,2024-02-06,Nano,False,33360,17,3,angry,0,9,0.44,neutral,home fragrance,reaction,funny,True,3.0,visual hook,
+https://tiktok.com/v86,pantene_official,Pantene,Beauty and Wellbeing,2024-04-19,Nano,False,273382,48,1,sad,6,7,0.55,serious,skincare,reaction,serious,True,5.0,relatable statement,3.51
+https://tiktok.com/v87,wipol_official,Wipol,Home Care,2024-04-16,Mikro,True,1135981,47,1,happy,9,5,0.38,neutral,dishwashing,talking head,inspirational,True,2.0,shocking statement,
+https://tiktok.com/v88,molto_official,Molto,Home Care,2024-03-23,Nano,True,1139273,11,1,angry,5,12,0.07,,cleaning hacks,aesthetic,dramatic,True,5.0,curiosity gap,
+https://tiktok.com/v89,scarlett_official,Scarlett,Beauty and Wellbeing,2024-03-22,Nano,False,815715,54,0,,3,10,0.07,,haircare,talking head,inspirational,True,3.0,question,
+https://tiktok.com/v90,attack_official,Attack,Home Care,2024-06-25,Mega,False,967053,42,1,happy,3,20,0.8,neutral,disinfecting,vlog,funny,False,,,3.95
+https://tiktok.com/v91,super_pell_official,Super Pell,Home Care,2024-03-25,Mikro,True,852322,52,1,neutral,7,11,0.25,serious,dishwashing,before after,calm,True,1.0,question,
+https://tiktok.com/v92,scarlett_official,Scarlett,Beauty and Wellbeing,2024-01-22,Nano,False,139398,32,2,surprised,10,3,0.06,,fragrance,vlog,serious,True,4.0,curiosity gap,
+https://tiktok.com/v93,mama_lemon_official,Mama Lemon,Home Care,2024-03-20,Nano,False,218960,23,1,neutral,8,8,0.78,neutral,laundry tips,storytelling,funny,False,,,3.23
+https://tiktok.com/v94,vaseline_official,Vaseline,Beauty and Wellbeing,2024-04-14,Mega,True,285768,14,3,happy,0,18,0.46,excited,wellness,reaction,dramatic,True,3.0,curiosity gap,
+https://tiktok.com/v95,make_over_official,Make Over,Beauty and Wellbeing,2024-02-21,Nano,False,877312,37,3,happy,3,2,0.54,calm,wellness,aesthetic,funny,True,4.0,curiosity gap,3.14
+https://tiktok.com/v96,wipol_official,Wipol,Home Care,2024-05-01,Mega,True,99474,42,3,neutral,0,2,0.74,excited,dishwashing,storytelling,dramatic,True,2.0,relatable statement,2.25
+https://tiktok.com/v97,wardah_official,Wardah,Beauty and Wellbeing,2024-06-04,Mikro,False,527332,32,2,happy,6,6,0.72,neutral,haircare,vlog,emotional,True,3.0,question,3.68
+https://tiktok.com/v98,rinso_official,Rinso,Home Care,2024-03-15,Makro,True,245016,48,1,sad,8,8,0.47,energetic,home fragrance,aesthetic,dramatic,True,2.0,curiosity gap,
+https://tiktok.com/v99,pantene_official,Pantene,Beauty and Wellbeing,2024-03-16,Makro,False,1186944,14,1,neutral,10,10,0.34,energetic,makeup,vlog,calm,True,4.0,relatable statement,
+https://tiktok.com/v100,mama_lemon_official,Mama Lemon,Home Care,2024-01-05,Nano,False,1372730,33,1,angry,9,18,0.34,neutral,dishwashing,reaction,inspirational,True,3.0,shocking statement,
+https://tiktok.com/v101,biore_official,Biore,Beauty and Wellbeing,2024-01-11,Mikro,False,79398,35,0,,6,10,0.2,energetic,skincare,talking head,emotional,False,,,
+https://tiktok.com/v102,pond's_official,Pond's,Beauty and Wellbeing,2024-05-07,Makro,True,216760,41,1,happy,4,16,0.65,neutral,fragrance,before after,inspirational,True,3.0,visual hook,3.25
+https://tiktok.com/v103,biore_official,Biore,Beauty and Wellbeing,2024-05-21,Mega,False,705664,51,0,,6,13,0.89,calm,haircare,talking head,calm,True,1.0,curiosity gap,3.71
+https://tiktok.com/v104,dove_official,Dove,Beauty and Wellbeing,2024-04-19,Nano,True,465826,50,1,happy,2,17,0.29,excited,haircare,before after,funny,True,3.0,shocking statement,
+https://tiktok.com/v105,pantene_official,Pantene,Beauty and Wellbeing,2024-06-03,Mikro,False,1075630,16,0,,9,11,0.6,excited,skincare,storytelling,inspirational,True,5.0,question,2.85
+https://tiktok.com/v106,wardah_official,Wardah,Beauty and Wellbeing,2024-05-12,Mikro,False,983287,26,2,happy,9,5,0.62,calm,makeup,before after,serious,True,5.0,shocking statement,1.82
+https://tiktok.com/v107,wipol_official,Wipol,Home Care,2024-07-11,Nano,True,774627,22,2,happy,8,3,0.99,neutral,laundry tips,vlog,serious,False,,,2.54
+https://tiktok.com/v108,pantene_official,Pantene,Beauty and Wellbeing,2024-07-04,Mega,False,47307,38,3,surprised,7,18,0.26,calm,wellness,reaction,serious,True,1.0,question,
+https://tiktok.com/v109,rinso_official,Rinso,Home Care,2024-02-24,Mikro,True,2929941,49,1,neutral,3,19,0.61,calm,disinfecting,talking head,funny,True,3.0,relatable statement,3.93
+https://tiktok.com/v110,scarlett_official,Scarlett,Beauty and Wellbeing,2024-06-07,Mikro,False,395557,22,2,sad,7,15,0.13,energetic,makeup,talking head,dramatic,True,4.0,question,
+https://tiktok.com/v111,molto_official,Molto,Home Care,2024-05-14,Mikro,True,1479372,20,1,happy,4,11,0.96,serious,disinfecting,vlog,funny,True,1.0,relatable statement,3.68
+https://tiktok.com/v112,pond's_official,Pond's,Beauty and Wellbeing,2024-04-28,Nano,True,832727,5,1,neutral,1,14,0.97,calm,fragrance,vlog,funny,False,,,2.63
+https://tiktok.com/v113,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-01-01,Mega,True,829852,29,1,neutral,7,5,0.02,,haircare,talking head,calm,True,3.0,question,
+https://tiktok.com/v114,dove_official,Dove,Beauty and Wellbeing,2024-07-06,Mega,True,644157,5,2,sad,8,16,0.43,energetic,haircare,talking head,funny,True,4.0,visual hook,
+https://tiktok.com/v115,attack_official,Attack,Home Care,2024-04-13,Makro,False,310758,37,0,,8,17,0.14,calm,cleaning hacks,storytelling,inspirational,True,3.0,relatable statement,
+https://tiktok.com/v116,attack_official,Attack,Home Care,2024-03-22,Nano,False,44430,47,1,surprised,7,17,0.04,,cleaning hacks,before after,emotional,True,1.0,visual hook,
+https://tiktok.com/v117,vanish_official,Vanish,Home Care,2024-03-15,Mega,False,58629,34,2,surprised,1,12,0.69,energetic,cleaning hacks,vlog,dramatic,True,2.0,relatable statement,1.56
+https://tiktok.com/v118,mama_lemon_official,Mama Lemon,Home Care,2024-06-21,Mega,False,732752,40,1,neutral,7,15,0.97,energetic,disinfecting,storytelling,calm,True,4.0,visual hook,1.88
+https://tiktok.com/v119,molto_official,Molto,Home Care,2024-05-13,Makro,True,89452,27,0,,5,16,0.18,excited,disinfecting,talking head,funny,True,1.0,shocking statement,
+https://tiktok.com/v120,lux_official,Lux,Beauty and Wellbeing,2024-07-07,Mega,True,2094746,39,0,,3,20,0.56,neutral,skincare,before after,dramatic,True,2.0,relatable statement,1.74
+https://tiktok.com/v121,wardah_official,Wardah,Beauty and Wellbeing,2024-01-25,Nano,False,249106,5,1,neutral,5,7,0.62,neutral,makeup,storytelling,inspirational,True,2.0,question,3.78
+https://tiktok.com/v122,biore_official,Biore,Beauty and Wellbeing,2024-02-10,Mikro,False,248029,27,0,,5,12,0.58,calm,haircare,aesthetic,inspirational,False,,,2.77
+https://tiktok.com/v123,biore_official,Biore,Beauty and Wellbeing,2024-04-22,Makro,False,595522,13,1,surprised,6,12,0.63,excited,makeup,reaction,calm,True,1.0,question,3.39
+https://tiktok.com/v124,lux_official,Lux,Beauty and Wellbeing,2024-01-20,Makro,True,956521,31,2,surprised,10,16,0.14,serious,fragrance,aesthetic,serious,True,5.0,question,
+https://tiktok.com/v125,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-02-01,Nano,True,342798,48,0,,2,7,0.28,serious,skincare,before after,inspirational,True,3.0,visual hook,
+https://tiktok.com/v126,molto_official,Molto,Home Care,2024-07-07,Mega,True,1480480,35,1,happy,5,12,0.01,,cleaning hacks,before after,dramatic,True,4.0,curiosity gap,
+https://tiktok.com/v127,make_over_official,Make Over,Beauty and Wellbeing,2024-01-30,Mikro,False,748424,57,0,,6,11,0.31,excited,skincare,reaction,calm,True,4.0,shocking statement,
+https://tiktok.com/v128,biore_official,Biore,Beauty and Wellbeing,2024-02-09,Makro,False,185032,5,1,happy,4,16,0.18,serious,makeup,before after,inspirational,True,1.0,shocking statement,
+https://tiktok.com/v129,rinso_official,Rinso,Home Care,2024-01-29,Mikro,True,573092,23,3,neutral,10,14,1.0,neutral,cleaning hacks,aesthetic,emotional,True,3.0,curiosity gap,3.71
+https://tiktok.com/v130,super_pell_official,Super Pell,Home Care,2024-06-10,Mega,True,366213,22,1,angry,1,9,0.95,excited,home fragrance,vlog,serious,True,4.0,visual hook,2.97
+https://tiktok.com/v131,wardah_official,Wardah,Beauty and Wellbeing,2024-06-06,Mega,False,381561,53,2,angry,2,19,0.98,serious,skincare,reaction,serious,False,,,3.86
+https://tiktok.com/v132,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-01-25,Makro,True,1844576,7,1,surprised,6,17,0.53,energetic,fragrance,before after,inspirational,False,,,2.42
+https://tiktok.com/v133,vaseline_official,Vaseline,Beauty and Wellbeing,2024-05-25,Mikro,True,230704,34,3,happy,7,2,0.7,calm,skincare,tutorial,calm,False,,,3.85
+https://tiktok.com/v134,lux_official,Lux,Beauty and Wellbeing,2024-06-29,Mikro,True,194102,51,1,happy,0,5,0.7,neutral,skincare,talking head,calm,True,4.0,shocking statement,1.79
+https://tiktok.com/v135,biore_official,Biore,Beauty and Wellbeing,2024-01-25,Mega,False,65776,15,2,neutral,4,10,0.64,calm,makeup,reaction,calm,True,1.0,curiosity gap,2.91
+https://tiktok.com/v136,rinso_official,Rinso,Home Care,2024-05-04,Nano,True,482270,36,1,neutral,4,4,0.2,serious,dishwashing,vlog,inspirational,True,2.0,curiosity gap,
+https://tiktok.com/v137,mama_lemon_official,Mama Lemon,Home Care,2024-04-30,Makro,False,54336,49,1,angry,7,18,0.42,energetic,home fragrance,aesthetic,emotional,True,2.0,question,
+https://tiktok.com/v138,so_klin_official,So Klin,Home Care,2024-02-29,Nano,False,241741,31,1,neutral,2,4,0.47,calm,home fragrance,talking head,funny,True,4.0,question,
+https://tiktok.com/v139,dove_official,Dove,Beauty and Wellbeing,2024-03-07,Mega,True,671697,48,0,,7,6,0.29,neutral,wellness,talking head,calm,False,,,
+https://tiktok.com/v140,pond's_official,Pond's,Beauty and Wellbeing,2024-01-21,Mega,True,178369,34,3,surprised,6,6,0.23,neutral,fragrance,before after,serious,True,1.0,relatable statement,
+https://tiktok.com/v141,pond's_official,Pond's,Beauty and Wellbeing,2024-02-07,Mega,True,1387948,19,2,happy,10,16,0.17,excited,makeup,tutorial,calm,True,5.0,question,
+https://tiktok.com/v142,vanish_official,Vanish,Home Care,2024-06-05,Mega,False,479029,47,0,,0,10,0.92,energetic,disinfecting,aesthetic,inspirational,True,1.0,curiosity gap,2.21
+https://tiktok.com/v143,downy_official,Downy,Home Care,2024-05-11,Mikro,False,1686996,44,2,neutral,1,16,0.7,neutral,cleaning hacks,storytelling,calm,False,,,1.87
+https://tiktok.com/v144,super_pell_official,Super Pell,Home Care,2024-06-11,Mikro,True,300832,20,1,surprised,2,8,0.25,calm,cleaning hacks,talking head,emotional,True,5.0,shocking statement,
+https://tiktok.com/v145,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-03-06,Mega,True,317001,22,1,surprised,9,2,0.68,serious,makeup,storytelling,funny,True,1.0,shocking statement,3.34
+https://tiktok.com/v146,wardah_official,Wardah,Beauty and Wellbeing,2024-03-04,Mikro,False,392473,38,1,neutral,1,4,0.95,excited,wellness,aesthetic,dramatic,True,1.0,visual hook,2.51
+https://tiktok.com/v147,vaseline_official,Vaseline,Beauty and Wellbeing,2024-04-09,Makro,True,319528,16,1,angry,1,2,0.08,,makeup,storytelling,dramatic,True,1.0,question,
+https://tiktok.com/v148,scarlett_official,Scarlett,Beauty and Wellbeing,2024-03-13,Mega,False,211262,19,0,,4,19,0.2,excited,wellness,vlog,calm,False,,,
+https://tiktok.com/v149,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-05-26,Mikro,True,558634,13,1,sad,2,19,0.8,energetic,haircare,aesthetic,serious,True,1.0,question,2.5
+https://tiktok.com/v150,wipol_official,Wipol,Home Care,2024-01-18,Mega,True,510640,23,3,angry,0,17,0.75,excited,laundry tips,reaction,inspirational,True,1.0,shocking statement,1.66
+https://tiktok.com/v151,wardah_official,Wardah,Beauty and Wellbeing,2024-06-03,Mega,False,405768,44,1,surprised,3,14,0.28,serious,fragrance,talking head,serious,False,,,
+https://tiktok.com/v152,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-06-06,Makro,True,64439,39,2,surprised,10,9,0.6,excited,wellness,vlog,inspirational,True,1.0,relatable statement,1.61
+https://tiktok.com/v153,super_pell_official,Super Pell,Home Care,2024-04-17,Mega,True,1138038,45,1,surprised,2,13,0.18,neutral,dishwashing,before after,funny,False,,,
+https://tiktok.com/v154,so_klin_official,So Klin,Home Care,2024-04-29,Mega,False,1244253,7,1,sad,10,12,0.87,neutral,disinfecting,talking head,funny,True,4.0,curiosity gap,2.1
+https://tiktok.com/v155,pond's_official,Pond's,Beauty and Wellbeing,2024-05-14,Mega,True,159918,6,2,sad,0,7,0.93,serious,makeup,talking head,inspirational,True,4.0,question,3.76
+https://tiktok.com/v156,downy_official,Downy,Home Care,2024-04-11,Makro,False,452413,47,2,sad,9,12,0.2,calm,laundry tips,tutorial,serious,False,,,
+https://tiktok.com/v157,mama_lemon_official,Mama Lemon,Home Care,2024-03-18,Nano,False,8982112,22,3,angry,6,8,0.22,neutral,cleaning hacks,before after,serious,True,2.0,visual hook,
+https://tiktok.com/v158,sunlight_official,Sunlight,Home Care,2024-01-07,Nano,True,500575,52,1,sad,10,19,0.45,excited,cleaning hacks,aesthetic,funny,True,2.0,curiosity gap,
+https://tiktok.com/v159,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-02-22,Nano,True,6369401,33,2,happy,4,9,0.75,excited,skincare,talking head,funny,True,1.0,question,3.41
+https://tiktok.com/v160,vanish_official,Vanish,Home Care,2024-06-24,Mega,False,327866,44,1,surprised,9,3,0.82,calm,home fragrance,vlog,dramatic,True,3.0,relatable statement,1.66
+https://tiktok.com/v161,mama_lemon_official,Mama Lemon,Home Care,2024-07-01,Nano,False,272007,32,0,,10,10,0.9,excited,cleaning hacks,before after,serious,True,2.0,relatable statement,1.62
+https://tiktok.com/v162,downy_official,Downy,Home Care,2024-05-23,Nano,False,3132818,56,1,happy,1,12,0.04,,home fragrance,storytelling,dramatic,True,2.0,question,
+https://tiktok.com/v163,dove_official,Dove,Beauty and Wellbeing,2024-07-17,Nano,True,467785,11,1,neutral,3,6,0.12,neutral,skincare,before after,serious,True,3.0,visual hook,
+https://tiktok.com/v164,dove_official,Dove,Beauty and Wellbeing,2024-04-27,Nano,True,45377,8,2,sad,7,9,0.74,calm,haircare,reaction,calm,True,2.0,curiosity gap,2.44
+https://tiktok.com/v165,mama_lemon_official,Mama Lemon,Home Care,2024-05-18,Mega,False,196423,11,2,surprised,7,15,0.93,serious,home fragrance,aesthetic,inspirational,False,,,3.16
+https://tiktok.com/v166,so_klin_official,So Klin,Home Care,2024-02-29,Mega,False,229562,53,1,angry,5,4,0.82,energetic,home fragrance,tutorial,calm,True,3.0,relatable statement,2.88
+https://tiktok.com/v167,wardah_official,Wardah,Beauty and Wellbeing,2024-03-15,Mikro,False,669482,23,1,angry,7,20,0.15,energetic,fragrance,talking head,inspirational,False,,,
+https://tiktok.com/v168,vaseline_official,Vaseline,Beauty and Wellbeing,2024-05-08,Makro,True,309176,21,1,surprised,8,4,0.37,neutral,wellness,vlog,funny,True,5.0,curiosity gap,
+https://tiktok.com/v169,pond's_official,Pond's,Beauty and Wellbeing,2024-01-28,Mikro,True,204888,55,0,,4,16,0.58,calm,makeup,aesthetic,dramatic,True,5.0,shocking statement,3.1
+https://tiktok.com/v170,sunlight_official,Sunlight,Home Care,2024-02-28,Nano,True,253874,36,1,neutral,6,8,0.48,excited,home fragrance,before after,serious,True,3.0,question,
+https://tiktok.com/v171,rinso_official,Rinso,Home Care,2024-06-21,Nano,True,100468,54,1,neutral,2,11,1.0,neutral,disinfecting,talking head,emotional,False,,,2.51
+https://tiktok.com/v172,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-05-27,Mega,True,486197,29,1,happy,10,19,0.85,excited,skincare,talking head,inspirational,True,4.0,question,2.34
+https://tiktok.com/v173,super_pell_official,Super Pell,Home Care,2024-05-23,Makro,True,526260,10,1,sad,10,11,0.61,neutral,cleaning hacks,reaction,dramatic,True,4.0,shocking statement,3.91
+https://tiktok.com/v174,dove_official,Dove,Beauty and Wellbeing,2024-01-18,Mikro,True,609913,53,2,surprised,4,3,0.49,calm,skincare,reaction,funny,True,5.0,shocking statement,
+https://tiktok.com/v175,wipol_official,Wipol,Home Care,2024-03-29,Nano,True,537745,37,1,sad,0,16,0.28,calm,laundry tips,storytelling,inspirational,True,2.0,curiosity gap,
+https://tiktok.com/v176,pond's_official,Pond's,Beauty and Wellbeing,2024-03-25,Mikro,True,235635,59,2,sad,2,16,0.11,energetic,makeup,tutorial,funny,False,,,
+https://tiktok.com/v177,sunlight_official,Sunlight,Home Care,2024-02-24,Nano,True,637317,47,3,sad,9,6,0.1,,home fragrance,before after,emotional,True,1.0,shocking statement,
+https://tiktok.com/v178,downy_official,Downy,Home Care,2024-04-13,Nano,False,232514,60,1,angry,6,16,0.3,excited,cleaning hacks,aesthetic,emotional,True,5.0,curiosity gap,
+https://tiktok.com/v179,super_pell_official,Super Pell,Home Care,2024-02-24,Nano,True,670988,47,2,happy,2,2,0.99,calm,home fragrance,aesthetic,calm,True,4.0,question,2.29
+https://tiktok.com/v180,vaseline_official,Vaseline,Beauty and Wellbeing,2024-03-28,Makro,True,907810,40,1,sad,6,8,0.05,,makeup,vlog,dramatic,False,,,
+https://tiktok.com/v181,super_pell_official,Super Pell,Home Care,2024-03-26,Makro,True,276398,50,1,sad,8,11,0.16,energetic,home fragrance,talking head,dramatic,True,5.0,visual hook,
+https://tiktok.com/v182,make_over_official,Make Over,Beauty and Wellbeing,2024-03-17,Makro,False,155813,25,1,surprised,9,16,0.49,neutral,wellness,tutorial,funny,True,4.0,visual hook,
+https://tiktok.com/v183,so_klin_official,So Klin,Home Care,2024-04-14,Mikro,False,739403,53,1,sad,2,15,0.69,neutral,cleaning hacks,vlog,emotional,True,2.0,curiosity gap,3.59
+https://tiktok.com/v184,vaseline_official,Vaseline,Beauty and Wellbeing,2024-05-09,Nano,True,424425,43,2,happy,0,13,0.03,,makeup,tutorial,emotional,True,4.0,curiosity gap,
+https://tiktok.com/v185,vaseline_official,Vaseline,Beauty and Wellbeing,2024-05-31,Mega,True,399329,46,1,angry,0,18,0.75,energetic,fragrance,before after,emotional,False,,,2.18
+https://tiktok.com/v186,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-02-29,Nano,True,608894,25,0,,8,11,0.05,,skincare,vlog,emotional,True,3.0,question,
+https://tiktok.com/v187,lux_official,Lux,Beauty and Wellbeing,2024-04-03,Nano,True,571997,5,2,surprised,2,4,0.27,excited,haircare,aesthetic,calm,True,1.0,question,
+https://tiktok.com/v188,molto_official,Molto,Home Care,2024-02-22,Mikro,True,154450,53,1,sad,7,6,0.24,serious,disinfecting,aesthetic,calm,True,2.0,question,
+https://tiktok.com/v189,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-03-08,Makro,True,71063,12,1,angry,9,20,0.4,calm,haircare,reaction,funny,False,,,
+https://tiktok.com/v190,scarlett_official,Scarlett,Beauty and Wellbeing,2024-04-27,Nano,False,70842,55,1,angry,3,3,0.02,,makeup,reaction,dramatic,True,5.0,shocking statement,
+https://tiktok.com/v191,pond's_official,Pond's,Beauty and Wellbeing,2024-06-16,Mikro,True,423530,56,0,,1,19,0.75,energetic,haircare,before after,inspirational,True,2.0,shocking statement,1.77
+https://tiktok.com/v192,pantene_official,Pantene,Beauty and Wellbeing,2024-03-18,Makro,False,379291,12,1,happy,0,20,0.85,neutral,fragrance,aesthetic,inspirational,True,4.0,curiosity gap,3.3
+https://tiktok.com/v193,mama_lemon_official,Mama Lemon,Home Care,2024-03-07,Mikro,False,132191,26,1,happy,9,6,0.53,excited,dishwashing,talking head,dramatic,True,4.0,relatable statement,3.91
+https://tiktok.com/v194,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-07-05,Mega,True,422451,6,1,neutral,6,4,0.59,neutral,wellness,reaction,dramatic,False,,,3.06
+https://tiktok.com/v195,attack_official,Attack,Home Care,2024-04-08,Nano,False,948643,10,0,,8,20,0.62,neutral,laundry tips,tutorial,calm,True,2.0,visual hook,3.59
+https://tiktok.com/v196,sunlight_official,Sunlight,Home Care,2024-05-15,Mikro,True,165948,36,1,sad,9,12,0.89,excited,dishwashing,talking head,inspirational,False,,,3.97
+https://tiktok.com/v197,vanish_official,Vanish,Home Care,2024-04-02,Mega,False,1770893,29,2,surprised,4,3,0.2,energetic,disinfecting,vlog,calm,True,4.0,shocking statement,
+https://tiktok.com/v198,vaseline_official,Vaseline,Beauty and Wellbeing,2024-07-13,Mikro,True,85559,22,3,happy,4,10,0.62,serious,makeup,vlog,emotional,True,4.0,curiosity gap,3.89
+https://tiktok.com/v199,dove_official,Dove,Beauty and Wellbeing,2024-01-15,Mikro,True,37163,15,0,,3,6,0.54,calm,skincare,aesthetic,emotional,True,3.0,curiosity gap,1.51
+https://tiktok.com/v200,dove_official,Dove,Beauty and Wellbeing,2024-05-31,Makro,True,568731,15,1,happy,8,17,0.63,energetic,makeup,reaction,funny,True,3.0,curiosity gap,2.02
+https://tiktok.com/v201,wipol_official,Wipol,Home Care,2024-02-21,Nano,True,249901,17,0,,8,5,0.05,,disinfecting,tutorial,dramatic,True,4.0,question,
+https://tiktok.com/v202,pond's_official,Pond's,Beauty and Wellbeing,2024-06-11,Makro,True,228879,45,1,surprised,6,19,0.8,calm,wellness,storytelling,funny,True,2.0,question,2.97
+https://tiktok.com/v203,vaseline_official,Vaseline,Beauty and Wellbeing,2024-03-21,Mikro,True,1736180,58,2,sad,7,4,0.42,calm,skincare,tutorial,inspirational,True,4.0,relatable statement,
+https://tiktok.com/v204,molto_official,Molto,Home Care,2024-06-02,Nano,True,122983,40,0,,10,20,0.17,neutral,laundry tips,vlog,emotional,True,3.0,question,
+https://tiktok.com/v205,pond's_official,Pond's,Beauty and Wellbeing,2024-05-14,Mikro,True,108831,44,1,happy,2,7,0.28,neutral,wellness,talking head,dramatic,False,,,
+https://tiktok.com/v206,dove_official,Dove,Beauty and Wellbeing,2024-02-16,Mega,True,86472,20,2,happy,3,11,0.94,serious,fragrance,storytelling,emotional,True,2.0,visual hook,1.85
+https://tiktok.com/v207,so_klin_official,So Klin,Home Care,2024-01-10,Nano,False,353304,6,0,,3,3,0.22,serious,cleaning hacks,vlog,serious,True,3.0,visual hook,
+https://tiktok.com/v208,so_klin_official,So Klin,Home Care,2024-07-17,Mega,False,446784,14,3,sad,6,20,0.98,energetic,cleaning hacks,tutorial,dramatic,True,3.0,relatable statement,2.74
+https://tiktok.com/v209,mama_lemon_official,Mama Lemon,Home Care,2024-04-03,Makro,False,2145045,57,0,,2,19,0.45,excited,laundry tips,reaction,funny,True,2.0,curiosity gap,
+https://tiktok.com/v210,wipol_official,Wipol,Home Care,2024-05-02,Mikro,True,407188,30,2,angry,0,11,0.37,calm,laundry tips,vlog,inspirational,True,5.0,curiosity gap,
+https://tiktok.com/v211,vanish_official,Vanish,Home Care,2024-05-18,Nano,False,146268,18,3,surprised,10,9,0.07,,disinfecting,vlog,inspirational,True,1.0,relatable statement,
+https://tiktok.com/v212,attack_official,Attack,Home Care,2024-06-04,Nano,False,276390,9,1,happy,8,14,0.89,energetic,disinfecting,aesthetic,dramatic,False,,,2.11
+https://tiktok.com/v213,dove_official,Dove,Beauty and Wellbeing,2024-01-29,Nano,True,795290,35,0,,4,17,0.73,serious,wellness,vlog,serious,True,5.0,curiosity gap,2.19
+https://tiktok.com/v214,super_pell_official,Super Pell,Home Care,2024-03-25,Mega,True,1208484,52,0,,4,10,0.96,serious,disinfecting,talking head,calm,True,4.0,relatable statement,1.72
+https://tiktok.com/v215,molto_official,Molto,Home Care,2024-01-31,Mega,True,783149,46,0,,2,5,0.65,neutral,cleaning hacks,tutorial,calm,True,4.0,visual hook,1.75
+https://tiktok.com/v216,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-05-10,Makro,True,115646,8,3,angry,9,15,0.92,serious,haircare,tutorial,inspirational,True,3.0,shocking statement,3.74
+https://tiktok.com/v217,sunlight_official,Sunlight,Home Care,2024-07-08,Mikro,True,285462,43,2,neutral,6,20,0.47,serious,laundry tips,storytelling,serious,False,,,
+https://tiktok.com/v218,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-05-25,Makro,True,230084,28,1,angry,8,20,0.4,energetic,skincare,vlog,dramatic,True,1.0,shocking statement,
+https://tiktok.com/v219,vaseline_official,Vaseline,Beauty and Wellbeing,2024-01-24,Mikro,True,427764,37,1,surprised,4,10,0.35,excited,haircare,before after,funny,False,,,
+https://tiktok.com/v220,rinso_official,Rinso,Home Care,2024-01-22,Mikro,True,226998,56,1,angry,2,4,0.89,energetic,disinfecting,tutorial,calm,True,4.0,visual hook,1.86
+https://tiktok.com/v221,pond's_official,Pond's,Beauty and Wellbeing,2024-02-20,Nano,True,185828,19,3,surprised,6,5,0.6,energetic,haircare,talking head,inspirational,False,,,1.93
+https://tiktok.com/v222,wipol_official,Wipol,Home Care,2024-05-17,Mega,True,776804,26,1,happy,5,12,0.88,neutral,dishwashing,before after,serious,True,5.0,shocking statement,2.72
+https://tiktok.com/v223,vanish_official,Vanish,Home Care,2024-03-09,Nano,False,529130,60,0,,4,17,0.69,energetic,laundry tips,tutorial,inspirational,True,4.0,curiosity gap,2.25
+https://tiktok.com/v224,make_over_official,Make Over,Beauty and Wellbeing,2024-05-17,Nano,False,548751,30,0,,10,13,0.86,energetic,haircare,before after,emotional,False,,,1.62
+https://tiktok.com/v225,lux_official,Lux,Beauty and Wellbeing,2024-04-03,Nano,True,106075,41,1,happy,7,8,0.47,calm,makeup,before after,serious,True,3.0,question,
+https://tiktok.com/v226,sunlight_official,Sunlight,Home Care,2024-02-21,Nano,True,1392256,32,1,angry,5,9,0.19,neutral,laundry tips,vlog,emotional,False,,,
+https://tiktok.com/v227,rinso_official,Rinso,Home Care,2024-02-05,Mega,True,555851,59,1,sad,5,16,0.97,calm,dishwashing,before after,funny,True,1.0,curiosity gap,2.48
+https://tiktok.com/v228,scarlett_official,Scarlett,Beauty and Wellbeing,2024-02-15,Nano,False,83795,17,3,neutral,2,7,0.43,serious,haircare,vlog,emotional,True,3.0,visual hook,
+https://tiktok.com/v229,scarlett_official,Scarlett,Beauty and Wellbeing,2024-04-25,Makro,False,599254,25,0,,0,14,0.34,energetic,makeup,vlog,dramatic,True,1.0,shocking statement,
+https://tiktok.com/v230,mama_lemon_official,Mama Lemon,Home Care,2024-06-04,Nano,False,497170,21,2,sad,6,4,0.78,neutral,home fragrance,aesthetic,inspirational,True,1.0,visual hook,2.75
+https://tiktok.com/v231,so_klin_official,So Klin,Home Care,2024-03-21,Mikro,False,200370,12,1,angry,2,9,0.75,serious,laundry tips,tutorial,calm,False,,,3.08
+https://tiktok.com/v232,so_klin_official,So Klin,Home Care,2024-06-27,Nano,False,207637,47,0,,1,11,0.44,neutral,dishwashing,talking head,calm,True,4.0,shocking statement,
+https://tiktok.com/v233,rinso_official,Rinso,Home Care,2024-07-13,Mikro,True,64830,41,0,,4,6,0.75,serious,home fragrance,vlog,serious,True,2.0,visual hook,1.59
+https://tiktok.com/v234,make_over_official,Make Over,Beauty and Wellbeing,2024-06-21,Nano,False,2079164,36,1,happy,9,7,0.41,energetic,fragrance,tutorial,emotional,True,5.0,visual hook,
+https://tiktok.com/v235,molto_official,Molto,Home Care,2024-07-17,Makro,True,96495,34,1,surprised,7,9,0.42,neutral,home fragrance,vlog,serious,True,2.0,relatable statement,
+https://tiktok.com/v236,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-01-06,Mikro,True,557293,25,2,sad,3,19,0.3,serious,wellness,aesthetic,dramatic,True,4.0,curiosity gap,
+https://tiktok.com/v237,pond's_official,Pond's,Beauty and Wellbeing,2024-01-25,Nano,True,2987722,54,3,sad,2,17,0.34,neutral,fragrance,reaction,emotional,True,1.0,shocking statement,
+https://tiktok.com/v238,super_pell_official,Super Pell,Home Care,2024-07-09,Mega,True,496707,11,3,sad,6,7,0.17,neutral,dishwashing,aesthetic,serious,True,4.0,shocking statement,
+https://tiktok.com/v239,rinso_official,Rinso,Home Care,2024-04-04,Mega,True,220700,18,1,happy,5,11,0.46,serious,dishwashing,before after,calm,True,5.0,visual hook,
+https://tiktok.com/v240,wipol_official,Wipol,Home Care,2024-05-04,Mikro,True,866621,43,2,neutral,6,3,0.88,energetic,dishwashing,tutorial,serious,True,4.0,shocking statement,1.52
+https://tiktok.com/v241,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-04-27,Nano,True,180471,6,1,surprised,3,20,0.56,energetic,makeup,vlog,serious,False,,,2.78
+https://tiktok.com/v242,super_pell_official,Super Pell,Home Care,2024-04-24,Mikro,True,391747,7,1,sad,2,17,0.94,neutral,cleaning hacks,talking head,funny,True,5.0,relatable statement,3.01
+https://tiktok.com/v243,mama_lemon_official,Mama Lemon,Home Care,2024-02-24,Makro,False,257768,42,3,surprised,10,9,0.89,excited,cleaning hacks,vlog,serious,True,5.0,question,3.56
+https://tiktok.com/v244,lux_official,Lux,Beauty and Wellbeing,2024-02-22,Mikro,True,98899,39,2,angry,0,4,0.02,,wellness,vlog,dramatic,True,4.0,question,
+https://tiktok.com/v245,rinso_official,Rinso,Home Care,2024-01-18,Makro,True,1081860,26,1,happy,9,20,0.09,,cleaning hacks,tutorial,funny,False,,,
+https://tiktok.com/v246,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-01-12,Mega,True,240661,15,1,surprised,9,4,0.02,,wellness,reaction,serious,True,5.0,visual hook,
+https://tiktok.com/v247,scarlett_official,Scarlett,Beauty and Wellbeing,2024-07-10,Makro,False,1222663,31,3,happy,1,10,0.77,neutral,wellness,reaction,inspirational,False,,,3.85
+https://tiktok.com/v248,vanish_official,Vanish,Home Care,2024-04-14,Nano,False,275952,59,1,happy,9,16,0.3,energetic,home fragrance,storytelling,dramatic,False,,,
+https://tiktok.com/v249,mama_lemon_official,Mama Lemon,Home Care,2024-07-12,Mikro,False,148567,46,1,neutral,9,4,0.75,excited,cleaning hacks,talking head,serious,True,1.0,question,3.44
+https://tiktok.com/v250,mama_lemon_official,Mama Lemon,Home Care,2024-04-16,Nano,False,680080,15,1,angry,10,20,0.25,excited,laundry tips,storytelling,dramatic,True,4.0,relatable statement,
+https://tiktok.com/v251,sunlight_official,Sunlight,Home Care,2024-03-21,Nano,True,6067383,49,1,neutral,2,4,0.65,calm,cleaning hacks,tutorial,serious,True,4.0,shocking statement,1.58
+https://tiktok.com/v252,make_over_official,Make Over,Beauty and Wellbeing,2024-02-13,Mega,False,84109,50,2,angry,1,3,0.79,neutral,haircare,before after,calm,True,1.0,shocking statement,1.8
+https://tiktok.com/v253,mama_lemon_official,Mama Lemon,Home Care,2024-05-05,Mikro,False,2473665,17,3,surprised,9,17,0.66,calm,cleaning hacks,tutorial,funny,True,1.0,curiosity gap,2.98
+https://tiktok.com/v254,scarlett_official,Scarlett,Beauty and Wellbeing,2024-04-22,Nano,False,361053,29,0,,3,6,0.25,serious,wellness,vlog,serious,True,2.0,visual hook,
+https://tiktok.com/v255,sunlight_official,Sunlight,Home Care,2024-03-05,Makro,True,941714,44,1,angry,5,10,0.71,neutral,cleaning hacks,before after,emotional,True,2.0,shocking statement,2.11
+https://tiktok.com/v256,scarlett_official,Scarlett,Beauty and Wellbeing,2024-02-20,Makro,False,187557,54,1,happy,2,6,0.84,energetic,wellness,tutorial,funny,True,1.0,shocking statement,2.85
+https://tiktok.com/v257,vanish_official,Vanish,Home Care,2024-06-16,Mega,False,197222,44,2,surprised,10,10,0.89,neutral,home fragrance,storytelling,dramatic,True,3.0,relatable statement,3.5
+https://tiktok.com/v258,dove_official,Dove,Beauty and Wellbeing,2024-01-18,Mikro,True,1974942,24,1,surprised,4,11,0.5,energetic,fragrance,tutorial,serious,False,,,
+https://tiktok.com/v259,scarlett_official,Scarlett,Beauty and Wellbeing,2024-02-04,Nano,False,1565801,41,1,angry,2,11,0.83,excited,fragrance,talking head,emotional,True,4.0,question,3.38
+https://tiktok.com/v260,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-04-04,Mikro,True,238445,7,1,neutral,5,18,0.56,serious,skincare,storytelling,inspirational,True,2.0,curiosity gap,3.23
+https://tiktok.com/v261,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-02-04,Mega,True,360123,8,2,surprised,6,12,0.56,calm,makeup,vlog,inspirational,True,3.0,relatable statement,1.56
+https://tiktok.com/v262,wipol_official,Wipol,Home Care,2024-02-11,Mikro,True,577592,14,1,surprised,10,20,0.83,neutral,cleaning hacks,storytelling,funny,True,2.0,curiosity gap,2.55
+https://tiktok.com/v263,pond's_official,Pond's,Beauty and Wellbeing,2024-03-24,Mikro,True,137109,57,1,surprised,2,11,0.21,energetic,makeup,tutorial,funny,True,3.0,shocking statement,
+https://tiktok.com/v264,sunlight_official,Sunlight,Home Care,2024-03-09,Mikro,True,514297,16,1,surprised,6,4,0.83,serious,disinfecting,talking head,emotional,True,4.0,relatable statement,2.07
+https://tiktok.com/v265,make_over_official,Make Over,Beauty and Wellbeing,2024-06-11,Mega,False,1182684,9,3,happy,10,15,0.42,calm,fragrance,storytelling,emotional,True,1.0,shocking statement,
+https://tiktok.com/v266,molto_official,Molto,Home Care,2024-03-30,Makro,True,848584,26,1,happy,0,19,0.01,,disinfecting,vlog,funny,True,3.0,visual hook,
+https://tiktok.com/v267,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-06-09,Nano,True,304778,60,0,,9,2,0.72,energetic,makeup,vlog,emotional,True,2.0,question,3.81
+https://tiktok.com/v268,sunlight_official,Sunlight,Home Care,2024-02-03,Mega,True,205613,47,1,sad,0,9,0.72,neutral,cleaning hacks,storytelling,dramatic,True,1.0,question,3.76
+https://tiktok.com/v269,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-04-02,Nano,True,812281,60,2,angry,5,20,0.64,calm,wellness,talking head,inspirational,False,,,2.22
+https://tiktok.com/v270,dove_official,Dove,Beauty and Wellbeing,2024-05-26,Mega,True,811111,16,2,neutral,4,5,0.37,neutral,fragrance,before after,calm,True,3.0,relatable statement,
+https://tiktok.com/v271,wipol_official,Wipol,Home Care,2024-01-19,Mega,True,788355,48,1,sad,9,2,0.13,excited,laundry tips,aesthetic,emotional,True,3.0,relatable statement,
+https://tiktok.com/v272,mama_lemon_official,Mama Lemon,Home Care,2024-05-16,Mega,False,355488,24,1,neutral,1,13,0.87,neutral,dishwashing,storytelling,inspirational,True,2.0,curiosity gap,3.9
+https://tiktok.com/v273,attack_official,Attack,Home Care,2024-06-26,Mikro,False,2792107,31,0,,0,15,0.53,calm,disinfecting,reaction,inspirational,True,4.0,visual hook,2.07
+https://tiktok.com/v274,rinso_official,Rinso,Home Care,2024-01-05,Mikro,True,677464,44,1,neutral,4,18,0.63,serious,laundry tips,aesthetic,calm,True,2.0,visual hook,3.62
+https://tiktok.com/v275,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-05-10,Mikro,True,224915,59,1,sad,6,11,0.48,energetic,wellness,talking head,emotional,False,,,
+https://tiktok.com/v276,vanish_official,Vanish,Home Care,2024-05-04,Makro,False,236052,36,3,angry,6,3,0.84,neutral,dishwashing,storytelling,funny,True,4.0,curiosity gap,3.6
+https://tiktok.com/v277,pantene_official,Pantene,Beauty and Wellbeing,2024-02-25,Makro,False,348306,29,0,,8,17,0.08,,wellness,talking head,emotional,True,4.0,relatable statement,
+https://tiktok.com/v278,rinso_official,Rinso,Home Care,2024-07-19,Nano,True,1170424,27,3,neutral,8,5,0.86,energetic,home fragrance,storytelling,emotional,True,1.0,shocking statement,1.79
+https://tiktok.com/v279,wardah_official,Wardah,Beauty and Wellbeing,2024-04-10,Mikro,False,310412,38,3,happy,9,6,0.44,excited,fragrance,aesthetic,calm,True,5.0,relatable statement,
+https://tiktok.com/v280,wipol_official,Wipol,Home Care,2024-01-09,Mega,True,265062,60,0,,10,11,0.5,neutral,laundry tips,reaction,dramatic,True,2.0,shocking statement,
+https://tiktok.com/v281,scarlett_official,Scarlett,Beauty and Wellbeing,2024-02-27,Nano,False,297485,55,1,happy,2,3,0.44,serious,skincare,reaction,inspirational,True,1.0,curiosity gap,
+https://tiktok.com/v282,vaseline_official,Vaseline,Beauty and Wellbeing,2024-06-30,Mikro,True,1402218,41,1,neutral,9,3,0.01,,makeup,talking head,serious,True,3.0,curiosity gap,
+https://tiktok.com/v283,biore_official,Biore,Beauty and Wellbeing,2024-04-22,Makro,False,109765,46,2,sad,6,6,0.43,energetic,fragrance,vlog,dramatic,True,2.0,shocking statement,
+https://tiktok.com/v284,molto_official,Molto,Home Care,2024-05-10,Nano,True,542056,20,2,happy,5,8,0.99,serious,cleaning hacks,before after,emotional,True,1.0,relatable statement,3.87
+https://tiktok.com/v285,attack_official,Attack,Home Care,2024-04-11,Mega,False,490199,53,1,sad,10,14,0.75,serious,laundry tips,before after,dramatic,True,5.0,curiosity gap,3.36
+https://tiktok.com/v286,scarlett_official,Scarlett,Beauty and Wellbeing,2024-01-29,Nano,False,1258012,18,1,angry,9,8,0.21,excited,haircare,before after,dramatic,True,2.0,shocking statement,
+https://tiktok.com/v287,vanish_official,Vanish,Home Care,2024-01-14,Mega,False,262140,40,2,surprised,5,8,0.67,serious,cleaning hacks,vlog,emotional,False,,,2.32
+https://tiktok.com/v288,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-04-28,Mikro,True,354512,51,1,angry,10,15,0.46,serious,wellness,vlog,funny,True,2.0,relatable statement,
+https://tiktok.com/v289,dove_official,Dove,Beauty and Wellbeing,2024-06-17,Makro,True,224183,45,1,neutral,4,2,0.53,neutral,fragrance,before after,emotional,True,1.0,shocking statement,1.67
+https://tiktok.com/v290,lux_official,Lux,Beauty and Wellbeing,2024-02-22,Nano,True,1687840,44,1,happy,6,4,0.88,serious,makeup,vlog,funny,True,2.0,relatable statement,3.54
+https://tiktok.com/v291,molto_official,Molto,Home Care,2024-03-13,Nano,True,363195,28,2,neutral,4,18,0.09,,laundry tips,reaction,emotional,True,5.0,visual hook,
+https://tiktok.com/v292,scarlett_official,Scarlett,Beauty and Wellbeing,2024-07-04,Nano,False,1188664,59,0,,7,12,0.75,neutral,makeup,before after,emotional,True,4.0,visual hook,2.89
+https://tiktok.com/v293,vaseline_official,Vaseline,Beauty and Wellbeing,2024-06-27,Mega,True,201112,55,2,angry,4,3,0.95,excited,haircare,vlog,dramatic,True,1.0,relatable statement,1.61
+https://tiktok.com/v294,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-07-03,Nano,True,835418,59,1,surprised,4,12,0.97,neutral,wellness,aesthetic,emotional,True,2.0,visual hook,3.93
+https://tiktok.com/v295,so_klin_official,So Klin,Home Care,2024-07-03,Nano,False,1238749,9,1,happy,2,13,0.88,excited,dishwashing,tutorial,funny,True,2.0,curiosity gap,3.23
+https://tiktok.com/v296,scarlett_official,Scarlett,Beauty and Wellbeing,2024-02-13,Mikro,False,419271,15,2,sad,1,17,0.72,neutral,wellness,reaction,funny,True,3.0,question,1.63
+https://tiktok.com/v297,downy_official,Downy,Home Care,2024-01-26,Nano,False,616576,17,0,,3,12,0.11,calm,laundry tips,talking head,calm,True,2.0,question,
+https://tiktok.com/v298,attack_official,Attack,Home Care,2024-03-26,Makro,False,235586,34,0,,6,15,0.62,energetic,laundry tips,tutorial,dramatic,True,5.0,relatable statement,3.98
+https://tiktok.com/v299,dove_official,Dove,Beauty and Wellbeing,2024-04-10,Makro,True,1530410,49,1,happy,6,10,0.35,energetic,makeup,tutorial,inspirational,False,,,
+https://tiktok.com/v300,dove_official,Dove,Beauty and Wellbeing,2024-03-18,Mega,True,274106,54,2,neutral,10,11,0.53,excited,fragrance,reaction,serious,True,4.0,shocking statement,2.07
+https://tiktok.com/v301,make_over_official,Make Over,Beauty and Wellbeing,2024-07-08,Nano,False,130362,16,0,,1,16,0.23,serious,wellness,tutorial,funny,True,1.0,question,
+https://tiktok.com/v302,vaseline_official,Vaseline,Beauty and Wellbeing,2024-05-27,Mikro,True,1547050,17,1,happy,2,14,0.4,energetic,wellness,aesthetic,dramatic,False,,,
+https://tiktok.com/v303,rinso_official,Rinso,Home Care,2024-04-11,Mega,True,1827342,27,0,,7,5,0.13,excited,disinfecting,tutorial,calm,True,4.0,curiosity gap,
+https://tiktok.com/v304,wipol_official,Wipol,Home Care,2024-03-16,Mikro,True,204167,46,0,,3,3,0.07,,laundry tips,reaction,calm,False,,,
+https://tiktok.com/v305,attack_official,Attack,Home Care,2024-02-11,Makro,False,1432065,51,1,neutral,9,18,0.54,neutral,dishwashing,storytelling,funny,True,2.0,curiosity gap,3.98
+https://tiktok.com/v306,rinso_official,Rinso,Home Care,2024-04-16,Mikro,True,69536,31,3,happy,1,2,0.95,neutral,dishwashing,storytelling,funny,False,,,3.06
+https://tiktok.com/v307,vaseline_official,Vaseline,Beauty and Wellbeing,2024-04-26,Mega,True,712506,42,2,sad,5,17,0.15,serious,haircare,before after,inspirational,True,4.0,question,
+https://tiktok.com/v308,pantene_official,Pantene,Beauty and Wellbeing,2024-02-03,Nano,False,192792,8,3,neutral,0,9,0.89,excited,haircare,before after,dramatic,True,1.0,question,3.95
+https://tiktok.com/v309,dove_official,Dove,Beauty and Wellbeing,2024-04-27,Mikro,True,655684,21,1,angry,9,11,0.75,neutral,makeup,storytelling,dramatic,False,,,3.43
+https://tiktok.com/v310,attack_official,Attack,Home Care,2024-03-24,Makro,False,572497,59,1,happy,3,19,0.44,energetic,dishwashing,storytelling,emotional,True,4.0,question,
+https://tiktok.com/v311,sunlight_official,Sunlight,Home Care,2024-07-11,Makro,True,544618,36,1,surprised,9,12,0.8,calm,home fragrance,aesthetic,emotional,True,4.0,question,2.56
+https://tiktok.com/v312,biore_official,Biore,Beauty and Wellbeing,2024-06-18,Nano,False,84489,48,1,angry,8,3,0.32,neutral,wellness,aesthetic,calm,True,1.0,curiosity gap,
+https://tiktok.com/v313,biore_official,Biore,Beauty and Wellbeing,2024-04-16,Mega,False,262303,18,1,angry,9,15,0.1,,fragrance,tutorial,dramatic,True,2.0,shocking statement,
+https://tiktok.com/v314,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-02-26,Mikro,True,264726,34,2,neutral,8,8,0.83,excited,fragrance,talking head,serious,True,2.0,curiosity gap,2.37
+https://tiktok.com/v315,vaseline_official,Vaseline,Beauty and Wellbeing,2024-07-19,Mikro,True,356348,19,2,neutral,5,5,0.33,excited,makeup,talking head,calm,True,5.0,relatable statement,
+https://tiktok.com/v316,dove_official,Dove,Beauty and Wellbeing,2024-05-09,Mega,True,157090,24,0,,1,8,0.92,neutral,wellness,talking head,emotional,True,5.0,shocking statement,2.42
+https://tiktok.com/v317,pond's_official,Pond's,Beauty and Wellbeing,2024-03-29,Nano,True,152634,60,1,sad,10,5,0.46,neutral,makeup,storytelling,serious,True,4.0,curiosity gap,
+https://tiktok.com/v318,sunlight_official,Sunlight,Home Care,2024-07-10,Makro,True,1003771,43,3,happy,5,3,0.26,excited,disinfecting,before after,emotional,True,3.0,visual hook,
+https://tiktok.com/v319,attack_official,Attack,Home Care,2024-02-18,Nano,False,735356,31,1,neutral,0,20,0.15,serious,cleaning hacks,aesthetic,inspirational,True,5.0,question,
+https://tiktok.com/v320,make_over_official,Make Over,Beauty and Wellbeing,2024-06-24,Mega,False,118468,24,1,angry,6,6,0.17,serious,wellness,storytelling,funny,False,,,
+https://tiktok.com/v321,so_klin_official,So Klin,Home Care,2024-06-23,Makro,False,2310786,41,0,,5,8,0.81,excited,home fragrance,aesthetic,serious,True,2.0,shocking statement,1.68
+https://tiktok.com/v322,lux_official,Lux,Beauty and Wellbeing,2024-02-16,Nano,True,86666,42,1,angry,5,19,0.69,excited,makeup,before after,serious,True,1.0,question,3.71
+https://tiktok.com/v323,super_pell_official,Super Pell,Home Care,2024-04-13,Nano,True,1976359,23,2,happy,5,12,0.88,calm,cleaning hacks,vlog,inspirational,True,2.0,curiosity gap,2.48
+https://tiktok.com/v324,make_over_official,Make Over,Beauty and Wellbeing,2024-05-31,Mega,False,403765,55,3,neutral,3,4,0.08,,fragrance,vlog,inspirational,False,,,
+https://tiktok.com/v325,so_klin_official,So Klin,Home Care,2024-04-01,Mega,False,760219,52,2,surprised,5,13,0.96,neutral,laundry tips,tutorial,inspirational,True,3.0,visual hook,3.75
+https://tiktok.com/v326,rinso_official,Rinso,Home Care,2024-01-25,Makro,True,287737,39,0,,10,5,0.78,serious,home fragrance,storytelling,serious,False,,,3.2
+https://tiktok.com/v327,rinso_official,Rinso,Home Care,2024-02-23,Mega,True,618562,56,0,,7,2,0.05,,disinfecting,talking head,dramatic,False,,,
+https://tiktok.com/v328,sunlight_official,Sunlight,Home Care,2024-02-28,Makro,True,976873,44,1,surprised,5,8,0.4,serious,disinfecting,reaction,funny,False,,,
+https://tiktok.com/v329,wipol_official,Wipol,Home Care,2024-01-14,Mikro,True,1103071,22,3,neutral,3,3,0.97,serious,cleaning hacks,reaction,emotional,True,5.0,shocking statement,2.68
+https://tiktok.com/v330,attack_official,Attack,Home Care,2024-07-03,Nano,False,1899556,40,2,sad,0,12,0.04,,laundry tips,storytelling,emotional,True,4.0,question,
+https://tiktok.com/v331,make_over_official,Make Over,Beauty and Wellbeing,2024-04-04,Nano,False,609352,46,1,angry,7,2,0.14,calm,skincare,tutorial,emotional,True,4.0,question,
+https://tiktok.com/v332,rinso_official,Rinso,Home Care,2024-06-15,Mikro,True,503317,41,1,neutral,7,17,0.13,serious,cleaning hacks,vlog,calm,True,5.0,shocking statement,
+https://tiktok.com/v333,rinso_official,Rinso,Home Care,2024-04-19,Mikro,True,425055,47,1,happy,3,7,0.73,excited,disinfecting,vlog,inspirational,False,,,3.2
+https://tiktok.com/v334,downy_official,Downy,Home Care,2024-03-26,Mikro,False,765188,54,3,sad,10,7,0.79,excited,dishwashing,vlog,serious,False,,,2.24
+https://tiktok.com/v335,mama_lemon_official,Mama Lemon,Home Care,2024-02-27,Mega,False,2402121,28,1,surprised,5,9,0.08,,cleaning hacks,storytelling,funny,True,5.0,shocking statement,
+https://tiktok.com/v336,biore_official,Biore,Beauty and Wellbeing,2024-04-24,Makro,False,268590,37,1,surprised,0,6,0.84,energetic,haircare,storytelling,calm,True,3.0,curiosity gap,3.54
+https://tiktok.com/v337,attack_official,Attack,Home Care,2024-02-22,Nano,False,53321,5,2,sad,8,20,0.83,neutral,cleaning hacks,tutorial,inspirational,True,4.0,curiosity gap,2.78
+https://tiktok.com/v338,biore_official,Biore,Beauty and Wellbeing,2024-06-16,Nano,False,21240,44,1,surprised,1,12,0.73,serious,haircare,vlog,dramatic,False,,,3.28
+https://tiktok.com/v339,sunlight_official,Sunlight,Home Care,2024-06-05,Mikro,True,444326,52,2,surprised,1,15,0.73,calm,cleaning hacks,aesthetic,dramatic,True,5.0,curiosity gap,2.93
+https://tiktok.com/v340,sunlight_official,Sunlight,Home Care,2024-01-13,Makro,True,688282,51,1,neutral,4,15,0.9,neutral,home fragrance,vlog,serious,True,4.0,shocking statement,3.73
+https://tiktok.com/v341,pond's_official,Pond's,Beauty and Wellbeing,2024-04-02,Mikro,True,299086,46,1,neutral,10,12,0.93,excited,makeup,tutorial,calm,True,2.0,visual hook,3.69
+https://tiktok.com/v342,rinso_official,Rinso,Home Care,2024-03-05,Mega,True,252703,47,1,neutral,6,2,0.1,,cleaning hacks,vlog,dramatic,True,2.0,relatable statement,
+https://tiktok.com/v343,super_pell_official,Super Pell,Home Care,2024-03-28,Mega,True,414022,60,3,surprised,1,3,0.49,calm,dishwashing,aesthetic,dramatic,True,3.0,visual hook,
+https://tiktok.com/v344,sunlight_official,Sunlight,Home Care,2024-07-01,Mega,True,2557417,50,1,neutral,1,11,0.29,calm,dishwashing,storytelling,serious,False,,,
+https://tiktok.com/v345,lux_official,Lux,Beauty and Wellbeing,2024-07-16,Nano,True,1587462,52,1,sad,4,17,0.06,,makeup,tutorial,inspirational,True,2.0,shocking statement,
+https://tiktok.com/v346,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-06-16,Mega,True,459329,47,0,,8,20,0.09,,makeup,talking head,emotional,True,4.0,relatable statement,
+https://tiktok.com/v347,so_klin_official,So Klin,Home Care,2024-07-04,Mega,False,510668,12,0,,7,19,0.73,excited,laundry tips,reaction,dramatic,False,,,2.14
+https://tiktok.com/v348,make_over_official,Make Over,Beauty and Wellbeing,2024-02-13,Mega,False,144580,59,1,surprised,8,20,0.86,excited,haircare,storytelling,serious,True,4.0,relatable statement,2.88
+https://tiktok.com/v349,make_over_official,Make Over,Beauty and Wellbeing,2024-02-06,Nano,False,406777,44,1,neutral,3,13,0.38,calm,fragrance,talking head,serious,False,,,
+https://tiktok.com/v350,attack_official,Attack,Home Care,2024-06-26,Mikro,False,884587,49,1,happy,3,11,0.29,serious,disinfecting,aesthetic,dramatic,True,2.0,visual hook,
+https://tiktok.com/v351,rinso_official,Rinso,Home Care,2024-07-10,Makro,True,990371,27,1,sad,8,15,0.51,excited,home fragrance,reaction,inspirational,True,1.0,curiosity gap,3.5
+https://tiktok.com/v352,biore_official,Biore,Beauty and Wellbeing,2024-01-04,Mikro,False,1255742,23,1,happy,10,19,0.43,excited,wellness,storytelling,funny,False,,,
+https://tiktok.com/v353,rinso_official,Rinso,Home Care,2024-01-23,Mega,True,193117,5,1,neutral,4,14,0.44,serious,disinfecting,talking head,dramatic,True,1.0,curiosity gap,
+https://tiktok.com/v354,molto_official,Molto,Home Care,2024-02-28,Mikro,True,11302083,13,1,neutral,3,8,0.87,energetic,cleaning hacks,storytelling,calm,True,5.0,question,3.16
+https://tiktok.com/v355,make_over_official,Make Over,Beauty and Wellbeing,2024-03-18,Makro,False,708377,60,1,surprised,1,9,0.3,calm,wellness,tutorial,funny,True,2.0,shocking statement,
+https://tiktok.com/v356,vaseline_official,Vaseline,Beauty and Wellbeing,2024-03-13,Mikro,True,788620,22,0,,9,15,0.14,excited,fragrance,tutorial,inspirational,True,2.0,curiosity gap,
+https://tiktok.com/v357,downy_official,Downy,Home Care,2024-05-31,Makro,False,499741,60,1,neutral,1,17,0.12,energetic,disinfecting,storytelling,serious,True,4.0,shocking statement,
+https://tiktok.com/v358,pond's_official,Pond's,Beauty and Wellbeing,2024-01-27,Mega,True,273563,47,2,sad,10,20,0.01,,wellness,storytelling,funny,False,,,
+https://tiktok.com/v359,biore_official,Biore,Beauty and Wellbeing,2024-01-17,Makro,False,815429,7,1,surprised,8,16,0.24,serious,haircare,aesthetic,funny,True,4.0,relatable statement,
+https://tiktok.com/v360,pond's_official,Pond's,Beauty and Wellbeing,2024-02-01,Nano,True,351344,52,1,angry,1,19,0.04,,wellness,aesthetic,dramatic,True,5.0,visual hook,
+https://tiktok.com/v361,molto_official,Molto,Home Care,2024-01-03,Makro,True,255819,50,1,angry,7,8,0.56,serious,cleaning hacks,aesthetic,calm,True,3.0,visual hook,3.06
+https://tiktok.com/v362,pond's_official,Pond's,Beauty and Wellbeing,2024-03-29,Nano,True,994765,27,1,angry,0,19,0.57,calm,skincare,vlog,emotional,True,1.0,curiosity gap,3.95
+https://tiktok.com/v363,super_pell_official,Super Pell,Home Care,2024-02-08,Mega,True,341892,5,1,surprised,0,12,0.22,calm,disinfecting,tutorial,emotional,True,5.0,relatable statement,
+https://tiktok.com/v364,super_pell_official,Super Pell,Home Care,2024-03-04,Makro,True,896739,48,1,sad,1,17,0.69,excited,cleaning hacks,aesthetic,serious,True,1.0,question,1.55
+https://tiktok.com/v365,lux_official,Lux,Beauty and Wellbeing,2024-03-25,Mikro,True,95892,8,2,sad,7,12,0.56,excited,skincare,vlog,emotional,False,,,2.5
+https://tiktok.com/v366,scarlett_official,Scarlett,Beauty and Wellbeing,2024-06-22,Mikro,False,83135,17,1,neutral,3,2,0.34,neutral,fragrance,storytelling,dramatic,True,3.0,shocking statement,
+https://tiktok.com/v367,wipol_official,Wipol,Home Care,2024-06-02,Nano,True,940021,30,2,surprised,4,9,0.8,excited,cleaning hacks,reaction,dramatic,True,2.0,curiosity gap,3.42
+https://tiktok.com/v368,scarlett_official,Scarlett,Beauty and Wellbeing,2024-05-15,Makro,False,1166696,33,0,,10,6,0.32,serious,haircare,vlog,calm,True,2.0,question,
+https://tiktok.com/v369,rinso_official,Rinso,Home Care,2024-05-15,Nano,True,503292,48,1,neutral,10,15,0.91,neutral,cleaning hacks,before after,funny,True,3.0,question,3.64
+https://tiktok.com/v370,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-01-01,Mega,True,70511,5,1,sad,9,20,0.22,excited,fragrance,tutorial,dramatic,True,3.0,shocking statement,
+https://tiktok.com/v371,vaseline_official,Vaseline,Beauty and Wellbeing,2024-03-26,Mega,True,147911,15,2,happy,3,4,0.54,excited,haircare,aesthetic,emotional,True,1.0,visual hook,1.58
+https://tiktok.com/v372,super_pell_official,Super Pell,Home Care,2024-02-06,Makro,True,277878,59,1,neutral,9,7,0.95,serious,home fragrance,before after,emotional,True,3.0,question,3.12
+https://tiktok.com/v373,downy_official,Downy,Home Care,2024-06-11,Mikro,False,656133,12,2,happy,2,19,0.22,calm,dishwashing,before after,emotional,True,1.0,curiosity gap,
+https://tiktok.com/v374,vaseline_official,Vaseline,Beauty and Wellbeing,2024-05-10,Mega,True,283705,18,1,neutral,1,8,0.81,energetic,skincare,talking head,inspirational,True,3.0,curiosity gap,1.6
+https://tiktok.com/v375,molto_official,Molto,Home Care,2024-02-09,Nano,True,94120,13,1,surprised,9,15,0.13,excited,laundry tips,reaction,emotional,True,4.0,curiosity gap,
+https://tiktok.com/v376,attack_official,Attack,Home Care,2024-05-08,Nano,False,173585,24,0,,4,18,0.22,excited,cleaning hacks,storytelling,funny,True,5.0,visual hook,
+https://tiktok.com/v377,sunlight_official,Sunlight,Home Care,2024-01-22,Makro,True,1343046,34,1,surprised,4,9,0.13,serious,cleaning hacks,aesthetic,emotional,True,1.0,visual hook,
+https://tiktok.com/v378,mama_lemon_official,Mama Lemon,Home Care,2024-01-18,Makro,False,1825760,20,2,sad,2,19,0.26,serious,dishwashing,reaction,emotional,False,,,
+https://tiktok.com/v379,super_pell_official,Super Pell,Home Care,2024-02-13,Makro,True,1727969,47,0,,10,5,0.62,serious,laundry tips,reaction,dramatic,True,2.0,curiosity gap,1.68
+https://tiktok.com/v380,downy_official,Downy,Home Care,2024-05-13,Mega,False,1014301,35,2,neutral,5,8,0.7,serious,laundry tips,before after,inspirational,False,,,3.17
+https://tiktok.com/v381,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-06-02,Nano,True,505113,28,1,angry,9,19,0.78,energetic,fragrance,aesthetic,calm,True,2.0,shocking statement,2.94
+https://tiktok.com/v382,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-03-22,Mikro,True,896538,24,1,happy,8,20,0.26,neutral,makeup,aesthetic,calm,True,1.0,shocking statement,
+https://tiktok.com/v383,rinso_official,Rinso,Home Care,2024-05-04,Mikro,True,1354538,43,1,neutral,9,18,0.25,excited,home fragrance,reaction,emotional,False,,,
+https://tiktok.com/v384,super_pell_official,Super Pell,Home Care,2024-06-11,Mikro,True,155760,47,1,surprised,1,7,0.1,,cleaning hacks,reaction,serious,True,2.0,question,
+https://tiktok.com/v385,scarlett_official,Scarlett,Beauty and Wellbeing,2024-07-11,Mikro,False,51668,35,1,neutral,6,10,0.47,excited,skincare,storytelling,funny,True,3.0,curiosity gap,
+https://tiktok.com/v386,rinso_official,Rinso,Home Care,2024-06-27,Makro,True,5016114,44,1,sad,2,15,0.06,,home fragrance,reaction,serious,False,,,
+https://tiktok.com/v387,rinso_official,Rinso,Home Care,2024-04-02,Mikro,True,141382,54,0,,5,7,0.31,neutral,laundry tips,talking head,funny,True,3.0,visual hook,
+https://tiktok.com/v388,dove_official,Dove,Beauty and Wellbeing,2024-04-21,Nano,True,1748414,23,2,neutral,0,11,0.11,excited,haircare,talking head,funny,True,3.0,relatable statement,
+https://tiktok.com/v389,dove_official,Dove,Beauty and Wellbeing,2024-05-25,Nano,True,764370,17,1,neutral,10,6,0.4,energetic,skincare,reaction,dramatic,True,5.0,question,
+https://tiktok.com/v390,pond's_official,Pond's,Beauty and Wellbeing,2024-04-08,Makro,True,172471,33,2,happy,2,17,0.36,neutral,makeup,vlog,calm,True,4.0,shocking statement,
+https://tiktok.com/v391,super_pell_official,Super Pell,Home Care,2024-07-17,Nano,True,254726,50,1,neutral,2,4,0.88,neutral,cleaning hacks,vlog,serious,True,3.0,visual hook,2.66
+https://tiktok.com/v392,wipol_official,Wipol,Home Care,2024-05-17,Nano,True,886659,12,0,,0,20,0.69,serious,home fragrance,aesthetic,emotional,True,1.0,curiosity gap,1.79
+https://tiktok.com/v393,make_over_official,Make Over,Beauty and Wellbeing,2024-01-30,Makro,False,519249,22,2,angry,5,8,0.15,calm,haircare,reaction,emotional,False,,,
+https://tiktok.com/v394,dove_official,Dove,Beauty and Wellbeing,2024-07-11,Mega,True,3267394,58,1,neutral,10,3,0.59,energetic,makeup,vlog,calm,True,1.0,question,2.51
+https://tiktok.com/v395,molto_official,Molto,Home Care,2024-05-02,Nano,True,1618101,56,1,neutral,1,4,0.99,excited,disinfecting,vlog,serious,True,1.0,visual hook,1.97
+https://tiktok.com/v396,vaseline_official,Vaseline,Beauty and Wellbeing,2024-04-06,Mega,True,487732,31,1,happy,5,12,0.15,calm,fragrance,talking head,dramatic,True,3.0,visual hook,
+https://tiktok.com/v397,pond's_official,Pond's,Beauty and Wellbeing,2024-01-17,Mikro,True,176056,21,0,,2,11,0.03,,fragrance,aesthetic,dramatic,True,2.0,question,
+https://tiktok.com/v398,biore_official,Biore,Beauty and Wellbeing,2024-01-08,Mikro,False,260388,27,1,sad,6,3,0.09,,makeup,storytelling,dramatic,True,5.0,visual hook,
+https://tiktok.com/v399,sunlight_official,Sunlight,Home Care,2024-04-07,Mega,True,253155,33,2,angry,8,11,0.3,energetic,disinfecting,tutorial,calm,False,,,
+https://tiktok.com/v400,dove_official,Dove,Beauty and Wellbeing,2024-03-22,Mega,True,721638,21,1,angry,5,13,0.14,neutral,skincare,storytelling,emotional,True,4.0,relatable statement,
+https://tiktok.com/v401,vaseline_official,Vaseline,Beauty and Wellbeing,2024-01-07,Nano,True,446692,58,1,happy,10,16,0.36,neutral,makeup,tutorial,emotional,True,5.0,relatable statement,
+https://tiktok.com/v402,vaseline_official,Vaseline,Beauty and Wellbeing,2024-07-14,Makro,True,173391,21,0,,10,11,0.53,neutral,wellness,before after,dramatic,True,2.0,curiosity gap,1.54
+https://tiktok.com/v403,so_klin_official,So Klin,Home Care,2024-03-14,Nano,False,161214,53,1,sad,4,5,0.98,neutral,disinfecting,storytelling,calm,True,3.0,curiosity gap,2.34
+https://tiktok.com/v404,rinso_official,Rinso,Home Care,2024-04-20,Mikro,True,3152456,55,3,neutral,9,13,0.87,energetic,laundry tips,aesthetic,dramatic,True,4.0,shocking statement,3.75
+https://tiktok.com/v405,vanish_official,Vanish,Home Care,2024-07-14,Mega,False,168602,49,1,neutral,6,20,0.02,,dishwashing,storytelling,dramatic,True,2.0,visual hook,
+https://tiktok.com/v406,biore_official,Biore,Beauty and Wellbeing,2024-05-23,Makro,False,724348,35,1,neutral,6,3,0.86,excited,skincare,talking head,calm,True,5.0,relatable statement,2.27
+https://tiktok.com/v407,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-06-14,Mega,True,396501,26,1,happy,8,16,0.9,calm,makeup,tutorial,calm,True,1.0,shocking statement,2.29
+https://tiktok.com/v408,molto_official,Molto,Home Care,2024-04-17,Mikro,True,122381,30,0,,3,5,0.91,neutral,laundry tips,reaction,funny,True,1.0,shocking statement,3.85
+https://tiktok.com/v409,wardah_official,Wardah,Beauty and Wellbeing,2024-05-25,Nano,False,355287,44,2,sad,2,20,0.46,neutral,skincare,vlog,inspirational,True,2.0,question,
+https://tiktok.com/v410,molto_official,Molto,Home Care,2024-04-29,Makro,True,20266,42,1,surprised,3,7,0.22,neutral,laundry tips,aesthetic,dramatic,True,5.0,shocking statement,
+https://tiktok.com/v411,wipol_official,Wipol,Home Care,2024-02-20,Mega,True,9400569,7,2,angry,9,6,0.33,neutral,home fragrance,aesthetic,dramatic,True,2.0,shocking statement,
+https://tiktok.com/v412,super_pell_official,Super Pell,Home Care,2024-01-03,Nano,True,783416,52,3,angry,7,10,0.1,,disinfecting,reaction,funny,True,2.0,curiosity gap,
+https://tiktok.com/v413,lux_official,Lux,Beauty and Wellbeing,2024-04-17,Mikro,True,187342,12,1,surprised,7,11,0.5,neutral,haircare,talking head,calm,False,,,
+https://tiktok.com/v414,scarlett_official,Scarlett,Beauty and Wellbeing,2024-05-16,Nano,False,423291,26,1,sad,5,8,0.7,energetic,fragrance,talking head,dramatic,False,,,2.86
+https://tiktok.com/v415,rinso_official,Rinso,Home Care,2024-04-26,Nano,True,346993,43,3,surprised,1,5,0.72,energetic,disinfecting,talking head,serious,True,1.0,question,2.04
+https://tiktok.com/v416,rinso_official,Rinso,Home Care,2024-04-18,Nano,True,213268,12,1,angry,9,5,0.65,serious,home fragrance,vlog,emotional,True,2.0,question,2.99
+https://tiktok.com/v417,wipol_official,Wipol,Home Care,2024-05-07,Mega,True,763475,5,0,,0,10,0.8,excited,disinfecting,before after,dramatic,False,,,3.49
+https://tiktok.com/v418,sunlight_official,Sunlight,Home Care,2024-06-24,Mega,True,762150,17,1,angry,6,5,0.23,energetic,cleaning hacks,talking head,dramatic,True,3.0,question,
+https://tiktok.com/v419,downy_official,Downy,Home Care,2024-03-07,Makro,False,1785341,35,0,,10,17,0.88,neutral,cleaning hacks,storytelling,funny,True,5.0,shocking statement,3.4
+https://tiktok.com/v420,sunlight_official,Sunlight,Home Care,2024-03-28,Makro,True,717044,29,1,surprised,0,18,0.02,,disinfecting,storytelling,calm,False,,,
+https://tiktok.com/v421,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-03-20,Makro,True,391592,23,1,happy,7,7,0.78,excited,haircare,storytelling,inspirational,True,5.0,shocking statement,3.52
+https://tiktok.com/v422,vaseline_official,Vaseline,Beauty and Wellbeing,2024-07-13,Mega,True,142483,29,1,angry,2,5,0.06,,haircare,storytelling,serious,True,3.0,relatable statement,
+https://tiktok.com/v423,vaseline_official,Vaseline,Beauty and Wellbeing,2024-02-19,Mega,True,632431,13,3,angry,4,14,0.31,serious,haircare,reaction,emotional,True,4.0,visual hook,
+https://tiktok.com/v424,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-02-04,Mega,True,110457,46,1,happy,6,17,0.59,energetic,haircare,aesthetic,dramatic,True,4.0,question,3.92
+https://tiktok.com/v425,pond's_official,Pond's,Beauty and Wellbeing,2024-05-16,Mega,True,188112,53,0,,3,16,0.91,serious,haircare,aesthetic,inspirational,True,2.0,question,1.78
+https://tiktok.com/v426,wardah_official,Wardah,Beauty and Wellbeing,2024-04-14,Mega,False,593794,51,0,,8,7,0.98,excited,fragrance,vlog,serious,True,4.0,relatable statement,3.25
+https://tiktok.com/v427,rinso_official,Rinso,Home Care,2024-07-12,Mikro,True,195588,9,3,surprised,5,5,0.02,,cleaning hacks,talking head,funny,True,4.0,relatable statement,
+https://tiktok.com/v428,dove_official,Dove,Beauty and Wellbeing,2024-06-11,Makro,True,781892,24,0,,3,10,0.61,excited,makeup,aesthetic,funny,True,1.0,visual hook,3.04
+https://tiktok.com/v429,mama_lemon_official,Mama Lemon,Home Care,2024-03-08,Nano,False,157830,5,1,happy,8,5,0.56,energetic,cleaning hacks,reaction,inspirational,True,3.0,question,2.63
+https://tiktok.com/v430,mama_lemon_official,Mama Lemon,Home Care,2024-04-06,Mikro,False,2623325,35,0,,4,2,0.73,energetic,disinfecting,reaction,funny,True,2.0,question,2.16
+https://tiktok.com/v431,rinso_official,Rinso,Home Care,2024-04-05,Makro,True,998220,6,1,happy,4,7,0.22,calm,home fragrance,reaction,dramatic,False,,,
+https://tiktok.com/v432,mama_lemon_official,Mama Lemon,Home Care,2024-01-16,Makro,False,254478,35,1,happy,5,9,0.09,,home fragrance,before after,emotional,False,,,
+https://tiktok.com/v433,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-02-21,Mega,True,377204,25,2,sad,4,8,0.13,calm,fragrance,aesthetic,emotional,True,3.0,curiosity gap,
+https://tiktok.com/v434,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-05-14,Mega,True,403928,37,1,surprised,0,7,0.68,excited,fragrance,reaction,dramatic,True,1.0,question,2.03
+https://tiktok.com/v435,attack_official,Attack,Home Care,2024-01-24,Nano,False,99033,53,0,,3,14,0.09,,laundry tips,aesthetic,funny,False,,,
+https://tiktok.com/v436,molto_official,Molto,Home Care,2024-02-16,Nano,True,95750,48,0,,9,19,0.61,neutral,disinfecting,vlog,dramatic,True,5.0,shocking statement,2.64
+https://tiktok.com/v437,super_pell_official,Super Pell,Home Care,2024-03-12,Mikro,True,1535662,14,3,neutral,1,10,0.21,energetic,disinfecting,tutorial,inspirational,True,5.0,question,
+https://tiktok.com/v438,wardah_official,Wardah,Beauty and Wellbeing,2024-05-14,Nano,False,264996,26,0,,4,3,0.62,neutral,fragrance,storytelling,calm,True,1.0,shocking statement,1.98
+https://tiktok.com/v439,sunlight_official,Sunlight,Home Care,2024-03-13,Mega,True,692411,21,0,,0,5,0.86,serious,disinfecting,tutorial,inspirational,True,4.0,relatable statement,2.15
+https://tiktok.com/v440,vaseline_official,Vaseline,Beauty and Wellbeing,2024-02-11,Mikro,True,145889,55,1,surprised,3,12,0.41,energetic,wellness,reaction,inspirational,False,,,
+https://tiktok.com/v441,molto_official,Molto,Home Care,2024-07-06,Nano,True,956569,13,2,sad,0,20,0.86,calm,home fragrance,storytelling,emotional,True,2.0,question,1.88
+https://tiktok.com/v442,super_pell_official,Super Pell,Home Care,2024-01-15,Mega,True,560432,34,1,surprised,10,20,0.65,energetic,disinfecting,aesthetic,emotional,True,1.0,relatable statement,1.85
+https://tiktok.com/v443,lux_official,Lux,Beauty and Wellbeing,2024-04-07,Mikro,True,328735,33,2,sad,7,15,0.81,energetic,fragrance,talking head,funny,True,3.0,shocking statement,3.89
+https://tiktok.com/v444,scarlett_official,Scarlett,Beauty and Wellbeing,2024-02-21,Makro,False,55444,28,1,sad,9,7,0.92,excited,wellness,tutorial,dramatic,True,1.0,shocking statement,3.9
+https://tiktok.com/v445,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-05-21,Makro,True,1989442,21,2,sad,3,12,0.7,energetic,wellness,tutorial,calm,True,2.0,relatable statement,2.62
+https://tiktok.com/v446,wipol_official,Wipol,Home Care,2024-07-03,Makro,True,217527,57,3,neutral,10,6,0.49,neutral,dishwashing,talking head,serious,True,5.0,relatable statement,
+https://tiktok.com/v447,so_klin_official,So Klin,Home Care,2024-02-11,Nano,False,2216704,23,2,sad,9,10,0.77,excited,laundry tips,storytelling,calm,False,,,2.83
+https://tiktok.com/v448,scarlett_official,Scarlett,Beauty and Wellbeing,2024-02-26,Mikro,False,1035846,31,1,surprised,2,9,0.34,energetic,haircare,aesthetic,funny,False,,,
+https://tiktok.com/v449,lux_official,Lux,Beauty and Wellbeing,2024-02-14,Makro,True,1029492,35,1,happy,6,2,0.65,neutral,haircare,before after,calm,True,3.0,relatable statement,3.48
+https://tiktok.com/v450,downy_official,Downy,Home Care,2024-01-06,Mikro,False,933110,7,2,angry,6,5,0.71,neutral,disinfecting,talking head,serious,False,,,3.0
+https://tiktok.com/v451,lux_official,Lux,Beauty and Wellbeing,2024-07-04,Nano,True,2577071,44,1,angry,4,6,0.57,calm,wellness,talking head,dramatic,False,,,1.74
+https://tiktok.com/v452,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-03-19,Mikro,True,776697,43,1,sad,6,13,0.8,serious,wellness,storytelling,emotional,True,5.0,curiosity gap,3.49
+https://tiktok.com/v453,make_over_official,Make Over,Beauty and Wellbeing,2024-06-08,Makro,False,339604,27,1,surprised,10,13,0.32,calm,haircare,vlog,emotional,True,4.0,relatable statement,
+https://tiktok.com/v454,pond's_official,Pond's,Beauty and Wellbeing,2024-04-02,Makro,True,164323,31,1,neutral,1,20,0.25,calm,wellness,aesthetic,emotional,False,,,
+https://tiktok.com/v455,mama_lemon_official,Mama Lemon,Home Care,2024-04-13,Nano,False,274433,54,1,happy,6,13,0.07,,laundry tips,before after,funny,False,,,
+https://tiktok.com/v456,dove_official,Dove,Beauty and Wellbeing,2024-04-15,Mikro,True,253438,43,1,neutral,2,7,0.7,serious,fragrance,before after,calm,True,3.0,visual hook,3.3
+https://tiktok.com/v457,super_pell_official,Super Pell,Home Care,2024-01-15,Makro,True,6160037,24,0,,0,13,0.07,,laundry tips,talking head,funny,True,4.0,shocking statement,
+https://tiktok.com/v458,attack_official,Attack,Home Care,2024-05-11,Makro,False,90059,10,0,,2,14,0.6,calm,home fragrance,storytelling,calm,False,,,2.02
+https://tiktok.com/v459,super_pell_official,Super Pell,Home Care,2024-06-18,Nano,True,156046,49,1,sad,3,19,0.07,,home fragrance,tutorial,dramatic,True,5.0,question,
+https://tiktok.com/v460,dove_official,Dove,Beauty and Wellbeing,2024-04-29,Mikro,True,826179,27,3,surprised,2,6,0.74,excited,haircare,before after,inspirational,False,,,3.26
+https://tiktok.com/v461,biore_official,Biore,Beauty and Wellbeing,2024-05-30,Mikro,False,490775,19,0,,5,10,0.02,,fragrance,aesthetic,calm,True,3.0,visual hook,
+https://tiktok.com/v462,make_over_official,Make Over,Beauty and Wellbeing,2024-06-11,Nano,False,245387,6,1,happy,2,17,0.43,neutral,wellness,aesthetic,calm,False,,,
+https://tiktok.com/v463,rinso_official,Rinso,Home Care,2024-02-29,Nano,True,896598,54,1,happy,0,3,0.45,neutral,laundry tips,storytelling,funny,False,,,
+https://tiktok.com/v464,mama_lemon_official,Mama Lemon,Home Care,2024-05-22,Nano,False,183446,14,2,surprised,0,13,0.65,neutral,disinfecting,vlog,emotional,False,,,2.08
+https://tiktok.com/v465,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-05-18,Mega,True,295832,18,1,neutral,6,2,0.18,calm,fragrance,vlog,serious,True,4.0,curiosity gap,
+https://tiktok.com/v466,vaseline_official,Vaseline,Beauty and Wellbeing,2024-02-08,Nano,True,482413,32,0,,10,11,0.16,excited,fragrance,tutorial,inspirational,True,5.0,relatable statement,
+https://tiktok.com/v467,pantene_official,Pantene,Beauty and Wellbeing,2024-03-07,Mega,False,278171,5,1,angry,10,16,0.29,serious,wellness,reaction,calm,True,3.0,relatable statement,
+https://tiktok.com/v468,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-05-03,Nano,True,481028,43,2,neutral,9,19,0.72,calm,wellness,tutorial,serious,True,3.0,visual hook,2.23
+https://tiktok.com/v469,vanish_official,Vanish,Home Care,2024-03-28,Mega,False,680562,39,3,neutral,8,12,0.69,energetic,laundry tips,vlog,emotional,True,1.0,relatable statement,2.16
+https://tiktok.com/v470,molto_official,Molto,Home Care,2024-01-18,Nano,True,596648,22,0,,6,10,0.74,serious,disinfecting,before after,dramatic,False,,,3.2
+https://tiktok.com/v471,vanish_official,Vanish,Home Care,2024-02-07,Mikro,False,941535,9,1,neutral,0,15,0.03,,home fragrance,reaction,inspirational,True,1.0,question,
+https://tiktok.com/v472,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-07-02,Mikro,True,675610,51,1,neutral,3,16,0.43,calm,fragrance,storytelling,funny,False,,,
+https://tiktok.com/v473,dove_official,Dove,Beauty and Wellbeing,2024-01-14,Makro,True,495066,60,1,sad,9,2,0.68,neutral,haircare,aesthetic,serious,True,2.0,relatable statement,2.35
+https://tiktok.com/v474,vanish_official,Vanish,Home Care,2024-05-02,Mikro,False,496021,36,1,happy,2,17,0.04,,cleaning hacks,aesthetic,calm,True,5.0,relatable statement,
+https://tiktok.com/v475,lux_official,Lux,Beauty and Wellbeing,2024-05-29,Mega,True,618099,36,1,sad,10,4,0.33,calm,fragrance,tutorial,funny,False,,,
+https://tiktok.com/v476,wipol_official,Wipol,Home Care,2024-04-18,Mega,True,23885,26,1,neutral,7,11,0.39,calm,dishwashing,talking head,inspirational,True,3.0,relatable statement,
+https://tiktok.com/v477,mama_lemon_official,Mama Lemon,Home Care,2024-06-22,Mikro,False,892306,31,1,surprised,7,15,0.04,,home fragrance,vlog,serious,False,,,
+https://tiktok.com/v478,biore_official,Biore,Beauty and Wellbeing,2024-03-17,Makro,False,1891988,57,1,sad,2,19,0.34,neutral,skincare,vlog,emotional,False,,,
+https://tiktok.com/v479,sunlight_official,Sunlight,Home Care,2024-05-26,Mikro,True,396323,59,0,,5,11,0.87,excited,dishwashing,vlog,dramatic,True,5.0,relatable statement,1.89
+https://tiktok.com/v480,vanish_official,Vanish,Home Care,2024-05-20,Mikro,False,184911,13,1,surprised,10,9,0.14,energetic,disinfecting,storytelling,funny,True,4.0,visual hook,
+https://tiktok.com/v481,wardah_official,Wardah,Beauty and Wellbeing,2024-07-10,Nano,False,297471,30,1,neutral,2,14,0.12,neutral,skincare,reaction,inspirational,True,5.0,curiosity gap,
+https://tiktok.com/v482,wipol_official,Wipol,Home Care,2024-06-03,Mikro,True,273237,56,1,surprised,0,4,0.58,neutral,disinfecting,storytelling,funny,True,5.0,curiosity gap,2.62
+https://tiktok.com/v483,attack_official,Attack,Home Care,2024-02-24,Makro,False,232896,15,2,angry,8,19,0.11,excited,disinfecting,talking head,dramatic,True,3.0,relatable statement,
+https://tiktok.com/v484,scarlett_official,Scarlett,Beauty and Wellbeing,2024-05-04,Mega,False,407252,5,1,sad,6,11,0.74,energetic,skincare,talking head,funny,True,5.0,question,3.97
+https://tiktok.com/v485,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-01-05,Nano,True,603134,32,0,,1,9,0.81,energetic,fragrance,reaction,funny,True,1.0,visual hook,1.71
+https://tiktok.com/v486,lux_official,Lux,Beauty and Wellbeing,2024-03-05,Mikro,True,411341,40,1,sad,1,19,0.74,calm,fragrance,before after,calm,False,,,2.99
+https://tiktok.com/v487,vanish_official,Vanish,Home Care,2024-04-01,Makro,False,738597,33,1,neutral,2,11,0.49,neutral,dishwashing,reaction,emotional,True,5.0,relatable statement,
+https://tiktok.com/v488,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-06-25,Makro,True,312352,58,3,sad,6,7,0.55,serious,haircare,tutorial,funny,True,4.0,shocking statement,2.73
+https://tiktok.com/v489,vaseline_official,Vaseline,Beauty and Wellbeing,2024-03-16,Nano,True,189036,27,1,happy,4,18,0.64,neutral,fragrance,vlog,serious,True,4.0,shocking statement,2.98
+https://tiktok.com/v490,scarlett_official,Scarlett,Beauty and Wellbeing,2024-03-11,Makro,False,2285012,46,1,sad,0,16,0.84,calm,wellness,vlog,inspirational,True,1.0,curiosity gap,2.57
+https://tiktok.com/v491,make_over_official,Make Over,Beauty and Wellbeing,2024-01-08,Nano,False,589349,58,0,,1,10,0.35,neutral,haircare,aesthetic,inspirational,True,2.0,relatable statement,
+https://tiktok.com/v492,wardah_official,Wardah,Beauty and Wellbeing,2024-07-10,Nano,False,138542,45,1,neutral,10,12,0.57,excited,skincare,tutorial,dramatic,True,1.0,question,3.18
+https://tiktok.com/v493,dove_official,Dove,Beauty and Wellbeing,2024-06-19,Mikro,True,425430,9,1,surprised,9,6,0.25,calm,wellness,storytelling,dramatic,True,3.0,shocking statement,
+https://tiktok.com/v494,sunlight_official,Sunlight,Home Care,2024-03-02,Mikro,True,87769,38,0,,2,18,0.53,energetic,laundry tips,talking head,funny,True,2.0,question,3.4
+https://tiktok.com/v495,wipol_official,Wipol,Home Care,2024-01-06,Mega,True,7237498,18,0,,4,4,0.38,energetic,home fragrance,before after,dramatic,True,1.0,relatable statement,
+https://tiktok.com/v496,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-02-04,Makro,True,639169,14,1,surprised,1,10,0.58,energetic,fragrance,reaction,serious,True,4.0,visual hook,2.5
+https://tiktok.com/v497,super_pell_official,Super Pell,Home Care,2024-05-07,Nano,True,1297670,27,2,angry,3,14,0.91,calm,dishwashing,tutorial,emotional,False,,,3.51
+https://tiktok.com/v498,molto_official,Molto,Home Care,2024-04-30,Mikro,True,230536,9,2,sad,3,12,0.33,energetic,cleaning hacks,aesthetic,serious,True,3.0,curiosity gap,
+https://tiktok.com/v499,molto_official,Molto,Home Care,2024-07-15,Mega,True,122917,42,1,angry,4,6,0.66,calm,dishwashing,vlog,calm,True,4.0,shocking statement,3.6
+https://tiktok.com/v500,molto_official,Molto,Home Care,2024-06-05,Mega,True,143555,20,1,sad,1,13,0.14,energetic,cleaning hacks,talking head,emotional,True,2.0,relatable statement,
+https://tiktok.com/v501,make_over_official,Make Over,Beauty and Wellbeing,2024-02-20,Mikro,False,80583,59,2,surprised,9,11,0.11,energetic,makeup,talking head,inspirational,True,3.0,visual hook,
+https://tiktok.com/v502,dove_official,Dove,Beauty and Wellbeing,2024-04-08,Mikro,True,721637,34,2,neutral,0,20,0.65,neutral,makeup,before after,dramatic,True,1.0,visual hook,2.84
+https://tiktok.com/v503,vaseline_official,Vaseline,Beauty and Wellbeing,2024-05-13,Makro,True,1089293,58,0,,5,7,0.01,,fragrance,reaction,dramatic,False,,,
+https://tiktok.com/v504,super_pell_official,Super Pell,Home Care,2024-02-08,Mikro,True,78042,11,0,,1,12,0.94,serious,cleaning hacks,aesthetic,inspirational,True,5.0,relatable statement,2.55
+https://tiktok.com/v505,dove_official,Dove,Beauty and Wellbeing,2024-03-03,Nano,True,460047,6,1,angry,5,19,0.34,calm,makeup,vlog,calm,True,1.0,shocking statement,
+https://tiktok.com/v506,so_klin_official,So Klin,Home Care,2024-06-24,Mega,False,646271,60,2,angry,5,13,0.34,calm,disinfecting,before after,funny,True,2.0,visual hook,
+https://tiktok.com/v507,super_pell_official,Super Pell,Home Care,2024-02-18,Mega,True,589108,30,0,,8,3,0.32,neutral,disinfecting,before after,calm,True,4.0,visual hook,
+https://tiktok.com/v508,sunlight_official,Sunlight,Home Care,2024-04-04,Makro,True,47910,43,1,sad,10,19,0.55,neutral,laundry tips,vlog,inspirational,True,1.0,shocking statement,2.09
+https://tiktok.com/v509,so_klin_official,So Klin,Home Care,2024-07-10,Mega,False,225545,53,2,sad,1,10,0.1,,disinfecting,storytelling,emotional,False,,,
+https://tiktok.com/v510,vaseline_official,Vaseline,Beauty and Wellbeing,2024-03-01,Nano,True,410422,7,1,sad,8,8,0.45,neutral,fragrance,reaction,calm,True,3.0,visual hook,
+https://tiktok.com/v511,lux_official,Lux,Beauty and Wellbeing,2024-02-09,Mikro,True,244326,42,2,surprised,10,9,0.44,serious,makeup,reaction,serious,True,4.0,question,
+https://tiktok.com/v512,attack_official,Attack,Home Care,2024-03-15,Makro,False,518788,32,3,angry,3,14,0.05,,disinfecting,before after,funny,False,,,
+https://tiktok.com/v513,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-01-22,Nano,True,450427,25,2,happy,1,8,0.54,excited,makeup,tutorial,dramatic,True,5.0,visual hook,3.22
+https://tiktok.com/v514,super_pell_official,Super Pell,Home Care,2024-02-24,Nano,True,533958,25,1,happy,0,15,0.03,,disinfecting,storytelling,dramatic,False,,,
+https://tiktok.com/v515,vaseline_official,Vaseline,Beauty and Wellbeing,2024-04-06,Makro,True,638125,54,2,surprised,5,12,0.66,energetic,makeup,before after,funny,True,5.0,visual hook,1.96
+https://tiktok.com/v516,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-04-18,Mega,True,489076,52,3,neutral,4,17,0.64,energetic,haircare,storytelling,serious,True,3.0,shocking statement,1.92
+https://tiktok.com/v517,wardah_official,Wardah,Beauty and Wellbeing,2024-03-27,Nano,False,410798,20,2,neutral,4,4,0.44,serious,wellness,tutorial,serious,False,,,
+https://tiktok.com/v518,make_over_official,Make Over,Beauty and Wellbeing,2024-05-01,Mikro,False,894908,7,1,sad,2,2,0.09,,makeup,storytelling,funny,True,4.0,visual hook,
+https://tiktok.com/v519,pond's_official,Pond's,Beauty and Wellbeing,2024-04-13,Mikro,True,819784,6,2,happy,1,10,0.75,excited,haircare,before after,calm,True,4.0,question,3.17
+https://tiktok.com/v520,wipol_official,Wipol,Home Care,2024-01-19,Mega,True,452964,22,2,neutral,1,12,0.49,energetic,disinfecting,tutorial,inspirational,False,,,
+https://tiktok.com/v521,vanish_official,Vanish,Home Care,2024-06-05,Mikro,False,2636237,19,1,sad,4,11,0.16,energetic,cleaning hacks,storytelling,funny,True,3.0,curiosity gap,
+https://tiktok.com/v522,pond's_official,Pond's,Beauty and Wellbeing,2024-05-09,Mega,True,188858,12,0,,10,5,0.15,serious,wellness,aesthetic,calm,False,,,
+https://tiktok.com/v523,vaseline_official,Vaseline,Beauty and Wellbeing,2024-04-27,Mega,True,232255,46,3,happy,6,7,0.67,neutral,skincare,before after,dramatic,True,3.0,relatable statement,1.81
+https://tiktok.com/v524,dove_official,Dove,Beauty and Wellbeing,2024-06-20,Makro,True,5432143,11,3,sad,8,18,0.39,excited,skincare,reaction,emotional,False,,,
+https://tiktok.com/v525,mama_lemon_official,Mama Lemon,Home Care,2024-05-28,Makro,False,313880,30,3,sad,7,13,0.08,,laundry tips,talking head,calm,True,1.0,visual hook,
+https://tiktok.com/v526,pantene_official,Pantene,Beauty and Wellbeing,2024-05-12,Mikro,False,537557,50,3,neutral,2,3,0.29,calm,fragrance,storytelling,inspirational,True,4.0,curiosity gap,
+https://tiktok.com/v527,super_pell_official,Super Pell,Home Care,2024-02-11,Mega,True,572600,25,1,happy,3,11,0.69,energetic,home fragrance,storytelling,emotional,True,5.0,visual hook,2.51
+https://tiktok.com/v528,sunlight_official,Sunlight,Home Care,2024-03-20,Mega,True,618517,55,1,surprised,1,15,0.12,excited,disinfecting,reaction,calm,True,2.0,question,
+https://tiktok.com/v529,super_pell_official,Super Pell,Home Care,2024-05-23,Makro,True,161251,35,0,,5,4,0.82,energetic,cleaning hacks,reaction,emotional,True,3.0,shocking statement,3.31
+https://tiktok.com/v530,wardah_official,Wardah,Beauty and Wellbeing,2024-07-14,Mikro,False,209596,50,1,happy,7,11,0.34,energetic,haircare,aesthetic,funny,True,2.0,relatable statement,
+https://tiktok.com/v531,lux_official,Lux,Beauty and Wellbeing,2024-05-11,Mega,True,596323,58,0,,6,8,0.43,serious,wellness,aesthetic,inspirational,True,5.0,relatable statement,
+https://tiktok.com/v532,super_pell_official,Super Pell,Home Care,2024-02-13,Makro,True,1063110,54,1,sad,3,14,0.59,serious,laundry tips,storytelling,serious,True,4.0,relatable statement,3.55
+https://tiktok.com/v533,vanish_official,Vanish,Home Care,2024-06-07,Mega,False,858425,58,1,surprised,7,13,0.86,serious,dishwashing,tutorial,serious,False,,,1.65
+https://tiktok.com/v534,vaseline_official,Vaseline,Beauty and Wellbeing,2024-04-25,Makro,True,892431,39,0,,3,16,0.13,calm,skincare,tutorial,dramatic,True,4.0,relatable statement,
+https://tiktok.com/v535,rinso_official,Rinso,Home Care,2024-05-28,Mikro,True,532608,38,1,happy,3,14,0.17,energetic,home fragrance,storytelling,funny,True,1.0,visual hook,
+https://tiktok.com/v536,dove_official,Dove,Beauty and Wellbeing,2024-01-15,Mikro,True,465664,12,1,sad,5,18,0.82,serious,skincare,aesthetic,serious,True,2.0,visual hook,3.06
+https://tiktok.com/v537,lux_official,Lux,Beauty and Wellbeing,2024-03-26,Nano,True,64870,25,1,surprised,5,13,0.1,,makeup,storytelling,dramatic,True,1.0,curiosity gap,
+https://tiktok.com/v538,pond's_official,Pond's,Beauty and Wellbeing,2024-01-28,Makro,True,650699,60,1,surprised,10,6,0.03,,fragrance,aesthetic,emotional,True,4.0,relatable statement,
+https://tiktok.com/v539,sunlight_official,Sunlight,Home Care,2024-03-17,Makro,True,13271232,8,1,angry,6,15,0.09,,dishwashing,vlog,emotional,True,5.0,question,
+https://tiktok.com/v540,super_pell_official,Super Pell,Home Care,2024-04-23,Makro,True,91459,49,1,sad,9,16,0.58,serious,cleaning hacks,before after,emotional,False,,,3.46
+https://tiktok.com/v541,wipol_official,Wipol,Home Care,2024-02-24,Nano,True,119084,51,0,,10,5,0.14,excited,cleaning hacks,vlog,inspirational,True,1.0,relatable statement,
+https://tiktok.com/v542,rinso_official,Rinso,Home Care,2024-04-17,Mikro,True,4523106,53,1,happy,3,10,0.04,,cleaning hacks,aesthetic,funny,False,,,
+https://tiktok.com/v543,super_pell_official,Super Pell,Home Care,2024-05-20,Nano,True,1004588,15,1,neutral,1,19,0.22,neutral,dishwashing,aesthetic,emotional,False,,,
+https://tiktok.com/v544,rinso_official,Rinso,Home Care,2024-06-12,Nano,True,541632,50,1,sad,0,14,0.35,energetic,laundry tips,talking head,emotional,False,,,
+https://tiktok.com/v545,vanish_official,Vanish,Home Care,2024-05-03,Nano,False,243723,7,1,surprised,0,12,0.16,neutral,cleaning hacks,storytelling,dramatic,True,2.0,relatable statement,
+https://tiktok.com/v546,rinso_official,Rinso,Home Care,2024-02-20,Makro,True,81648,17,1,sad,7,13,0.5,serious,disinfecting,storytelling,serious,True,5.0,relatable statement,
+https://tiktok.com/v547,super_pell_official,Super Pell,Home Care,2024-05-15,Makro,True,461415,50,1,happy,7,15,0.61,energetic,dishwashing,storytelling,dramatic,True,3.0,visual hook,3.75
+https://tiktok.com/v548,rinso_official,Rinso,Home Care,2024-07-14,Nano,True,1104618,39,1,neutral,8,19,0.32,calm,laundry tips,before after,funny,True,2.0,curiosity gap,
+https://tiktok.com/v549,mama_lemon_official,Mama Lemon,Home Care,2024-06-27,Nano,False,419304,21,0,,2,16,0.39,calm,dishwashing,vlog,serious,True,2.0,curiosity gap,
+https://tiktok.com/v550,vanish_official,Vanish,Home Care,2024-02-18,Makro,False,5504032,51,3,surprised,8,15,0.56,calm,cleaning hacks,aesthetic,serious,True,4.0,relatable statement,3.44
+https://tiktok.com/v551,pond's_official,Pond's,Beauty and Wellbeing,2024-06-26,Nano,True,738946,40,0,,9,17,0.2,energetic,fragrance,talking head,serious,True,3.0,question,
+https://tiktok.com/v552,so_klin_official,So Klin,Home Care,2024-03-19,Makro,False,256644,20,2,happy,5,13,0.25,excited,laundry tips,storytelling,inspirational,True,2.0,visual hook,
+https://tiktok.com/v553,scarlett_official,Scarlett,Beauty and Wellbeing,2024-03-18,Nano,False,108540,59,0,,9,4,0.53,neutral,skincare,vlog,inspirational,True,5.0,relatable statement,2.93
+https://tiktok.com/v554,vaseline_official,Vaseline,Beauty and Wellbeing,2024-03-22,Mega,True,193353,19,1,sad,1,15,0.69,calm,skincare,reaction,calm,True,5.0,curiosity gap,1.83
+https://tiktok.com/v555,pantene_official,Pantene,Beauty and Wellbeing,2024-05-19,Makro,False,2013663,40,1,neutral,8,2,0.22,neutral,fragrance,storytelling,serious,True,1.0,question,
+https://tiktok.com/v556,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-05-13,Mikro,True,1552110,20,0,,4,18,0.55,neutral,wellness,reaction,calm,True,2.0,shocking statement,3.8
+https://tiktok.com/v557,mama_lemon_official,Mama Lemon,Home Care,2024-04-25,Mega,False,462161,8,2,surprised,4,10,0.62,neutral,laundry tips,aesthetic,serious,False,,,1.65
+https://tiktok.com/v558,sunlight_official,Sunlight,Home Care,2024-06-25,Mega,True,825559,46,2,neutral,2,17,0.51,excited,home fragrance,before after,serious,True,3.0,shocking statement,1.58
+https://tiktok.com/v559,downy_official,Downy,Home Care,2024-03-03,Makro,False,258590,35,1,surprised,2,2,0.15,serious,cleaning hacks,tutorial,emotional,True,1.0,shocking statement,
+https://tiktok.com/v560,downy_official,Downy,Home Care,2024-06-27,Mega,False,288519,31,1,neutral,1,5,0.89,energetic,home fragrance,storytelling,inspirational,True,3.0,curiosity gap,3.81
+https://tiktok.com/v561,scarlett_official,Scarlett,Beauty and Wellbeing,2024-01-27,Mikro,False,68780,43,0,,4,17,0.18,excited,skincare,vlog,inspirational,True,2.0,relatable statement,
+https://tiktok.com/v562,wipol_official,Wipol,Home Care,2024-01-21,Mikro,True,153419,33,2,sad,5,4,0.26,energetic,home fragrance,before after,emotional,True,4.0,visual hook,
+https://tiktok.com/v563,pantene_official,Pantene,Beauty and Wellbeing,2024-05-20,Nano,False,2563470,12,2,surprised,10,13,0.36,energetic,makeup,talking head,dramatic,True,5.0,curiosity gap,
+https://tiktok.com/v564,so_klin_official,So Klin,Home Care,2024-01-31,Makro,False,744028,53,3,happy,4,8,0.47,calm,laundry tips,reaction,emotional,True,4.0,shocking statement,
+https://tiktok.com/v565,so_klin_official,So Klin,Home Care,2024-06-23,Makro,False,322149,39,1,angry,7,10,0.55,calm,cleaning hacks,aesthetic,inspirational,True,1.0,visual hook,1.6
+https://tiktok.com/v566,so_klin_official,So Klin,Home Care,2024-05-25,Mega,False,1250120,37,1,happy,2,7,0.61,neutral,disinfecting,storytelling,funny,True,3.0,shocking statement,1.71
+https://tiktok.com/v567,downy_official,Downy,Home Care,2024-07-12,Nano,False,1169196,41,1,angry,0,8,0.8,neutral,laundry tips,aesthetic,emotional,True,2.0,shocking statement,2.26
+https://tiktok.com/v568,make_over_official,Make Over,Beauty and Wellbeing,2024-07-19,Makro,False,160243,14,1,happy,8,13,0.82,excited,wellness,vlog,funny,True,5.0,shocking statement,2.78
+https://tiktok.com/v569,sunlight_official,Sunlight,Home Care,2024-06-09,Mikro,True,1201208,56,0,,8,12,0.01,,cleaning hacks,storytelling,funny,True,1.0,visual hook,
+https://tiktok.com/v570,mama_lemon_official,Mama Lemon,Home Care,2024-02-18,Mega,False,989356,24,1,surprised,2,19,0.93,excited,dishwashing,aesthetic,emotional,True,5.0,question,2.22
+https://tiktok.com/v571,super_pell_official,Super Pell,Home Care,2024-03-02,Nano,True,258276,31,0,,0,9,0.28,excited,laundry tips,vlog,serious,False,,,
+https://tiktok.com/v572,scarlett_official,Scarlett,Beauty and Wellbeing,2024-03-26,Makro,False,256970,46,1,sad,10,9,0.92,excited,skincare,reaction,dramatic,False,,,1.5
+https://tiktok.com/v573,so_klin_official,So Klin,Home Care,2024-05-19,Makro,False,125252,13,0,,3,13,0.75,neutral,disinfecting,vlog,funny,True,2.0,curiosity gap,2.69
+https://tiktok.com/v574,rinso_official,Rinso,Home Care,2024-07-08,Makro,True,448885,6,3,happy,7,15,0.27,calm,dishwashing,tutorial,inspirational,True,2.0,curiosity gap,
+https://tiktok.com/v575,pond's_official,Pond's,Beauty and Wellbeing,2024-06-01,Nano,True,553584,49,1,surprised,8,9,0.98,neutral,wellness,reaction,calm,False,,,3.21
+https://tiktok.com/v576,molto_official,Molto,Home Care,2024-03-07,Nano,True,200637,6,1,angry,9,8,0.71,calm,home fragrance,aesthetic,calm,True,1.0,visual hook,2.65
+https://tiktok.com/v577,attack_official,Attack,Home Care,2024-05-06,Makro,False,179511,13,0,,3,18,0.95,neutral,dishwashing,aesthetic,funny,False,,,2.03
+https://tiktok.com/v578,attack_official,Attack,Home Care,2024-03-21,Makro,False,666042,46,1,sad,8,2,0.5,calm,home fragrance,aesthetic,serious,True,3.0,shocking statement,
+https://tiktok.com/v579,make_over_official,Make Over,Beauty and Wellbeing,2024-02-21,Nano,False,2739909,18,2,neutral,4,12,0.65,calm,skincare,storytelling,funny,True,2.0,question,3.61
+https://tiktok.com/v580,so_klin_official,So Klin,Home Care,2024-04-10,Mikro,False,453354,52,1,happy,7,14,0.96,calm,dishwashing,aesthetic,emotional,True,5.0,relatable statement,3.48
+https://tiktok.com/v581,wipol_official,Wipol,Home Care,2024-04-14,Nano,True,506454,58,0,,7,9,0.43,energetic,dishwashing,storytelling,dramatic,True,1.0,curiosity gap,
+https://tiktok.com/v582,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-07-13,Mega,True,1251772,21,0,,1,7,0.86,serious,fragrance,aesthetic,calm,True,1.0,shocking statement,3.84
+https://tiktok.com/v583,mama_lemon_official,Mama Lemon,Home Care,2024-03-20,Mega,False,226129,20,1,sad,7,2,0.81,calm,disinfecting,aesthetic,funny,True,1.0,relatable statement,2.06
+https://tiktok.com/v584,attack_official,Attack,Home Care,2024-04-09,Makro,False,315015,52,2,happy,9,20,0.58,calm,home fragrance,before after,dramatic,True,2.0,question,2.47
+https://tiktok.com/v585,mama_lemon_official,Mama Lemon,Home Care,2024-02-18,Mega,False,453192,46,0,,1,2,0.36,excited,cleaning hacks,storytelling,inspirational,True,5.0,relatable statement,
+https://tiktok.com/v586,pond's_official,Pond's,Beauty and Wellbeing,2024-07-08,Makro,True,447859,13,0,,7,13,0.35,excited,fragrance,talking head,inspirational,True,5.0,relatable statement,
+https://tiktok.com/v587,lux_official,Lux,Beauty and Wellbeing,2024-07-04,Nano,True,254777,16,2,sad,0,18,0.22,calm,haircare,before after,emotional,True,3.0,visual hook,
+https://tiktok.com/v588,so_klin_official,So Klin,Home Care,2024-01-03,Mega,False,428734,25,0,,0,13,0.63,calm,home fragrance,before after,dramatic,False,,,1.56
+https://tiktok.com/v589,pantene_official,Pantene,Beauty and Wellbeing,2024-04-06,Mikro,False,429191,52,2,surprised,3,11,0.79,neutral,fragrance,before after,emotional,True,3.0,visual hook,3.87
+https://tiktok.com/v590,dove_official,Dove,Beauty and Wellbeing,2024-02-29,Nano,True,318181,59,0,,6,8,0.37,energetic,haircare,talking head,serious,True,5.0,relatable statement,
+https://tiktok.com/v591,rinso_official,Rinso,Home Care,2024-01-26,Mega,True,488127,27,0,,8,3,0.57,excited,disinfecting,tutorial,dramatic,True,2.0,question,3.47
+https://tiktok.com/v592,so_klin_official,So Klin,Home Care,2024-02-22,Nano,False,1934650,57,2,happy,3,20,0.01,,disinfecting,storytelling,dramatic,False,,,
+https://tiktok.com/v593,downy_official,Downy,Home Care,2024-02-06,Mega,False,557690,13,2,neutral,5,8,0.91,excited,home fragrance,storytelling,inspirational,True,3.0,question,3.26
+https://tiktok.com/v594,pantene_official,Pantene,Beauty and Wellbeing,2024-05-09,Makro,False,154253,46,2,sad,10,7,0.5,excited,fragrance,before after,funny,True,2.0,relatable statement,
+https://tiktok.com/v595,scarlett_official,Scarlett,Beauty and Wellbeing,2024-03-16,Mega,False,170472,38,1,sad,8,10,0.11,excited,haircare,vlog,serious,True,3.0,shocking statement,
+https://tiktok.com/v596,lux_official,Lux,Beauty and Wellbeing,2024-05-30,Mega,True,112704,52,1,sad,10,20,0.69,excited,wellness,talking head,calm,True,3.0,shocking statement,2.19
+https://tiktok.com/v597,vanish_official,Vanish,Home Care,2024-06-07,Mega,False,154684,12,2,angry,3,13,0.31,serious,dishwashing,aesthetic,funny,True,4.0,question,
+https://tiktok.com/v598,dove_official,Dove,Beauty and Wellbeing,2024-07-02,Nano,True,1089679,43,1,angry,6,12,0.79,calm,haircare,storytelling,funny,True,1.0,question,2.5
+https://tiktok.com/v599,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-05-23,Mikro,True,22305,24,1,sad,7,20,0.13,energetic,makeup,before after,dramatic,True,2.0,shocking statement,
+https://tiktok.com/v600,dove_official,Dove,Beauty and Wellbeing,2024-07-13,Makro,True,429810,15,1,angry,3,14,0.23,calm,fragrance,tutorial,funny,True,5.0,question,
+https://tiktok.com/v601,lux_official,Lux,Beauty and Wellbeing,2024-03-08,Nano,True,220648,55,1,happy,9,7,0.87,serious,haircare,vlog,serious,True,3.0,curiosity gap,2.6
+https://tiktok.com/v602,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-07-18,Mikro,True,210124,38,1,sad,10,7,0.09,,fragrance,reaction,dramatic,True,5.0,visual hook,
+https://tiktok.com/v603,rinso_official,Rinso,Home Care,2024-06-30,Makro,True,411384,48,2,neutral,4,5,0.33,calm,cleaning hacks,storytelling,serious,True,5.0,curiosity gap,
+https://tiktok.com/v604,so_klin_official,So Klin,Home Care,2024-04-21,Mega,False,193605,53,0,,8,16,0.15,excited,home fragrance,tutorial,calm,True,5.0,question,
+https://tiktok.com/v605,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-02-25,Makro,True,430025,23,0,,6,4,0.86,serious,makeup,tutorial,inspirational,True,1.0,relatable statement,2.78
+https://tiktok.com/v606,molto_official,Molto,Home Care,2024-07-05,Makro,True,544873,44,1,neutral,2,18,0.74,excited,laundry tips,reaction,calm,False,,,1.83
+https://tiktok.com/v607,super_pell_official,Super Pell,Home Care,2024-06-05,Mega,True,1035057,55,1,surprised,1,9,0.36,neutral,disinfecting,storytelling,serious,True,5.0,relatable statement,
+https://tiktok.com/v608,molto_official,Molto,Home Care,2024-05-07,Makro,True,150885,21,1,angry,6,17,0.5,excited,cleaning hacks,tutorial,serious,False,,,
+https://tiktok.com/v609,vanish_official,Vanish,Home Care,2024-03-17,Mikro,False,508641,30,1,neutral,5,6,0.31,calm,dishwashing,storytelling,dramatic,True,4.0,curiosity gap,
+https://tiktok.com/v610,wardah_official,Wardah,Beauty and Wellbeing,2024-04-15,Mega,False,588224,41,3,angry,9,16,0.96,energetic,skincare,storytelling,emotional,True,3.0,curiosity gap,2.89
+https://tiktok.com/v611,rinso_official,Rinso,Home Care,2024-01-31,Mega,True,1060200,44,3,neutral,4,5,0.87,calm,home fragrance,aesthetic,dramatic,True,2.0,shocking statement,3.97
+https://tiktok.com/v612,attack_official,Attack,Home Care,2024-05-29,Mega,False,198109,10,1,sad,10,12,0.62,energetic,cleaning hacks,talking head,calm,True,3.0,question,2.12
+https://tiktok.com/v613,super_pell_official,Super Pell,Home Care,2024-06-08,Mega,True,196416,45,1,sad,5,15,0.6,serious,cleaning hacks,before after,funny,True,4.0,shocking statement,3.94
+https://tiktok.com/v614,rinso_official,Rinso,Home Care,2024-07-03,Nano,True,303357,50,2,angry,5,7,0.43,excited,disinfecting,vlog,serious,True,3.0,relatable statement,
+https://tiktok.com/v615,pantene_official,Pantene,Beauty and Wellbeing,2024-04-10,Makro,False,3632533,43,0,,6,15,0.56,calm,haircare,vlog,dramatic,False,,,3.94
+https://tiktok.com/v616,scarlett_official,Scarlett,Beauty and Wellbeing,2024-01-03,Mikro,False,953971,22,2,neutral,5,18,0.21,calm,haircare,reaction,inspirational,True,3.0,curiosity gap,
+https://tiktok.com/v617,sunlight_official,Sunlight,Home Care,2024-02-23,Mikro,True,93799,42,0,,9,12,0.35,calm,laundry tips,talking head,dramatic,True,4.0,shocking statement,
+https://tiktok.com/v618,lux_official,Lux,Beauty and Wellbeing,2024-03-30,Mikro,True,695130,6,1,happy,6,17,0.97,serious,skincare,tutorial,calm,True,2.0,curiosity gap,3.35
+https://tiktok.com/v619,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-05-15,Makro,True,165763,8,1,angry,1,6,0.03,,wellness,tutorial,inspirational,True,4.0,shocking statement,
+https://tiktok.com/v620,scarlett_official,Scarlett,Beauty and Wellbeing,2024-04-23,Mega,False,1773134,26,1,surprised,9,2,0.99,excited,haircare,before after,emotional,True,2.0,relatable statement,2.41
+https://tiktok.com/v621,wardah_official,Wardah,Beauty and Wellbeing,2024-03-19,Mega,False,182963,38,3,surprised,4,12,0.05,,skincare,reaction,calm,True,2.0,curiosity gap,
+https://tiktok.com/v622,scarlett_official,Scarlett,Beauty and Wellbeing,2024-02-08,Mikro,False,323397,31,0,,0,15,0.52,calm,makeup,vlog,serious,False,,,3.06
+https://tiktok.com/v623,wipol_official,Wipol,Home Care,2024-05-24,Nano,True,714880,18,1,sad,8,16,0.77,neutral,disinfecting,reaction,serious,False,,,3.64
+https://tiktok.com/v624,make_over_official,Make Over,Beauty and Wellbeing,2024-02-05,Nano,False,438450,7,2,sad,10,13,0.21,energetic,wellness,reaction,inspirational,True,4.0,shocking statement,
+https://tiktok.com/v625,pond's_official,Pond's,Beauty and Wellbeing,2024-02-22,Mega,True,227867,53,0,,8,10,0.2,energetic,wellness,before after,calm,True,2.0,relatable statement,
+https://tiktok.com/v626,dove_official,Dove,Beauty and Wellbeing,2024-04-25,Makro,True,145407,29,2,angry,0,5,0.79,calm,wellness,tutorial,dramatic,True,4.0,curiosity gap,3.61
+https://tiktok.com/v627,sunlight_official,Sunlight,Home Care,2024-05-21,Mega,True,655379,45,2,happy,10,4,0.8,calm,disinfecting,tutorial,inspirational,True,4.0,question,3.77
+https://tiktok.com/v628,attack_official,Attack,Home Care,2024-06-03,Makro,False,232349,6,1,surprised,9,5,0.15,excited,dishwashing,storytelling,funny,True,5.0,relatable statement,
+https://tiktok.com/v629,molto_official,Molto,Home Care,2024-02-17,Mega,True,304357,43,1,neutral,5,3,0.72,serious,dishwashing,reaction,calm,True,2.0,relatable statement,2.15
+https://tiktok.com/v630,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-04-04,Makro,True,322293,56,2,sad,9,12,0.58,energetic,fragrance,vlog,calm,False,,,3.68
+https://tiktok.com/v631,rinso_official,Rinso,Home Care,2024-06-10,Nano,True,763639,5,1,happy,6,13,0.92,calm,disinfecting,talking head,emotional,True,3.0,relatable statement,3.03
+https://tiktok.com/v632,lux_official,Lux,Beauty and Wellbeing,2024-03-16,Nano,True,1038348,18,1,neutral,7,5,0.22,neutral,makeup,storytelling,emotional,True,1.0,visual hook,
+https://tiktok.com/v633,rinso_official,Rinso,Home Care,2024-02-12,Nano,True,1181299,15,1,sad,9,5,0.19,serious,laundry tips,tutorial,inspirational,True,4.0,relatable statement,
+https://tiktok.com/v634,sunlight_official,Sunlight,Home Care,2024-04-04,Mega,True,534224,33,1,neutral,2,20,0.76,energetic,cleaning hacks,before after,calm,True,5.0,relatable statement,2.92
+https://tiktok.com/v635,vaseline_official,Vaseline,Beauty and Wellbeing,2024-05-04,Makro,True,365896,57,3,neutral,9,17,0.51,neutral,wellness,talking head,funny,True,3.0,question,1.74
+https://tiktok.com/v636,sunlight_official,Sunlight,Home Care,2024-02-07,Makro,True,521988,15,1,neutral,7,19,0.07,,dishwashing,before after,calm,True,3.0,relatable statement,
+https://tiktok.com/v637,super_pell_official,Super Pell,Home Care,2024-05-28,Mega,True,897986,33,1,angry,9,7,0.37,excited,laundry tips,vlog,inspirational,True,3.0,curiosity gap,
+https://tiktok.com/v638,wipol_official,Wipol,Home Care,2024-02-21,Makro,True,1709682,14,2,angry,0,15,0.47,serious,cleaning hacks,reaction,inspirational,False,,,
+https://tiktok.com/v639,lux_official,Lux,Beauty and Wellbeing,2024-07-10,Mikro,True,954574,17,1,surprised,8,6,0.23,excited,wellness,storytelling,dramatic,True,5.0,shocking statement,
+https://tiktok.com/v640,wipol_official,Wipol,Home Care,2024-04-05,Nano,True,816478,51,1,happy,1,15,0.18,excited,disinfecting,aesthetic,funny,False,,,
+https://tiktok.com/v641,biore_official,Biore,Beauty and Wellbeing,2024-04-14,Nano,False,45966,19,3,sad,5,2,0.73,serious,makeup,vlog,emotional,True,5.0,shocking statement,3.77
+https://tiktok.com/v642,molto_official,Molto,Home Care,2024-05-07,Mega,True,225908,11,1,happy,2,15,0.59,calm,disinfecting,storytelling,dramatic,True,1.0,question,3.64
+https://tiktok.com/v643,vaseline_official,Vaseline,Beauty and Wellbeing,2024-06-13,Nano,True,243377,11,0,,1,8,0.37,excited,fragrance,tutorial,funny,False,,,
+https://tiktok.com/v644,molto_official,Molto,Home Care,2024-06-19,Mega,True,174955,31,2,angry,10,14,0.67,excited,dishwashing,aesthetic,serious,True,5.0,shocking statement,1.82
+https://tiktok.com/v645,attack_official,Attack,Home Care,2024-05-04,Mega,False,85700,24,1,neutral,6,12,0.82,calm,laundry tips,reaction,emotional,True,3.0,question,3.28
+https://tiktok.com/v646,rinso_official,Rinso,Home Care,2024-05-12,Makro,True,101138,27,0,,7,8,0.22,serious,laundry tips,vlog,funny,False,,,
+https://tiktok.com/v647,pantene_official,Pantene,Beauty and Wellbeing,2024-04-28,Mikro,False,572393,10,1,neutral,0,10,0.24,serious,skincare,talking head,inspirational,True,5.0,relatable statement,
+https://tiktok.com/v648,sunlight_official,Sunlight,Home Care,2024-02-04,Makro,True,318046,47,1,happy,9,11,0.64,serious,home fragrance,aesthetic,inspirational,True,2.0,curiosity gap,2.99
+https://tiktok.com/v649,wipol_official,Wipol,Home Care,2024-05-29,Nano,True,177630,54,1,sad,7,13,0.25,serious,dishwashing,storytelling,inspirational,True,5.0,curiosity gap,
+https://tiktok.com/v650,make_over_official,Make Over,Beauty and Wellbeing,2024-03-29,Mikro,False,284969,10,0,,4,15,0.04,,haircare,talking head,serious,True,3.0,shocking statement,
+https://tiktok.com/v651,lux_official,Lux,Beauty and Wellbeing,2024-05-08,Nano,True,1421074,21,1,happy,5,17,0.05,,haircare,storytelling,emotional,True,3.0,curiosity gap,
+https://tiktok.com/v652,wipol_official,Wipol,Home Care,2024-03-05,Makro,True,564786,39,0,,10,8,0.07,,dishwashing,vlog,calm,True,2.0,shocking statement,
+https://tiktok.com/v653,sunlight_official,Sunlight,Home Care,2024-07-08,Mega,True,1915736,56,1,neutral,5,7,0.51,excited,disinfecting,before after,dramatic,True,4.0,question,1.8
+https://tiktok.com/v654,pantene_official,Pantene,Beauty and Wellbeing,2024-04-19,Nano,False,839303,13,1,angry,5,4,0.41,energetic,haircare,talking head,calm,True,2.0,shocking statement,
+https://tiktok.com/v655,make_over_official,Make Over,Beauty and Wellbeing,2024-07-19,Nano,False,306505,56,1,surprised,9,17,0.66,calm,makeup,before after,dramatic,True,3.0,question,2.88
+https://tiktok.com/v656,rinso_official,Rinso,Home Care,2024-07-13,Nano,True,211071,5,1,sad,0,9,0.94,energetic,laundry tips,tutorial,funny,False,,,3.92
+https://tiktok.com/v657,make_over_official,Make Over,Beauty and Wellbeing,2024-06-20,Mikro,False,670855,29,3,sad,1,15,0.81,excited,wellness,aesthetic,calm,True,5.0,curiosity gap,2.76
+https://tiktok.com/v658,super_pell_official,Super Pell,Home Care,2024-05-09,Makro,True,427887,16,3,sad,5,9,0.98,excited,disinfecting,vlog,emotional,True,5.0,curiosity gap,3.84
+https://tiktok.com/v659,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-03-05,Mega,True,2591372,54,0,,1,6,0.5,excited,fragrance,aesthetic,serious,True,3.0,visual hook,
+https://tiktok.com/v660,wardah_official,Wardah,Beauty and Wellbeing,2024-03-01,Mega,False,658877,15,2,surprised,3,10,0.91,calm,wellness,talking head,serious,True,3.0,visual hook,3.35
+https://tiktok.com/v661,lux_official,Lux,Beauty and Wellbeing,2024-06-04,Makro,True,231563,13,1,angry,9,19,0.56,excited,wellness,reaction,inspirational,True,2.0,question,2.89
+https://tiktok.com/v662,mama_lemon_official,Mama Lemon,Home Care,2024-05-16,Mega,False,525530,22,0,,8,11,0.13,energetic,home fragrance,before after,inspirational,True,4.0,question,
+https://tiktok.com/v663,so_klin_official,So Klin,Home Care,2024-05-30,Mega,False,188599,13,1,angry,1,14,0.98,excited,cleaning hacks,reaction,inspirational,True,4.0,curiosity gap,3.16
+https://tiktok.com/v664,sunlight_official,Sunlight,Home Care,2024-05-22,Nano,True,171577,58,2,happy,10,13,0.36,excited,cleaning hacks,vlog,inspirational,True,2.0,relatable statement,
+https://tiktok.com/v665,lux_official,Lux,Beauty and Wellbeing,2024-07-02,Makro,True,48372,46,2,surprised,4,9,0.5,calm,haircare,reaction,calm,True,5.0,question,
+https://tiktok.com/v666,super_pell_official,Super Pell,Home Care,2024-03-15,Nano,True,120412,12,2,angry,9,17,0.42,neutral,laundry tips,talking head,emotional,True,2.0,shocking statement,
+https://tiktok.com/v667,mama_lemon_official,Mama Lemon,Home Care,2024-06-14,Nano,False,412683,35,1,surprised,10,12,0.69,excited,home fragrance,before after,calm,True,5.0,question,2.66
+https://tiktok.com/v668,make_over_official,Make Over,Beauty and Wellbeing,2024-04-05,Mega,False,606098,52,1,neutral,2,15,0.87,excited,skincare,reaction,serious,True,2.0,visual hook,2.91
+https://tiktok.com/v669,scarlett_official,Scarlett,Beauty and Wellbeing,2024-01-28,Mikro,False,176505,60,1,sad,8,2,0.28,calm,wellness,aesthetic,calm,True,3.0,relatable statement,
+https://tiktok.com/v670,wipol_official,Wipol,Home Care,2024-07-02,Makro,True,214729,19,2,surprised,5,19,0.2,energetic,disinfecting,tutorial,funny,True,2.0,curiosity gap,
+https://tiktok.com/v671,lux_official,Lux,Beauty and Wellbeing,2024-05-24,Makro,True,305528,57,0,,5,14,0.6,neutral,wellness,before after,emotional,True,2.0,curiosity gap,1.67
+https://tiktok.com/v672,downy_official,Downy,Home Care,2024-05-15,Nano,False,1701056,43,3,happy,8,11,0.89,neutral,disinfecting,before after,dramatic,True,2.0,visual hook,2.38
+https://tiktok.com/v673,wipol_official,Wipol,Home Care,2024-07-03,Mega,True,1120420,12,1,angry,4,9,0.88,excited,dishwashing,aesthetic,calm,True,2.0,shocking statement,3.92
+https://tiktok.com/v674,wipol_official,Wipol,Home Care,2024-03-24,Nano,True,886964,45,1,angry,9,6,0.36,serious,disinfecting,vlog,funny,True,2.0,visual hook,
+https://tiktok.com/v675,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-04-06,Mega,True,426289,6,0,,4,6,0.34,energetic,haircare,vlog,emotional,True,4.0,visual hook,
+https://tiktok.com/v676,downy_official,Downy,Home Care,2024-06-10,Makro,False,226856,55,1,angry,2,13,0.04,,dishwashing,before after,funny,True,5.0,relatable statement,
+https://tiktok.com/v677,pond's_official,Pond's,Beauty and Wellbeing,2024-07-18,Mikro,True,204811,29,1,neutral,5,19,0.47,calm,haircare,storytelling,inspirational,True,5.0,visual hook,
+https://tiktok.com/v678,vaseline_official,Vaseline,Beauty and Wellbeing,2024-05-31,Nano,True,546169,21,0,,4,16,0.02,,fragrance,storytelling,serious,True,5.0,question,
+https://tiktok.com/v679,pond's_official,Pond's,Beauty and Wellbeing,2024-01-04,Makro,True,1652419,36,3,surprised,4,12,1.0,energetic,haircare,reaction,funny,True,5.0,visual hook,2.8
+https://tiktok.com/v680,lux_official,Lux,Beauty and Wellbeing,2024-04-14,Mega,True,353162,14,1,surprised,3,20,0.52,excited,makeup,talking head,dramatic,True,3.0,question,1.87
+https://tiktok.com/v681,wardah_official,Wardah,Beauty and Wellbeing,2024-02-11,Makro,False,212002,60,0,,9,16,0.35,energetic,haircare,tutorial,emotional,False,,,
+https://tiktok.com/v682,wipol_official,Wipol,Home Care,2024-05-14,Nano,True,798159,13,2,neutral,8,9,0.58,energetic,disinfecting,vlog,funny,True,1.0,relatable statement,3.09
+https://tiktok.com/v683,mama_lemon_official,Mama Lemon,Home Care,2024-06-04,Makro,False,1140240,28,1,neutral,10,3,0.71,excited,dishwashing,vlog,dramatic,False,,,2.59
+https://tiktok.com/v684,pond's_official,Pond's,Beauty and Wellbeing,2024-04-08,Mikro,True,118547,49,3,angry,4,20,0.2,serious,haircare,talking head,serious,True,4.0,relatable statement,
+https://tiktok.com/v685,scarlett_official,Scarlett,Beauty and Wellbeing,2024-04-14,Nano,False,180566,16,2,happy,10,2,0.68,neutral,skincare,before after,inspirational,True,5.0,relatable statement,1.52
+https://tiktok.com/v686,downy_official,Downy,Home Care,2024-02-15,Makro,False,7958539,39,1,happy,5,5,0.13,calm,disinfecting,vlog,dramatic,True,1.0,relatable statement,
+https://tiktok.com/v687,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-01-25,Mega,True,873930,50,1,angry,4,6,0.38,calm,fragrance,reaction,funny,True,5.0,question,
+https://tiktok.com/v688,wipol_official,Wipol,Home Care,2024-01-07,Makro,True,1140543,44,2,sad,10,15,0.83,calm,disinfecting,vlog,calm,True,2.0,curiosity gap,3.14
+https://tiktok.com/v689,downy_official,Downy,Home Care,2024-01-22,Makro,False,2232829,6,0,,5,18,0.46,serious,cleaning hacks,aesthetic,serious,True,4.0,visual hook,
+https://tiktok.com/v690,pantene_official,Pantene,Beauty and Wellbeing,2024-06-10,Mikro,False,571763,40,0,,0,20,0.11,neutral,wellness,talking head,funny,True,1.0,curiosity gap,
+https://tiktok.com/v691,attack_official,Attack,Home Care,2024-06-05,Mikro,False,95662,26,1,happy,3,15,0.41,excited,home fragrance,storytelling,funny,True,3.0,shocking statement,
+https://tiktok.com/v692,vanish_official,Vanish,Home Care,2024-05-11,Mega,False,1376915,42,1,happy,9,15,0.96,excited,laundry tips,talking head,serious,True,3.0,shocking statement,3.74
+https://tiktok.com/v693,dove_official,Dove,Beauty and Wellbeing,2024-05-14,Mikro,True,337427,50,1,neutral,0,18,0.75,excited,haircare,storytelling,emotional,False,,,2.1
+https://tiktok.com/v694,biore_official,Biore,Beauty and Wellbeing,2024-04-24,Nano,False,428401,53,2,sad,10,9,0.35,neutral,makeup,aesthetic,funny,False,,,
+https://tiktok.com/v695,molto_official,Molto,Home Care,2024-05-16,Mega,True,431732,39,2,sad,8,11,0.92,serious,disinfecting,reaction,inspirational,False,,,3.94
+https://tiktok.com/v696,rinso_official,Rinso,Home Care,2024-05-05,Mikro,True,241505,36,0,,10,18,0.49,calm,dishwashing,storytelling,dramatic,True,5.0,relatable statement,
+https://tiktok.com/v697,vaseline_official,Vaseline,Beauty and Wellbeing,2024-06-26,Mega,True,224533,29,2,angry,1,6,0.61,calm,makeup,storytelling,serious,True,5.0,relatable statement,3.54
+https://tiktok.com/v698,scarlett_official,Scarlett,Beauty and Wellbeing,2024-06-04,Mega,False,869443,60,1,sad,7,8,0.16,calm,skincare,vlog,serious,True,1.0,relatable statement,
+https://tiktok.com/v699,scarlett_official,Scarlett,Beauty and Wellbeing,2024-02-26,Mega,False,144245,8,1,neutral,3,6,0.3,excited,skincare,tutorial,inspirational,False,,,
+https://tiktok.com/v700,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-05-01,Makro,True,180619,15,1,happy,1,17,0.98,excited,fragrance,aesthetic,calm,True,3.0,shocking statement,3.27
+https://tiktok.com/v701,vaseline_official,Vaseline,Beauty and Wellbeing,2024-05-02,Mikro,True,381094,36,2,happy,9,3,0.1,,skincare,vlog,emotional,False,,,
+https://tiktok.com/v702,dove_official,Dove,Beauty and Wellbeing,2024-02-14,Mikro,True,647139,14,1,surprised,10,14,0.44,energetic,haircare,reaction,inspirational,True,5.0,visual hook,
+https://tiktok.com/v703,molto_official,Molto,Home Care,2024-01-07,Makro,True,335351,55,3,happy,3,10,0.0,,cleaning hacks,before after,serious,True,2.0,question,
+https://tiktok.com/v704,molto_official,Molto,Home Care,2024-03-27,Makro,True,1912431,49,0,,8,20,0.52,calm,home fragrance,tutorial,dramatic,True,2.0,question,1.75
+https://tiktok.com/v705,super_pell_official,Super Pell,Home Care,2024-07-09,Mikro,True,658154,47,0,,9,7,0.86,energetic,cleaning hacks,before after,serious,False,,,3.02
+https://tiktok.com/v706,super_pell_official,Super Pell,Home Care,2024-02-06,Makro,True,2256046,27,1,sad,5,8,0.52,calm,cleaning hacks,storytelling,dramatic,True,5.0,relatable statement,1.83
+https://tiktok.com/v707,so_klin_official,So Klin,Home Care,2024-04-12,Makro,False,291873,54,3,surprised,4,17,0.89,neutral,cleaning hacks,reaction,inspirational,True,4.0,question,1.55
+https://tiktok.com/v708,wardah_official,Wardah,Beauty and Wellbeing,2024-01-27,Makro,False,268808,41,1,angry,7,20,0.07,,skincare,storytelling,emotional,True,2.0,shocking statement,
+https://tiktok.com/v709,rinso_official,Rinso,Home Care,2024-05-02,Mikro,True,351729,59,1,neutral,3,19,0.85,neutral,home fragrance,before after,emotional,True,2.0,visual hook,2.13
+https://tiktok.com/v710,super_pell_official,Super Pell,Home Care,2024-05-15,Nano,True,195739,8,1,neutral,1,8,0.64,calm,dishwashing,storytelling,calm,True,5.0,question,2.9
+https://tiktok.com/v711,make_over_official,Make Over,Beauty and Wellbeing,2024-05-05,Mikro,False,2305520,25,0,,9,2,0.14,neutral,haircare,reaction,funny,True,1.0,visual hook,
+https://tiktok.com/v712,attack_official,Attack,Home Care,2024-04-12,Mega,False,559293,7,1,neutral,7,9,0.2,energetic,laundry tips,aesthetic,inspirational,True,4.0,question,
+https://tiktok.com/v713,pond's_official,Pond's,Beauty and Wellbeing,2024-01-12,Mikro,True,1357259,32,0,,8,3,0.02,,makeup,before after,serious,True,1.0,visual hook,
+https://tiktok.com/v714,biore_official,Biore,Beauty and Wellbeing,2024-04-19,Mikro,False,3040260,8,0,,0,11,0.36,excited,wellness,storytelling,serious,True,5.0,relatable statement,
+https://tiktok.com/v715,sunlight_official,Sunlight,Home Care,2024-04-23,Mikro,True,878944,42,2,happy,3,16,0.6,neutral,home fragrance,before after,calm,True,5.0,question,3.79
+https://tiktok.com/v716,so_klin_official,So Klin,Home Care,2024-02-25,Makro,False,327085,50,3,surprised,0,11,0.66,excited,laundry tips,before after,calm,True,4.0,relatable statement,3.76
+https://tiktok.com/v717,attack_official,Attack,Home Care,2024-01-04,Mega,False,425477,58,1,angry,7,19,0.67,neutral,home fragrance,storytelling,dramatic,False,,,2.57
+https://tiktok.com/v718,sunlight_official,Sunlight,Home Care,2024-01-08,Mikro,True,202032,60,0,,5,19,0.12,energetic,cleaning hacks,storytelling,dramatic,True,4.0,curiosity gap,
+https://tiktok.com/v719,super_pell_official,Super Pell,Home Care,2024-04-13,Mikro,True,3632228,28,1,surprised,5,2,0.61,serious,disinfecting,aesthetic,funny,True,3.0,visual hook,2.78
+https://tiktok.com/v720,super_pell_official,Super Pell,Home Care,2024-04-02,Makro,True,248190,55,2,neutral,3,4,0.05,,disinfecting,aesthetic,calm,True,5.0,relatable statement,
+https://tiktok.com/v721,dove_official,Dove,Beauty and Wellbeing,2024-04-20,Mikro,True,516822,48,0,,10,20,0.72,neutral,haircare,reaction,calm,True,4.0,curiosity gap,3.37
+https://tiktok.com/v722,wipol_official,Wipol,Home Care,2024-03-08,Nano,True,416383,42,3,neutral,10,17,0.87,neutral,laundry tips,vlog,funny,True,4.0,question,1.67
+https://tiktok.com/v723,make_over_official,Make Over,Beauty and Wellbeing,2024-01-18,Mikro,False,318881,25,1,neutral,0,17,0.46,energetic,skincare,aesthetic,funny,True,1.0,curiosity gap,
+https://tiktok.com/v724,lux_official,Lux,Beauty and Wellbeing,2024-05-12,Makro,True,132719,12,1,angry,10,19,0.11,neutral,makeup,tutorial,serious,True,5.0,curiosity gap,
+https://tiktok.com/v725,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-01-15,Mega,True,1770947,41,1,neutral,9,7,0.53,excited,haircare,vlog,dramatic,True,5.0,visual hook,1.77
+https://tiktok.com/v726,biore_official,Biore,Beauty and Wellbeing,2024-04-26,Makro,False,125112,43,0,,9,17,0.17,energetic,fragrance,aesthetic,dramatic,False,,,
+https://tiktok.com/v727,lux_official,Lux,Beauty and Wellbeing,2024-06-07,Makro,True,537271,13,2,happy,7,16,0.4,excited,fragrance,reaction,inspirational,True,5.0,question,
+https://tiktok.com/v728,scarlett_official,Scarlett,Beauty and Wellbeing,2024-02-27,Mikro,False,92878,60,1,sad,6,13,0.63,neutral,haircare,vlog,emotional,True,1.0,relatable statement,2.19
+https://tiktok.com/v729,super_pell_official,Super Pell,Home Care,2024-02-16,Makro,True,542413,59,2,happy,3,11,0.35,serious,dishwashing,before after,inspirational,False,,,
+https://tiktok.com/v730,wipol_official,Wipol,Home Care,2024-03-12,Nano,True,350700,16,2,neutral,6,12,0.49,energetic,disinfecting,aesthetic,emotional,True,4.0,curiosity gap,
+https://tiktok.com/v731,pantene_official,Pantene,Beauty and Wellbeing,2024-03-11,Mikro,False,115317,39,1,surprised,8,15,0.94,calm,haircare,before after,dramatic,True,3.0,curiosity gap,3.5
+https://tiktok.com/v732,make_over_official,Make Over,Beauty and Wellbeing,2024-06-19,Mega,False,128671,25,2,sad,5,14,0.54,neutral,wellness,before after,inspirational,True,1.0,relatable statement,3.89
+https://tiktok.com/v733,rinso_official,Rinso,Home Care,2024-05-20,Mikro,True,1012859,32,1,surprised,4,11,0.39,neutral,disinfecting,storytelling,inspirational,True,3.0,question,
+https://tiktok.com/v734,super_pell_official,Super Pell,Home Care,2024-01-08,Nano,True,505097,41,1,happy,6,18,0.95,calm,home fragrance,vlog,dramatic,True,3.0,question,3.73
+https://tiktok.com/v735,molto_official,Molto,Home Care,2024-01-08,Mega,True,263619,18,1,happy,3,15,0.98,neutral,laundry tips,vlog,serious,True,5.0,visual hook,3.61
+https://tiktok.com/v736,dove_official,Dove,Beauty and Wellbeing,2024-02-05,Mega,True,1119033,52,1,happy,10,12,0.84,neutral,makeup,aesthetic,calm,True,2.0,curiosity gap,2.93
+https://tiktok.com/v737,super_pell_official,Super Pell,Home Care,2024-02-25,Nano,True,307530,59,3,neutral,7,7,0.39,neutral,dishwashing,talking head,dramatic,True,5.0,shocking statement,
+https://tiktok.com/v738,lux_official,Lux,Beauty and Wellbeing,2024-02-20,Nano,True,1413718,32,0,,2,20,0.15,serious,fragrance,aesthetic,calm,True,1.0,curiosity gap,
+https://tiktok.com/v739,lux_official,Lux,Beauty and Wellbeing,2024-05-15,Nano,True,326974,45,2,surprised,2,10,0.86,calm,haircare,vlog,inspirational,True,1.0,question,3.79
+https://tiktok.com/v740,dove_official,Dove,Beauty and Wellbeing,2024-05-08,Makro,True,208450,47,1,sad,2,10,0.73,neutral,wellness,before after,dramatic,True,3.0,visual hook,2.47
+https://tiktok.com/v741,super_pell_official,Super Pell,Home Care,2024-06-09,Mikro,True,1525666,22,0,,10,16,0.41,energetic,home fragrance,vlog,inspirational,True,2.0,relatable statement,
+https://tiktok.com/v742,molto_official,Molto,Home Care,2024-02-16,Nano,True,564182,51,2,angry,2,20,0.5,energetic,laundry tips,talking head,dramatic,False,,,
+https://tiktok.com/v743,wipol_official,Wipol,Home Care,2024-03-20,Mikro,True,471870,9,0,,10,16,0.45,energetic,cleaning hacks,before after,calm,True,4.0,question,
+https://tiktok.com/v744,rinso_official,Rinso,Home Care,2024-03-21,Nano,True,582794,41,0,,4,4,0.82,excited,cleaning hacks,talking head,serious,True,1.0,relatable statement,3.29
+https://tiktok.com/v745,so_klin_official,So Klin,Home Care,2024-02-11,Makro,False,503401,39,2,surprised,4,7,0.48,neutral,dishwashing,aesthetic,funny,False,,,
+https://tiktok.com/v746,wipol_official,Wipol,Home Care,2024-02-22,Nano,True,662065,45,0,,10,19,0.35,calm,home fragrance,storytelling,serious,True,2.0,relatable statement,
+https://tiktok.com/v747,molto_official,Molto,Home Care,2024-07-15,Nano,True,1638452,39,1,angry,5,13,0.19,serious,disinfecting,vlog,inspirational,True,2.0,visual hook,
+https://tiktok.com/v748,scarlett_official,Scarlett,Beauty and Wellbeing,2024-04-05,Mega,False,283991,11,1,happy,7,16,0.38,serious,makeup,tutorial,calm,True,4.0,visual hook,
+https://tiktok.com/v749,molto_official,Molto,Home Care,2024-05-11,Makro,True,395446,20,0,,8,11,0.92,serious,laundry tips,talking head,inspirational,False,,,3.84
+https://tiktok.com/v750,attack_official,Attack,Home Care,2024-03-13,Makro,False,798794,5,3,happy,1,6,0.03,,dishwashing,vlog,funny,False,,,
+https://tiktok.com/v751,wardah_official,Wardah,Beauty and Wellbeing,2024-02-27,Mikro,False,559344,21,1,neutral,7,13,0.04,,fragrance,vlog,calm,True,5.0,relatable statement,
+https://tiktok.com/v752,vaseline_official,Vaseline,Beauty and Wellbeing,2024-05-21,Nano,True,481550,8,1,sad,1,10,0.4,neutral,skincare,aesthetic,serious,True,5.0,question,
+https://tiktok.com/v753,mama_lemon_official,Mama Lemon,Home Care,2024-01-12,Nano,False,305531,51,1,angry,6,15,0.66,calm,laundry tips,tutorial,serious,True,1.0,question,2.73
+https://tiktok.com/v754,vaseline_official,Vaseline,Beauty and Wellbeing,2024-02-03,Makro,True,943850,55,2,angry,1,3,0.51,serious,haircare,before after,funny,True,1.0,shocking statement,3.37
+https://tiktok.com/v755,wipol_official,Wipol,Home Care,2024-01-02,Nano,True,3459305,25,2,sad,8,15,0.06,,home fragrance,aesthetic,funny,True,1.0,question,
+https://tiktok.com/v756,dove_official,Dove,Beauty and Wellbeing,2024-04-20,Makro,True,116067,53,0,,6,3,0.5,energetic,skincare,storytelling,serious,False,,,
+https://tiktok.com/v757,mama_lemon_official,Mama Lemon,Home Care,2024-05-02,Mega,False,486447,26,1,neutral,2,8,0.49,calm,home fragrance,before after,emotional,False,,,
+https://tiktok.com/v758,pantene_official,Pantene,Beauty and Wellbeing,2024-03-25,Mega,False,90930,33,0,,5,6,0.6,calm,wellness,reaction,serious,True,2.0,visual hook,3.67
+https://tiktok.com/v759,scarlett_official,Scarlett,Beauty and Wellbeing,2024-02-27,Makro,False,411118,58,0,,8,3,0.71,energetic,haircare,storytelling,calm,True,4.0,question,2.79
+https://tiktok.com/v760,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-01-30,Mega,True,355473,54,1,neutral,4,16,0.49,calm,makeup,before after,calm,False,,,
+https://tiktok.com/v761,attack_official,Attack,Home Care,2024-03-09,Mega,False,1072567,50,0,,1,19,0.58,calm,laundry tips,aesthetic,emotional,True,1.0,shocking statement,2.39
+https://tiktok.com/v762,so_klin_official,So Klin,Home Care,2024-07-15,Nano,False,444966,48,0,,10,9,0.0,,home fragrance,reaction,funny,True,5.0,question,
+https://tiktok.com/v763,molto_official,Molto,Home Care,2024-05-23,Mega,True,1284332,37,0,,2,10,0.18,calm,laundry tips,reaction,funny,False,,,
+https://tiktok.com/v764,sunlight_official,Sunlight,Home Care,2024-05-05,Mega,True,706659,19,1,surprised,4,8,0.9,calm,dishwashing,aesthetic,funny,True,2.0,question,1.59
+https://tiktok.com/v765,rinso_official,Rinso,Home Care,2024-05-19,Nano,True,804796,5,0,,9,15,0.32,serious,disinfecting,storytelling,funny,True,2.0,question,
+https://tiktok.com/v766,molto_official,Molto,Home Care,2024-01-04,Nano,True,1699847,11,1,surprised,3,7,0.56,calm,home fragrance,aesthetic,calm,True,5.0,relatable statement,2.76
+https://tiktok.com/v767,make_over_official,Make Over,Beauty and Wellbeing,2024-02-24,Mikro,False,982882,15,3,angry,10,6,0.51,neutral,fragrance,tutorial,serious,False,,,2.92
+https://tiktok.com/v768,mama_lemon_official,Mama Lemon,Home Care,2024-02-15,Mega,False,630472,45,2,neutral,10,2,0.74,calm,home fragrance,tutorial,serious,True,1.0,visual hook,3.08
+https://tiktok.com/v769,rinso_official,Rinso,Home Care,2024-05-01,Nano,True,1278953,48,0,,9,5,0.32,neutral,home fragrance,tutorial,calm,True,1.0,shocking statement,
+https://tiktok.com/v770,dove_official,Dove,Beauty and Wellbeing,2024-01-13,Mega,True,440928,37,0,,8,3,0.58,neutral,makeup,talking head,inspirational,True,3.0,shocking statement,1.68
+https://tiktok.com/v771,molto_official,Molto,Home Care,2024-02-19,Makro,True,280612,19,1,neutral,10,4,0.99,excited,dishwashing,reaction,inspirational,True,3.0,shocking statement,3.61
+https://tiktok.com/v772,pantene_official,Pantene,Beauty and Wellbeing,2024-06-25,Nano,False,347938,48,1,happy,5,9,0.8,energetic,wellness,storytelling,funny,True,3.0,question,3.21
+https://tiktok.com/v773,biore_official,Biore,Beauty and Wellbeing,2024-04-21,Nano,False,1297066,44,1,angry,2,8,0.92,energetic,makeup,reaction,emotional,True,5.0,relatable statement,3.24
+https://tiktok.com/v774,pond's_official,Pond's,Beauty and Wellbeing,2024-07-16,Makro,True,195847,37,1,sad,8,6,0.07,,fragrance,aesthetic,dramatic,True,1.0,shocking statement,
+https://tiktok.com/v775,sunlight_official,Sunlight,Home Care,2024-03-19,Mega,True,2211387,48,0,,4,20,0.66,neutral,home fragrance,reaction,serious,True,4.0,visual hook,3.77
+https://tiktok.com/v776,lux_official,Lux,Beauty and Wellbeing,2024-02-05,Makro,True,514350,8,1,happy,6,13,0.78,neutral,skincare,storytelling,funny,True,3.0,relatable statement,2.26
+https://tiktok.com/v777,super_pell_official,Super Pell,Home Care,2024-05-04,Nano,True,692098,37,3,angry,0,12,0.58,energetic,dishwashing,storytelling,dramatic,True,4.0,curiosity gap,2.78
+https://tiktok.com/v778,attack_official,Attack,Home Care,2024-05-09,Nano,False,477336,13,2,angry,6,19,0.69,energetic,disinfecting,vlog,calm,True,2.0,curiosity gap,3.42
+https://tiktok.com/v779,rinso_official,Rinso,Home Care,2024-06-07,Makro,True,341706,6,0,,7,16,0.46,serious,home fragrance,tutorial,calm,True,4.0,visual hook,
+https://tiktok.com/v780,scarlett_official,Scarlett,Beauty and Wellbeing,2024-06-29,Makro,False,201653,15,1,neutral,7,18,0.74,energetic,fragrance,before after,inspirational,True,1.0,curiosity gap,3.35
+https://tiktok.com/v781,molto_official,Molto,Home Care,2024-05-04,Mega,True,768773,46,1,angry,9,5,0.42,neutral,cleaning hacks,reaction,inspirational,True,4.0,curiosity gap,
+https://tiktok.com/v782,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-02-11,Nano,True,610216,5,1,neutral,0,17,0.33,serious,wellness,before after,funny,True,3.0,visual hook,
+https://tiktok.com/v783,pantene_official,Pantene,Beauty and Wellbeing,2024-06-18,Mega,False,226472,42,1,neutral,4,20,0.35,excited,skincare,vlog,emotional,True,5.0,visual hook,
+https://tiktok.com/v784,wardah_official,Wardah,Beauty and Wellbeing,2024-04-26,Mega,False,323314,17,2,angry,0,20,0.78,energetic,makeup,vlog,emotional,True,4.0,question,3.14
+https://tiktok.com/v785,rinso_official,Rinso,Home Care,2024-01-06,Nano,True,360296,21,0,,10,9,0.37,energetic,disinfecting,before after,calm,True,5.0,relatable statement,
+https://tiktok.com/v786,rinso_official,Rinso,Home Care,2024-02-29,Nano,True,355096,45,1,happy,0,4,0.26,energetic,laundry tips,reaction,emotional,True,3.0,relatable statement,
+https://tiktok.com/v787,super_pell_official,Super Pell,Home Care,2024-03-08,Mikro,True,1294342,59,0,,2,16,0.37,energetic,disinfecting,reaction,dramatic,True,3.0,relatable statement,
+https://tiktok.com/v788,rinso_official,Rinso,Home Care,2024-01-21,Mega,True,154371,30,2,surprised,9,14,0.17,energetic,cleaning hacks,before after,inspirational,False,,,
+https://tiktok.com/v789,lux_official,Lux,Beauty and Wellbeing,2024-06-17,Makro,True,277988,41,1,surprised,3,11,0.48,calm,makeup,tutorial,serious,True,4.0,question,
+https://tiktok.com/v790,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-04-13,Nano,True,273973,42,1,angry,4,9,0.25,serious,haircare,tutorial,emotional,False,,,
+https://tiktok.com/v791,molto_official,Molto,Home Care,2024-07-03,Nano,True,255504,35,1,sad,3,16,0.13,neutral,disinfecting,tutorial,emotional,True,5.0,relatable statement,
+https://tiktok.com/v792,sunlight_official,Sunlight,Home Care,2024-02-10,Mikro,True,92740,18,0,,3,12,0.24,neutral,dishwashing,before after,inspirational,True,4.0,relatable statement,
+https://tiktok.com/v793,lux_official,Lux,Beauty and Wellbeing,2024-01-28,Nano,True,116376,47,1,sad,7,13,0.52,energetic,makeup,tutorial,dramatic,True,3.0,visual hook,2.9
+https://tiktok.com/v794,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-04-22,Nano,True,286348,14,1,surprised,0,6,0.93,excited,fragrance,before after,calm,True,3.0,shocking statement,3.14
+https://tiktok.com/v795,so_klin_official,So Klin,Home Care,2024-07-11,Mikro,False,1358951,57,1,neutral,6,11,0.27,energetic,laundry tips,tutorial,emotional,False,,,
+https://tiktok.com/v796,pond's_official,Pond's,Beauty and Wellbeing,2024-07-15,Nano,True,1092515,11,2,angry,10,15,0.32,energetic,makeup,aesthetic,calm,True,5.0,shocking statement,
+https://tiktok.com/v797,sunlight_official,Sunlight,Home Care,2024-07-04,Mega,True,270622,10,1,surprised,3,17,0.81,neutral,dishwashing,vlog,inspirational,False,,,2.94
+https://tiktok.com/v798,downy_official,Downy,Home Care,2024-01-24,Nano,False,247261,37,1,angry,5,20,0.43,energetic,dishwashing,before after,emotional,True,3.0,question,
+https://tiktok.com/v799,so_klin_official,So Klin,Home Care,2024-04-04,Nano,False,591115,59,1,surprised,3,2,0.65,serious,dishwashing,talking head,serious,True,2.0,question,3.75
+https://tiktok.com/v800,downy_official,Downy,Home Care,2024-02-01,Nano,False,313032,5,0,,6,2,0.39,energetic,home fragrance,before after,emotional,True,4.0,shocking statement,
+https://tiktok.com/v801,wipol_official,Wipol,Home Care,2024-01-16,Mikro,True,263242,21,1,angry,1,10,0.53,excited,home fragrance,vlog,inspirational,True,4.0,curiosity gap,1.54
+https://tiktok.com/v802,pantene_official,Pantene,Beauty and Wellbeing,2024-04-11,Mega,False,46837,33,1,angry,7,7,0.71,excited,wellness,vlog,inspirational,True,3.0,question,2.18
+https://tiktok.com/v803,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-03-16,Makro,True,312443,40,1,sad,4,13,0.83,neutral,skincare,aesthetic,funny,True,1.0,relatable statement,2.54
+https://tiktok.com/v804,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-02-13,Makro,True,218869,6,2,sad,3,7,0.67,neutral,fragrance,storytelling,dramatic,True,4.0,shocking statement,1.71
+https://tiktok.com/v805,pantene_official,Pantene,Beauty and Wellbeing,2024-03-26,Makro,False,1518117,55,1,sad,6,10,0.09,,wellness,before after,funny,True,2.0,shocking statement,
+https://tiktok.com/v806,rinso_official,Rinso,Home Care,2024-06-11,Mikro,True,1248902,10,1,angry,3,5,0.04,,disinfecting,vlog,serious,True,5.0,curiosity gap,
+https://tiktok.com/v807,sunlight_official,Sunlight,Home Care,2024-01-09,Nano,True,333806,50,3,surprised,0,7,0.07,,disinfecting,storytelling,inspirational,True,5.0,question,
+https://tiktok.com/v808,wipol_official,Wipol,Home Care,2024-02-29,Mega,True,794648,34,2,angry,8,9,0.64,serious,laundry tips,before after,serious,True,4.0,visual hook,3.78
+https://tiktok.com/v809,biore_official,Biore,Beauty and Wellbeing,2024-02-09,Nano,False,659578,25,1,happy,0,12,0.55,neutral,makeup,aesthetic,inspirational,True,1.0,question,3.67
+https://tiktok.com/v810,pond's_official,Pond's,Beauty and Wellbeing,2024-06-04,Mikro,True,355767,54,0,,0,19,0.14,energetic,haircare,before after,emotional,True,5.0,shocking statement,
+https://tiktok.com/v811,dove_official,Dove,Beauty and Wellbeing,2024-02-02,Mega,True,105376,18,0,,4,14,0.89,energetic,wellness,storytelling,calm,True,2.0,question,3.2
+https://tiktok.com/v812,lux_official,Lux,Beauty and Wellbeing,2024-02-18,Makro,True,228392,57,0,,6,7,0.41,energetic,fragrance,talking head,calm,True,3.0,curiosity gap,
+https://tiktok.com/v813,sunlight_official,Sunlight,Home Care,2024-01-10,Makro,True,535641,13,3,angry,7,2,0.55,excited,cleaning hacks,reaction,dramatic,True,1.0,curiosity gap,3.55
+https://tiktok.com/v814,mama_lemon_official,Mama Lemon,Home Care,2024-01-23,Mikro,False,232636,7,3,surprised,8,11,0.27,serious,dishwashing,reaction,dramatic,True,2.0,question,
+https://tiktok.com/v815,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-06-10,Mikro,True,311246,37,1,neutral,6,18,0.44,energetic,makeup,vlog,funny,False,,,
+https://tiktok.com/v816,molto_official,Molto,Home Care,2024-04-06,Mega,True,875394,45,3,happy,8,7,0.62,excited,home fragrance,before after,emotional,True,5.0,question,3.49
+https://tiktok.com/v817,pond's_official,Pond's,Beauty and Wellbeing,2024-04-20,Nano,True,2683552,14,1,neutral,4,13,0.15,energetic,haircare,reaction,emotional,False,,,
+https://tiktok.com/v818,lux_official,Lux,Beauty and Wellbeing,2024-02-04,Mega,True,197815,60,1,sad,7,16,0.96,serious,fragrance,reaction,emotional,True,3.0,relatable statement,2.01
+https://tiktok.com/v819,sunlight_official,Sunlight,Home Care,2024-05-05,Makro,True,557519,7,1,sad,3,12,0.09,,dishwashing,aesthetic,dramatic,True,3.0,curiosity gap,
+https://tiktok.com/v820,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-04-18,Nano,True,182820,15,1,angry,2,20,0.81,neutral,fragrance,talking head,calm,False,,,3.96
+https://tiktok.com/v821,downy_official,Downy,Home Care,2024-04-01,Mikro,False,198912,41,0,,9,2,0.06,,laundry tips,talking head,calm,True,5.0,question,
+https://tiktok.com/v822,lux_official,Lux,Beauty and Wellbeing,2024-03-13,Mega,True,315457,21,0,,8,3,0.88,neutral,wellness,reaction,emotional,True,4.0,question,2.0
+https://tiktok.com/v823,downy_official,Downy,Home Care,2024-03-09,Mega,False,322640,9,1,neutral,2,4,0.75,energetic,home fragrance,storytelling,funny,True,3.0,curiosity gap,2.97
+https://tiktok.com/v824,vaseline_official,Vaseline,Beauty and Wellbeing,2024-07-18,Makro,True,190176,27,1,happy,3,16,0.29,serious,skincare,reaction,inspirational,False,,,
+https://tiktok.com/v825,sunlight_official,Sunlight,Home Care,2024-01-29,Mega,True,217705,56,1,surprised,7,19,0.34,calm,dishwashing,reaction,calm,True,1.0,curiosity gap,
+https://tiktok.com/v826,pond's_official,Pond's,Beauty and Wellbeing,2024-07-19,Nano,True,2034672,6,1,surprised,6,11,0.09,,makeup,tutorial,calm,True,4.0,shocking statement,
+https://tiktok.com/v827,so_klin_official,So Klin,Home Care,2024-04-03,Nano,False,360640,15,1,sad,5,6,0.39,serious,dishwashing,aesthetic,dramatic,True,3.0,curiosity gap,
+https://tiktok.com/v828,mama_lemon_official,Mama Lemon,Home Care,2024-02-13,Mega,False,88482,57,0,,2,13,0.19,energetic,laundry tips,reaction,serious,False,,,
+https://tiktok.com/v829,downy_official,Downy,Home Care,2024-03-03,Nano,False,1077269,37,1,happy,7,20,0.83,energetic,laundry tips,talking head,calm,True,3.0,curiosity gap,1.71
+https://tiktok.com/v830,pond's_official,Pond's,Beauty and Wellbeing,2024-01-04,Makro,True,680296,15,3,happy,4,3,0.31,neutral,wellness,vlog,inspirational,True,5.0,curiosity gap,
+https://tiktok.com/v831,molto_official,Molto,Home Care,2024-03-17,Mikro,True,1025426,35,0,,5,4,0.54,serious,dishwashing,tutorial,dramatic,True,2.0,shocking statement,2.47
+https://tiktok.com/v832,attack_official,Attack,Home Care,2024-07-17,Makro,False,1113869,45,2,angry,1,15,0.69,excited,home fragrance,aesthetic,emotional,True,1.0,question,2.87
+https://tiktok.com/v833,vanish_official,Vanish,Home Care,2024-03-31,Nano,False,611269,25,0,,8,8,0.23,calm,home fragrance,before after,emotional,False,,,
+https://tiktok.com/v834,downy_official,Downy,Home Care,2024-03-03,Makro,False,177550,5,1,sad,9,2,0.74,calm,laundry tips,aesthetic,serious,False,,,1.6
+https://tiktok.com/v835,super_pell_official,Super Pell,Home Care,2024-03-11,Makro,True,1111735,7,0,,0,19,0.93,neutral,dishwashing,storytelling,inspirational,True,5.0,visual hook,3.05
+https://tiktok.com/v836,rinso_official,Rinso,Home Care,2024-03-28,Nano,True,204210,15,0,,7,19,0.89,energetic,disinfecting,reaction,emotional,True,3.0,visual hook,2.2
+https://tiktok.com/v837,molto_official,Molto,Home Care,2024-04-14,Mikro,True,433953,42,1,happy,3,3,0.36,calm,laundry tips,reaction,dramatic,True,2.0,curiosity gap,
+https://tiktok.com/v838,biore_official,Biore,Beauty and Wellbeing,2024-03-06,Makro,False,176070,58,1,neutral,7,2,0.53,neutral,makeup,tutorial,calm,True,5.0,question,3.64
+https://tiktok.com/v839,attack_official,Attack,Home Care,2024-01-15,Nano,False,508433,54,2,happy,6,10,0.1,,dishwashing,tutorial,serious,True,5.0,visual hook,
+https://tiktok.com/v840,wardah_official,Wardah,Beauty and Wellbeing,2024-05-11,Nano,False,601917,48,1,happy,4,19,0.09,,wellness,vlog,inspirational,True,3.0,curiosity gap,
+https://tiktok.com/v841,scarlett_official,Scarlett,Beauty and Wellbeing,2024-05-05,Nano,False,1630312,27,1,angry,0,14,0.74,neutral,haircare,reaction,calm,True,1.0,question,3.94
+https://tiktok.com/v842,so_klin_official,So Klin,Home Care,2024-06-25,Nano,False,39444,54,2,happy,3,7,0.11,serious,cleaning hacks,reaction,calm,True,4.0,visual hook,
+https://tiktok.com/v843,rinso_official,Rinso,Home Care,2024-03-04,Nano,True,64698,31,1,angry,0,18,0.32,calm,dishwashing,storytelling,serious,False,,,
+https://tiktok.com/v844,mama_lemon_official,Mama Lemon,Home Care,2024-03-31,Mega,False,832987,12,1,neutral,3,3,0.78,energetic,disinfecting,talking head,funny,True,5.0,visual hook,3.95
+https://tiktok.com/v845,pond's_official,Pond's,Beauty and Wellbeing,2024-05-13,Mega,True,907095,51,0,,1,10,0.72,neutral,skincare,before after,dramatic,True,5.0,relatable statement,2.24
+https://tiktok.com/v846,super_pell_official,Super Pell,Home Care,2024-04-22,Makro,True,381179,20,0,,9,20,0.97,excited,laundry tips,before after,emotional,True,1.0,relatable statement,3.95
+https://tiktok.com/v847,dove_official,Dove,Beauty and Wellbeing,2024-02-27,Mega,True,503055,5,2,happy,10,6,0.53,calm,skincare,before after,funny,True,4.0,visual hook,2.21
+https://tiktok.com/v848,make_over_official,Make Over,Beauty and Wellbeing,2024-03-31,Mega,False,850259,57,1,angry,2,11,0.19,serious,wellness,vlog,serious,False,,,
+https://tiktok.com/v849,scarlett_official,Scarlett,Beauty and Wellbeing,2024-07-09,Makro,False,940507,60,0,,9,10,0.78,excited,haircare,vlog,calm,True,1.0,question,3.47
+https://tiktok.com/v850,wardah_official,Wardah,Beauty and Wellbeing,2024-07-18,Mikro,False,2857726,51,1,happy,3,4,0.64,energetic,wellness,talking head,dramatic,True,4.0,shocking statement,2.31
+https://tiktok.com/v851,vanish_official,Vanish,Home Care,2024-01-24,Mikro,False,346537,30,1,neutral,10,10,0.44,energetic,home fragrance,vlog,dramatic,True,3.0,question,
+https://tiktok.com/v852,sunlight_official,Sunlight,Home Care,2024-04-30,Makro,True,256876,47,0,,0,12,0.88,excited,home fragrance,reaction,inspirational,True,3.0,question,2.49
+https://tiktok.com/v853,so_klin_official,So Klin,Home Care,2024-06-10,Makro,False,926541,26,3,neutral,0,5,0.15,energetic,home fragrance,talking head,emotional,True,4.0,shocking statement,
+https://tiktok.com/v854,vaseline_official,Vaseline,Beauty and Wellbeing,2024-05-06,Mikro,True,1602690,8,2,surprised,4,20,0.05,,makeup,aesthetic,serious,True,2.0,shocking statement,
+https://tiktok.com/v855,biore_official,Biore,Beauty and Wellbeing,2024-03-25,Nano,False,588691,30,1,neutral,4,8,0.12,serious,haircare,before after,calm,True,4.0,shocking statement,
+https://tiktok.com/v856,so_klin_official,So Klin,Home Care,2024-02-07,Nano,False,214957,60,3,sad,6,6,0.86,calm,laundry tips,talking head,serious,True,2.0,question,3.21
+https://tiktok.com/v857,pond's_official,Pond's,Beauty and Wellbeing,2024-05-25,Mega,True,1070221,5,1,neutral,0,8,0.7,neutral,haircare,vlog,funny,True,4.0,shocking statement,1.53
+https://tiktok.com/v858,pond's_official,Pond's,Beauty and Wellbeing,2024-03-08,Mega,True,170675,19,1,surprised,9,20,0.92,excited,makeup,vlog,serious,True,1.0,question,2.3
+https://tiktok.com/v859,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-05-07,Mikro,True,519546,24,2,surprised,1,4,0.18,neutral,skincare,vlog,funny,True,1.0,question,
+https://tiktok.com/v860,super_pell_official,Super Pell,Home Care,2024-03-21,Makro,True,141436,14,1,surprised,5,13,0.21,energetic,laundry tips,aesthetic,dramatic,True,4.0,visual hook,
+https://tiktok.com/v861,sunlight_official,Sunlight,Home Care,2024-03-29,Makro,True,476496,50,1,surprised,10,18,0.3,neutral,disinfecting,reaction,dramatic,True,3.0,curiosity gap,
+https://tiktok.com/v862,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-07-13,Mikro,True,1119812,51,0,,7,14,0.83,calm,wellness,storytelling,serious,True,3.0,relatable statement,3.83
+https://tiktok.com/v863,lux_official,Lux,Beauty and Wellbeing,2024-02-06,Nano,True,267759,20,1,angry,3,11,0.71,energetic,makeup,reaction,inspirational,True,5.0,visual hook,1.85
+https://tiktok.com/v864,make_over_official,Make Over,Beauty and Wellbeing,2024-03-24,Nano,False,717397,23,1,angry,10,4,0.23,serious,fragrance,aesthetic,funny,True,3.0,relatable statement,
+https://tiktok.com/v865,super_pell_official,Super Pell,Home Care,2024-02-25,Mikro,True,67835,33,1,neutral,1,14,0.74,energetic,laundry tips,before after,emotional,False,,,1.77
+https://tiktok.com/v866,downy_official,Downy,Home Care,2024-05-16,Mikro,False,338421,13,1,angry,4,7,0.09,,home fragrance,talking head,emotional,True,2.0,visual hook,
+https://tiktok.com/v867,wipol_official,Wipol,Home Care,2024-05-06,Makro,True,162925,21,1,angry,9,19,0.08,,home fragrance,vlog,dramatic,False,,,
+https://tiktok.com/v868,wipol_official,Wipol,Home Care,2024-04-14,Nano,True,371574,21,1,angry,9,17,0.01,,home fragrance,reaction,funny,True,3.0,visual hook,
+https://tiktok.com/v869,pond's_official,Pond's,Beauty and Wellbeing,2024-02-24,Mikro,True,203908,48,0,,3,10,0.92,serious,makeup,reaction,calm,True,5.0,visual hook,3.21
+https://tiktok.com/v870,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-02-20,Mega,True,251144,22,2,sad,4,7,0.6,energetic,fragrance,reaction,emotional,False,,,1.75
+https://tiktok.com/v871,downy_official,Downy,Home Care,2024-06-15,Nano,False,314081,52,1,angry,5,3,0.07,,cleaning hacks,tutorial,calm,True,1.0,visual hook,
+https://tiktok.com/v872,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-05-24,Mega,True,944468,16,1,neutral,1,20,0.22,serious,wellness,reaction,funny,True,2.0,visual hook,
+https://tiktok.com/v873,mama_lemon_official,Mama Lemon,Home Care,2024-02-15,Mega,False,291402,51,1,surprised,10,9,0.68,neutral,home fragrance,vlog,dramatic,True,1.0,visual hook,2.73
+https://tiktok.com/v874,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-02-19,Mikro,True,1634957,11,0,,1,5,0.88,excited,wellness,aesthetic,calm,True,2.0,curiosity gap,2.85
+https://tiktok.com/v875,wipol_official,Wipol,Home Care,2024-01-24,Makro,True,397132,21,1,surprised,10,9,0.74,energetic,laundry tips,aesthetic,inspirational,True,3.0,relatable statement,1.64
+https://tiktok.com/v876,pond's_official,Pond's,Beauty and Wellbeing,2024-03-13,Mega,True,261245,10,1,surprised,7,12,0.43,excited,fragrance,tutorial,calm,True,2.0,question,
+https://tiktok.com/v877,dove_official,Dove,Beauty and Wellbeing,2024-06-16,Mega,True,301846,43,2,surprised,10,10,0.23,energetic,fragrance,talking head,funny,False,,,
+https://tiktok.com/v878,scarlett_official,Scarlett,Beauty and Wellbeing,2024-03-30,Makro,False,507917,27,1,sad,9,9,0.85,excited,haircare,before after,calm,True,3.0,curiosity gap,1.93
+https://tiktok.com/v879,sunlight_official,Sunlight,Home Care,2024-07-02,Mega,True,205993,29,3,sad,3,18,0.16,excited,cleaning hacks,talking head,emotional,True,2.0,relatable statement,
+https://tiktok.com/v880,so_klin_official,So Klin,Home Care,2024-01-02,Nano,False,702358,46,2,angry,6,13,0.13,calm,laundry tips,vlog,dramatic,True,4.0,curiosity gap,
+https://tiktok.com/v881,molto_official,Molto,Home Care,2024-02-25,Mikro,True,460570,22,0,,0,2,0.36,serious,cleaning hacks,aesthetic,dramatic,False,,,
+https://tiktok.com/v882,sunlight_official,Sunlight,Home Care,2024-06-21,Mega,True,125286,49,1,surprised,9,16,0.55,neutral,dishwashing,tutorial,serious,True,2.0,visual hook,2.75
+https://tiktok.com/v883,molto_official,Molto,Home Care,2024-02-28,Mikro,True,149584,45,1,sad,4,5,0.03,,cleaning hacks,vlog,calm,True,2.0,question,
+https://tiktok.com/v884,biore_official,Biore,Beauty and Wellbeing,2024-04-25,Makro,False,157012,14,0,,2,12,0.62,calm,makeup,tutorial,serious,True,2.0,shocking statement,3.31
+https://tiktok.com/v885,scarlett_official,Scarlett,Beauty and Wellbeing,2024-06-29,Makro,False,499452,27,3,surprised,4,20,0.89,calm,wellness,storytelling,funny,True,5.0,visual hook,3.76
+https://tiktok.com/v886,pond's_official,Pond's,Beauty and Wellbeing,2024-06-06,Mega,True,73543,27,0,,3,20,0.37,serious,fragrance,aesthetic,inspirational,True,5.0,relatable statement,
+https://tiktok.com/v887,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-07-18,Nano,True,5217756,27,1,neutral,7,11,0.28,neutral,makeup,tutorial,inspirational,True,5.0,question,
+https://tiktok.com/v888,attack_official,Attack,Home Care,2024-01-19,Mikro,False,253478,24,1,neutral,5,4,0.99,excited,laundry tips,tutorial,serious,True,4.0,shocking statement,2.16
+https://tiktok.com/v889,make_over_official,Make Over,Beauty and Wellbeing,2024-05-10,Nano,False,275984,56,1,sad,10,2,0.61,excited,wellness,aesthetic,funny,False,,,3.16
+https://tiktok.com/v890,vaseline_official,Vaseline,Beauty and Wellbeing,2024-02-07,Makro,True,292919,40,1,surprised,3,4,0.76,neutral,skincare,tutorial,calm,True,3.0,shocking statement,2.53
+https://tiktok.com/v891,so_klin_official,So Klin,Home Care,2024-05-25,Makro,False,3624048,53,0,,1,10,0.52,serious,dishwashing,vlog,serious,True,3.0,visual hook,3.88
+https://tiktok.com/v892,vanish_official,Vanish,Home Care,2024-05-03,Mega,False,574099,57,2,happy,0,5,0.29,excited,cleaning hacks,vlog,funny,True,5.0,relatable statement,
+https://tiktok.com/v893,lux_official,Lux,Beauty and Wellbeing,2024-03-04,Mikro,True,175253,38,0,,1,17,0.02,,haircare,reaction,funny,True,1.0,visual hook,
+https://tiktok.com/v894,vanish_official,Vanish,Home Care,2024-03-28,Nano,False,348643,34,1,sad,10,7,0.36,excited,disinfecting,before after,funny,True,5.0,shocking statement,
+https://tiktok.com/v895,scarlett_official,Scarlett,Beauty and Wellbeing,2024-07-09,Nano,False,1208439,14,2,sad,10,10,0.57,excited,fragrance,before after,serious,False,,,1.74
+https://tiktok.com/v896,downy_official,Downy,Home Care,2024-01-15,Mikro,False,732832,59,1,neutral,5,14,0.62,serious,home fragrance,reaction,dramatic,False,,,1.96
+https://tiktok.com/v897,molto_official,Molto,Home Care,2024-04-16,Nano,True,1050702,30,0,,4,18,0.56,excited,disinfecting,vlog,emotional,True,3.0,visual hook,3.68
+https://tiktok.com/v898,vaseline_official,Vaseline,Beauty and Wellbeing,2024-06-26,Nano,True,1702995,56,2,angry,3,7,0.38,serious,makeup,before after,serious,True,1.0,visual hook,
+https://tiktok.com/v899,sunlight_official,Sunlight,Home Care,2024-04-11,Mega,True,489920,53,0,,3,4,0.52,energetic,home fragrance,before after,inspirational,True,2.0,curiosity gap,2.26
+https://tiktok.com/v900,mama_lemon_official,Mama Lemon,Home Care,2024-04-26,Mikro,False,369170,44,1,happy,1,13,0.63,calm,laundry tips,storytelling,dramatic,True,3.0,shocking statement,3.6
+https://tiktok.com/v901,scarlett_official,Scarlett,Beauty and Wellbeing,2024-01-08,Mega,False,331202,56,2,angry,2,13,0.82,excited,haircare,vlog,emotional,True,4.0,question,2.98
+https://tiktok.com/v902,vaseline_official,Vaseline,Beauty and Wellbeing,2024-01-22,Mega,True,268962,27,0,,6,9,0.02,,wellness,reaction,serious,True,3.0,curiosity gap,
+https://tiktok.com/v903,super_pell_official,Super Pell,Home Care,2024-06-19,Mikro,True,108072,55,2,neutral,0,3,0.69,excited,dishwashing,reaction,emotional,False,,,1.9
+https://tiktok.com/v904,mama_lemon_official,Mama Lemon,Home Care,2024-06-10,Makro,False,209643,17,1,sad,0,2,0.73,energetic,cleaning hacks,storytelling,calm,True,5.0,visual hook,3.33
+https://tiktok.com/v905,biore_official,Biore,Beauty and Wellbeing,2024-01-30,Makro,False,945362,24,0,,9,20,0.24,calm,makeup,storytelling,emotional,True,4.0,visual hook,
+https://tiktok.com/v906,wipol_official,Wipol,Home Care,2024-06-30,Mega,True,173638,22,1,surprised,2,13,0.16,excited,cleaning hacks,before after,emotional,True,4.0,curiosity gap,
+https://tiktok.com/v907,wipol_official,Wipol,Home Care,2024-07-04,Mega,True,520543,8,2,angry,6,16,0.1,,disinfecting,reaction,serious,True,5.0,visual hook,
+https://tiktok.com/v908,downy_official,Downy,Home Care,2024-06-04,Mikro,False,287081,33,2,sad,1,19,0.05,,laundry tips,storytelling,dramatic,True,5.0,shocking statement,
+https://tiktok.com/v909,so_klin_official,So Klin,Home Care,2024-02-18,Makro,False,413374,53,3,sad,8,11,0.99,calm,home fragrance,tutorial,inspirational,True,1.0,relatable statement,2.96
+https://tiktok.com/v910,molto_official,Molto,Home Care,2024-03-29,Mikro,True,581697,13,2,surprised,2,13,0.89,calm,dishwashing,reaction,funny,False,,,4.0
+https://tiktok.com/v911,downy_official,Downy,Home Care,2024-07-19,Nano,False,1313486,51,0,,4,18,0.16,serious,home fragrance,vlog,calm,True,2.0,relatable statement,
+https://tiktok.com/v912,super_pell_official,Super Pell,Home Care,2024-01-28,Mega,True,149476,55,0,,10,9,0.18,neutral,cleaning hacks,reaction,inspirational,True,4.0,shocking statement,
+https://tiktok.com/v913,wardah_official,Wardah,Beauty and Wellbeing,2024-05-24,Mikro,False,170645,43,2,neutral,0,11,0.7,serious,haircare,reaction,emotional,True,2.0,visual hook,3.05
+https://tiktok.com/v914,sunlight_official,Sunlight,Home Care,2024-05-26,Mikro,True,464547,35,1,surprised,1,15,0.87,excited,disinfecting,vlog,inspirational,True,4.0,shocking statement,3.44
+https://tiktok.com/v915,biore_official,Biore,Beauty and Wellbeing,2024-05-17,Mega,False,248118,11,2,angry,9,20,0.08,,skincare,storytelling,emotional,True,1.0,shocking statement,
+https://tiktok.com/v916,so_klin_official,So Klin,Home Care,2024-03-02,Nano,False,89167,50,1,angry,5,5,0.79,neutral,home fragrance,tutorial,serious,True,3.0,curiosity gap,3.68
+https://tiktok.com/v917,pantene_official,Pantene,Beauty and Wellbeing,2024-06-03,Mega,False,293319,54,1,happy,5,13,0.65,energetic,skincare,tutorial,calm,True,4.0,curiosity gap,3.48
+https://tiktok.com/v918,downy_official,Downy,Home Care,2024-06-11,Mega,False,83924,53,1,neutral,7,9,0.09,,disinfecting,talking head,calm,False,,,
+https://tiktok.com/v919,scarlett_official,Scarlett,Beauty and Wellbeing,2024-05-23,Makro,False,9002009,55,3,surprised,5,12,0.38,calm,haircare,reaction,inspirational,True,3.0,question,
+https://tiktok.com/v920,lux_official,Lux,Beauty and Wellbeing,2024-02-14,Mikro,True,45279,36,1,angry,10,3,0.41,calm,fragrance,talking head,funny,True,2.0,relatable statement,
+https://tiktok.com/v921,downy_official,Downy,Home Care,2024-02-25,Makro,False,566261,44,1,surprised,9,2,0.08,,cleaning hacks,before after,dramatic,True,5.0,shocking statement,
+https://tiktok.com/v922,lux_official,Lux,Beauty and Wellbeing,2024-02-22,Nano,True,1294737,56,2,surprised,5,9,0.87,neutral,fragrance,aesthetic,serious,True,4.0,curiosity gap,2.7
+https://tiktok.com/v923,pond's_official,Pond's,Beauty and Wellbeing,2024-02-20,Nano,True,431437,29,2,happy,5,15,0.53,serious,wellness,tutorial,emotional,True,4.0,curiosity gap,2.67
+https://tiktok.com/v924,rinso_official,Rinso,Home Care,2024-05-08,Makro,True,428663,28,1,happy,9,13,0.78,energetic,dishwashing,vlog,serious,True,3.0,relatable statement,2.33
+https://tiktok.com/v925,sunlight_official,Sunlight,Home Care,2024-01-21,Nano,True,347162,22,1,sad,5,12,0.56,excited,cleaning hacks,aesthetic,funny,False,,,2.58
+https://tiktok.com/v926,sunlight_official,Sunlight,Home Care,2024-03-05,Makro,True,467072,26,2,surprised,8,12,0.09,,disinfecting,aesthetic,emotional,True,4.0,relatable statement,
+https://tiktok.com/v927,wipol_official,Wipol,Home Care,2024-01-31,Mikro,True,134464,34,1,surprised,3,17,0.6,serious,home fragrance,tutorial,inspirational,True,5.0,question,2.39
+https://tiktok.com/v928,downy_official,Downy,Home Care,2024-07-02,Makro,False,2572750,35,1,surprised,7,19,0.51,energetic,disinfecting,talking head,emotional,True,5.0,question,3.06
+https://tiktok.com/v929,vaseline_official,Vaseline,Beauty and Wellbeing,2024-01-12,Makro,True,466185,5,0,,10,16,0.62,serious,fragrance,reaction,calm,False,,,3.63
+https://tiktok.com/v930,wardah_official,Wardah,Beauty and Wellbeing,2024-03-28,Mega,False,226633,26,3,sad,2,15,0.97,energetic,makeup,vlog,serious,False,,,2.18
+https://tiktok.com/v931,scarlett_official,Scarlett,Beauty and Wellbeing,2024-04-05,Nano,False,401172,21,3,surprised,4,8,0.06,,skincare,aesthetic,calm,True,5.0,curiosity gap,
+https://tiktok.com/v932,scarlett_official,Scarlett,Beauty and Wellbeing,2024-01-25,Mega,False,1164988,9,1,angry,4,14,0.85,neutral,skincare,vlog,emotional,True,3.0,relatable statement,3.84
+https://tiktok.com/v933,pantene_official,Pantene,Beauty and Wellbeing,2024-06-29,Mikro,False,297004,25,1,surprised,9,14,0.78,energetic,fragrance,aesthetic,emotional,True,2.0,curiosity gap,2.65
+https://tiktok.com/v934,lux_official,Lux,Beauty and Wellbeing,2024-06-25,Nano,True,806592,36,2,angry,10,20,0.02,,wellness,before after,emotional,True,4.0,curiosity gap,
+https://tiktok.com/v935,make_over_official,Make Over,Beauty and Wellbeing,2024-04-14,Nano,False,3026315,24,2,angry,4,12,0.79,neutral,wellness,before after,dramatic,True,3.0,visual hook,1.99
+https://tiktok.com/v936,so_klin_official,So Klin,Home Care,2024-06-05,Makro,False,331547,25,1,neutral,3,5,0.06,,home fragrance,vlog,dramatic,True,3.0,shocking statement,
+https://tiktok.com/v937,dove_official,Dove,Beauty and Wellbeing,2024-06-09,Mega,True,179634,29,1,angry,6,12,0.03,,haircare,tutorial,dramatic,False,,,
+https://tiktok.com/v938,downy_official,Downy,Home Care,2024-04-08,Mega,False,1309859,50,1,angry,1,2,0.29,neutral,cleaning hacks,before after,emotional,True,1.0,shocking statement,
+https://tiktok.com/v939,make_over_official,Make Over,Beauty and Wellbeing,2024-01-23,Mikro,False,391556,37,1,happy,7,3,0.32,energetic,fragrance,vlog,serious,True,3.0,visual hook,
+https://tiktok.com/v940,rinso_official,Rinso,Home Care,2024-03-05,Mega,True,501692,19,1,neutral,3,6,0.86,energetic,cleaning hacks,vlog,inspirational,False,,,3.88
+https://tiktok.com/v941,super_pell_official,Super Pell,Home Care,2024-02-01,Mikro,True,257594,58,1,surprised,0,3,0.68,serious,laundry tips,tutorial,dramatic,True,1.0,question,2.75
+https://tiktok.com/v942,biore_official,Biore,Beauty and Wellbeing,2024-05-03,Mega,False,173541,16,3,neutral,1,4,0.82,calm,skincare,aesthetic,inspirational,True,5.0,curiosity gap,3.6
+https://tiktok.com/v943,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-06-13,Mikro,True,1512225,55,1,surprised,5,9,0.8,excited,wellness,before after,emotional,True,3.0,question,3.23
+https://tiktok.com/v944,pond's_official,Pond's,Beauty and Wellbeing,2024-05-24,Mikro,True,884838,56,1,happy,1,19,0.63,neutral,skincare,reaction,serious,False,,,2.04
+https://tiktok.com/v945,dove_official,Dove,Beauty and Wellbeing,2024-04-14,Mega,True,1979854,19,3,sad,5,6,0.66,energetic,wellness,vlog,dramatic,True,1.0,relatable statement,1.75
+https://tiktok.com/v946,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-04-02,Nano,True,755756,27,2,sad,3,14,0.16,calm,wellness,aesthetic,funny,False,,,
+https://tiktok.com/v947,vanish_official,Vanish,Home Care,2024-05-17,Makro,False,79963,13,1,angry,10,19,0.3,neutral,home fragrance,reaction,dramatic,True,1.0,shocking statement,
+https://tiktok.com/v948,pond's_official,Pond's,Beauty and Wellbeing,2024-07-09,Mega,True,2002654,19,1,happy,5,14,0.73,serious,skincare,aesthetic,inspirational,True,5.0,curiosity gap,3.05
+https://tiktok.com/v949,biore_official,Biore,Beauty and Wellbeing,2024-06-17,Makro,False,2154522,52,1,surprised,9,13,0.37,energetic,haircare,tutorial,dramatic,True,2.0,visual hook,
+https://tiktok.com/v950,wipol_official,Wipol,Home Care,2024-03-22,Mega,True,4247755,18,1,sad,5,16,0.31,serious,dishwashing,reaction,dramatic,False,,,
+https://tiktok.com/v951,pond's_official,Pond's,Beauty and Wellbeing,2024-06-10,Mikro,True,719564,18,1,happy,0,16,0.36,serious,haircare,talking head,inspirational,True,4.0,curiosity gap,
+https://tiktok.com/v952,dove_official,Dove,Beauty and Wellbeing,2024-06-29,Nano,True,105081,11,1,angry,8,7,0.84,energetic,makeup,storytelling,inspirational,True,1.0,curiosity gap,2.16
+https://tiktok.com/v953,attack_official,Attack,Home Care,2024-03-31,Mikro,False,839468,60,0,,10,6,0.76,energetic,dishwashing,talking head,funny,True,2.0,shocking statement,2.48
+https://tiktok.com/v954,super_pell_official,Super Pell,Home Care,2024-01-24,Mikro,True,814754,32,3,neutral,5,5,0.73,neutral,dishwashing,reaction,dramatic,True,1.0,shocking statement,2.54
+https://tiktok.com/v955,wardah_official,Wardah,Beauty and Wellbeing,2024-05-12,Makro,False,491551,43,2,happy,9,14,0.14,serious,wellness,storytelling,serious,False,,,
+https://tiktok.com/v956,biore_official,Biore,Beauty and Wellbeing,2024-03-03,Mikro,False,2772900,10,0,,6,9,0.85,neutral,makeup,storytelling,inspirational,True,5.0,curiosity gap,2.93
+https://tiktok.com/v957,vaseline_official,Vaseline,Beauty and Wellbeing,2024-05-28,Mega,True,1368349,13,1,angry,2,12,0.84,calm,skincare,reaction,inspirational,True,1.0,shocking statement,3.4
+https://tiktok.com/v958,wipol_official,Wipol,Home Care,2024-02-06,Nano,True,5008218,29,3,neutral,7,14,0.75,energetic,home fragrance,reaction,serious,True,2.0,question,3.67
+https://tiktok.com/v959,wipol_official,Wipol,Home Care,2024-06-27,Mega,True,1320862,23,1,surprised,3,11,0.32,neutral,disinfecting,talking head,emotional,True,5.0,curiosity gap,
+https://tiktok.com/v960,biore_official,Biore,Beauty and Wellbeing,2024-07-15,Makro,False,1052180,51,2,happy,3,13,0.15,serious,wellness,storytelling,serious,True,1.0,relatable statement,
+https://tiktok.com/v961,scarlett_official,Scarlett,Beauty and Wellbeing,2024-02-11,Nano,False,221124,59,1,happy,5,13,0.35,energetic,haircare,vlog,serious,False,,,
+https://tiktok.com/v962,make_over_official,Make Over,Beauty and Wellbeing,2024-01-19,Mega,False,540512,7,1,angry,4,10,0.11,calm,haircare,before after,serious,True,1.0,curiosity gap,
+https://tiktok.com/v963,rinso_official,Rinso,Home Care,2024-03-27,Mega,True,2104555,25,2,angry,6,16,0.85,neutral,home fragrance,tutorial,serious,True,1.0,visual hook,2.51
+https://tiktok.com/v964,dove_official,Dove,Beauty and Wellbeing,2024-07-14,Makro,True,829456,49,3,sad,3,3,0.54,serious,makeup,vlog,inspirational,True,3.0,visual hook,2.69
+https://tiktok.com/v965,pantene_official,Pantene,Beauty and Wellbeing,2024-03-23,Nano,False,288908,59,2,surprised,0,2,0.61,excited,wellness,aesthetic,emotional,True,4.0,visual hook,1.54
+https://tiktok.com/v966,biore_official,Biore,Beauty and Wellbeing,2024-04-02,Mega,False,1312528,16,0,,2,13,0.61,neutral,wellness,tutorial,emotional,True,1.0,visual hook,3.0
+https://tiktok.com/v967,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-01-13,Nano,True,291353,37,1,neutral,3,15,0.58,neutral,makeup,aesthetic,calm,True,4.0,shocking statement,2.02
+https://tiktok.com/v968,sunlight_official,Sunlight,Home Care,2024-03-09,Makro,True,224960,7,1,neutral,8,7,0.25,neutral,home fragrance,tutorial,funny,False,,,
+https://tiktok.com/v969,dove_official,Dove,Beauty and Wellbeing,2024-02-18,Makro,True,57196,17,1,happy,9,6,0.0,,haircare,vlog,inspirational,False,,,
+https://tiktok.com/v970,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-03-27,Makro,True,624223,24,0,,10,19,0.51,serious,wellness,vlog,inspirational,True,4.0,curiosity gap,2.39
+https://tiktok.com/v971,biore_official,Biore,Beauty and Wellbeing,2024-01-14,Makro,False,249200,55,0,,2,16,0.08,,fragrance,vlog,emotional,True,2.0,relatable statement,
+https://tiktok.com/v972,rinso_official,Rinso,Home Care,2024-01-05,Nano,True,2438987,10,1,surprised,9,9,0.2,neutral,home fragrance,before after,inspirational,True,5.0,question,
+https://tiktok.com/v973,sunlight_official,Sunlight,Home Care,2024-02-10,Nano,True,234424,42,0,,4,19,0.72,energetic,disinfecting,vlog,calm,True,2.0,shocking statement,3.65
+https://tiktok.com/v974,biore_official,Biore,Beauty and Wellbeing,2024-06-27,Mikro,False,190451,5,1,neutral,8,20,0.02,,fragrance,before after,emotional,True,3.0,relatable statement,
+https://tiktok.com/v975,molto_official,Molto,Home Care,2024-02-26,Mega,True,1377135,19,1,surprised,0,5,1.0,neutral,laundry tips,before after,funny,True,3.0,visual hook,2.55
+https://tiktok.com/v976,biore_official,Biore,Beauty and Wellbeing,2024-01-19,Mikro,False,65552,26,1,sad,10,3,0.01,,fragrance,storytelling,funny,True,1.0,visual hook,
+https://tiktok.com/v977,pantene_official,Pantene,Beauty and Wellbeing,2024-07-07,Nano,False,171405,53,1,angry,2,20,0.48,excited,haircare,tutorial,funny,True,1.0,curiosity gap,
+https://tiktok.com/v978,pond's_official,Pond's,Beauty and Wellbeing,2024-02-14,Makro,True,305686,41,1,neutral,4,10,0.02,,haircare,vlog,funny,False,,,
+https://tiktok.com/v979,mama_lemon_official,Mama Lemon,Home Care,2024-01-13,Mikro,False,1311549,7,1,neutral,5,13,0.1,,disinfecting,before after,inspirational,True,3.0,relatable statement,
+https://tiktok.com/v980,molto_official,Molto,Home Care,2024-05-25,Mega,True,97924,59,1,happy,5,6,0.72,neutral,dishwashing,aesthetic,inspirational,False,,,3.43
+https://tiktok.com/v981,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-06-02,Makro,True,906625,56,1,angry,6,11,0.91,serious,fragrance,before after,inspirational,True,3.0,shocking statement,3.86
+https://tiktok.com/v982,sunsilk_official,Sunsilk,Beauty and Wellbeing,2024-03-24,Mikro,True,411160,55,3,surprised,6,7,0.49,calm,wellness,talking head,funny,True,4.0,question,
+https://tiktok.com/v983,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-06-02,Mikro,True,206676,38,1,happy,4,12,0.51,serious,fragrance,reaction,inspirational,True,1.0,curiosity gap,2.28
+https://tiktok.com/v984,attack_official,Attack,Home Care,2024-01-16,Mikro,False,312920,49,2,angry,4,2,0.76,calm,cleaning hacks,aesthetic,emotional,True,2.0,question,3.23
+https://tiktok.com/v985,so_klin_official,So Klin,Home Care,2024-02-23,Mega,False,2426675,41,1,neutral,6,11,0.74,neutral,disinfecting,storytelling,emotional,True,3.0,curiosity gap,3.0
+https://tiktok.com/v986,biore_official,Biore,Beauty and Wellbeing,2024-01-20,Nano,False,924743,18,2,sad,6,20,0.59,neutral,wellness,talking head,emotional,True,4.0,question,1.73
+https://tiktok.com/v987,make_over_official,Make Over,Beauty and Wellbeing,2024-01-13,Mikro,False,710759,19,1,angry,5,14,0.54,excited,fragrance,reaction,funny,True,4.0,curiosity gap,2.21
+https://tiktok.com/v988,pond's_official,Pond's,Beauty and Wellbeing,2024-06-04,Makro,True,173828,35,1,happy,8,17,0.57,calm,wellness,tutorial,inspirational,True,5.0,visual hook,2.02
+https://tiktok.com/v989,wardah_official,Wardah,Beauty and Wellbeing,2024-05-15,Mikro,False,366082,29,1,happy,5,2,0.95,calm,skincare,vlog,serious,True,5.0,shocking statement,2.18
+https://tiktok.com/v990,vaseline_official,Vaseline,Beauty and Wellbeing,2024-03-12,Mega,True,209543,57,1,angry,3,12,0.76,excited,makeup,tutorial,serious,True,2.0,curiosity gap,1.94
+https://tiktok.com/v991,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-05-27,Nano,True,397341,32,3,sad,8,3,0.74,neutral,makeup,tutorial,serious,True,1.0,shocking statement,2.07
+https://tiktok.com/v992,make_over_official,Make Over,Beauty and Wellbeing,2024-05-24,Makro,False,1646493,55,1,sad,1,20,0.15,excited,wellness,vlog,funny,True,5.0,relatable statement,
+https://tiktok.com/v993,sunlight_official,Sunlight,Home Care,2024-04-19,Makro,True,185673,46,1,surprised,4,11,0.69,neutral,cleaning hacks,before after,inspirational,True,5.0,question,3.82
+https://tiktok.com/v994,rinso_official,Rinso,Home Care,2024-06-30,Makro,True,456170,20,0,,0,15,0.05,,home fragrance,talking head,dramatic,True,2.0,curiosity gap,
+https://tiktok.com/v995,tresemmé_official,TRESemmé,Beauty and Wellbeing,2024-03-21,Makro,True,631884,33,1,sad,5,5,0.07,,haircare,talking head,emotional,True,3.0,relatable statement,
+https://tiktok.com/v996,vaseline_official,Vaseline,Beauty and Wellbeing,2024-04-10,Mega,True,265389,24,3,sad,8,11,0.85,calm,fragrance,before after,funny,False,,,1.8
+https://tiktok.com/v997,sunlight_official,Sunlight,Home Care,2024-06-15,Mega,True,824017,13,0,,5,6,0.88,excited,disinfecting,talking head,inspirational,True,2.0,visual hook,2.05
+https://tiktok.com/v998,super_pell_official,Super Pell,Home Care,2024-07-12,Makro,True,673570,48,1,neutral,6,2,0.26,serious,home fragrance,aesthetic,funny,True,3.0,curiosity gap,
+https://tiktok.com/v999,super_pell_official,Super Pell,Home Care,2024-06-04,Mega,True,960285,51,1,neutral,6,14,0.71,calm,cleaning hacks,storytelling,dramatic,True,5.0,visual hook,3.91
