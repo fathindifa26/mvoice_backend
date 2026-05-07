@@ -84,4 +84,57 @@ class AnalyticsService:
                 "bu_mean_bin": bu_mode
             }
 
+    @staticmethod
+    def get_portfolio_summary(
+        aggregation_metric: str = "views",
+        business_unit: Optional[str] = None,
+        channel: Optional[str] = None,
+        from_date: Optional[str] = None,
+        to_date: Optional[str] = None
+    ) -> Dict:
+        df = base_data_manager.apply_base_filters(
+            base_data_manager.get_df(), business_unit=business_unit, channel=channel, from_date=from_date, to_date=to_date
+        )
+        
+        if df.empty:
+            return {
+                "successRate": 0,
+                "highPerforming": 0,
+                "average": 0,
+                "needsReview": 0,
+                "summaryText": "No data available for the selected filters."
+            }
+            
+        # Use views or engagements as performance column. Default to views for frequency.
+        perf_col = aggregation_metric if aggregation_metric in ["views", "engagements"] else "views"
+        
+        # Calculate median
+        median_val = df[perf_col].median()
+        
+        # Thresholds: Average is +/- 15% around median
+        high_threshold = median_val * 1.15
+        low_threshold = median_val * 0.85
+        
+        high_performing_count = int(df[df[perf_col] > high_threshold].shape[0])
+        average_count = int(df[(df[perf_col] <= high_threshold) & (df[perf_col] >= low_threshold)].shape[0])
+        needs_review_count = int(df[df[perf_col] < low_threshold].shape[0])
+        
+        total = df.shape[0]
+        success_rate = round(((high_performing_count + average_count) / total) * 100) if total > 0 else 0
+        
+        metric_label = perf_col.capitalize()
+        summary_text = (
+            f"Your portfolio shows a {success_rate}% success rate, with {high_performing_count} assets "
+            f"performing significantly above the median {metric_label}. This indicates a stable creative performance "
+            f"across your current inventory."
+        )
+        
+        return {
+            "successRate": success_rate,
+            "highPerforming": high_performing_count,
+            "average": average_count,
+            "needsReview": needs_review_count,
+            "summaryText": summary_text
+        }
+
 analytics_service = AnalyticsService()

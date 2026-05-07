@@ -4,6 +4,7 @@ from app.api.endpoints import filters, analytics, brands, creatives, ai, agent
 from app.core.config import settings
 from app.services.base import base_data_manager
 
+# Updated routing
 app = FastAPI(
     title=settings.PROJECT_NAME,
     openapi_url=f"{settings.API_V1_STR}/openapi.json"
