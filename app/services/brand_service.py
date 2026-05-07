@@ -30,8 +30,7 @@ class BrandService:
                     for name, val in top.items()]
         else:
             top = filtered_df.groupby("brand").size().sort_values(ascending=False).head(limit)
-            max_val = top.max() if not top.empty else 1
-            return [{"name": name, "value": f"{(val/max_val)*10:.1f}"} 
+            return [{"name": name, "value": str(val)} 
                     for name, val in top.items()]
 
     @staticmethod
