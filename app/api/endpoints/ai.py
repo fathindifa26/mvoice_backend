@@ -11,7 +11,7 @@ async def get_ai_comparison_summary(
     brand_a: str,
     brand_b: str,
     business_unit: str,
-    metrics: List[str] = Query(["topic", "hook_type", "format", "tone", "face_emotion"]),
+    metrics: List[str] = Query(["Hook__Primary Message/Question", "Visuals__Visual Aesthetic/Style", "Messaging__Core Message/Overall Takeaway"]),
     aggregation: str = "views",
     from_date: Optional[str] = None,
     to_date: Optional[str] = None

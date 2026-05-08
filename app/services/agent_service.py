@@ -19,7 +19,7 @@ class AgentService:
                     "properties": {
                         "metric": {
                             "type": "string",
-                            "enum": ["frequency", "views"],
+                            "enum": ["frequency", "views", "engagements"],
                             "description": "The metric to use for benchmarking"
                         }
                     },
@@ -73,7 +73,18 @@ class AgentService:
                             "type": "array",
                             "items": {
                                 "type": "string",
-                                "enum": ["topic", "hook_type", "format", "tone", "face_emotion", "duration_sec"]
+                                "enum": [
+                                    "views", "engagements", "channels", "creator type",
+                                    "Visuals__Total Video Duration (Seconds)", "Visuals__Visual Aesthetic/Style", 
+                                    "Visuals__Primary Color Palette", "Visuals__Lighting Style",
+                                    "Talent__Main Talent Type", "Talent__Number of Key Talent", "Talent__Apparent Demographics (Primary)",
+                                    "Messaging__Core Message/Overall Takeaway", "Messaging__Message Originality/Uniqueness",
+                                    "Messaging__Primary Emotional Appeal", "Messaging__Key Product/Service Benefit Highlighted", "Messaging__Call to Action (CTA) Type",
+                                    "Meaningful & Different__Social or Cultural Impact Potential", "Meaningful & Different__Emotional Depth", "Meaningful & Different__Authenticity & Relatability",
+                                    "Hook__Analyzed Duration (Seconds)", "Hook__Primary Message/Question", "Hook__Visual Strategy", "Hook__Audio Strategy",
+                                    "Hook__On-Screen Text Presence", "Hook__Emotional Tone Evoked", "Hook__Pacing/Editing (First 3-5s)", "Hook__Uniqueness & Effectiveness (Overall)",
+                                    "Audio__Primary Audio Composition", "Audio__Music Presence", "Audio__Music Genre/Style"
+                                ]
                             },
                             "description": "List of metrics to display"
                         }
