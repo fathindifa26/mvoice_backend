@@ -1,6 +1,7 @@
 from fastapi import APIRouter
 from typing import Optional
 from app.services.analytics_service import analytics_service
+from app.services.ai_service import ai_service
 
 router = APIRouter()
 
@@ -37,7 +38,8 @@ async def get_portfolio_summary(
     from_date: Optional[str] = None,
     to_date: Optional[str] = None
 ):
-    return analytics_service.get_portfolio_summary(
+    # 1. Get base portfolio data
+    base_data = analytics_service.get_portfolio_summary(
         aggregation_metric=aggregation_metric,
         business_unit=business_unit,
         brand=brand,
@@ -45,3 +47,23 @@ async def get_portfolio_summary(
         from_date=from_date,
         to_date=to_date
     )
+    
+    # 2. Get AI context and generate dynamic insights
+    ai_context = analytics_service.get_ai_portfolio_context(
+        aggregation_metric=aggregation_metric,
+        business_unit=business_unit,
+        brand=brand,
+        channel=channel,
+        from_date=from_date,
+        to_date=to_date
+    )
+    
+    ai_insights = await ai_service.generate_portfolio_insights(ai_context)
+    
+    # 3. Merge base data with AI insights
+    return {
+        **base_data,
+        "summaryText": ai_insights.get("summary", base_data["summaryText"]),
+        "strengths": ai_insights.get("strengths", []),
+        "weaknesses": ai_insights.get("weaknesses", [])
+    }

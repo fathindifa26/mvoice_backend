@@ -138,4 +138,44 @@ class AnalyticsService:
             "summaryText": summary_text
         }
 
+    @staticmethod
+    def get_ai_portfolio_context(
+        aggregation_metric: str = "views",
+        business_unit: Optional[str] = None,
+        brand: Optional[str] = None,
+        channel: Optional[str] = None,
+        from_date: Optional[str] = None,
+        to_date: Optional[str] = None
+    ) -> Dict:
+        # 1. Base Portfolio Data
+        portfolio = AnalyticsService.get_portfolio_summary(aggregation_metric, business_unit, brand, channel, from_date, to_date)
+        
+        # 2. Key Creative Dimensions to Analyze
+        dimensions = [
+            "Hook__Primary Message/Question",
+            "Hook__Visual Strategy",
+            "Visuals__Visual Aesthetic/Style",
+            "Talent__Main Talent Type",
+            "Messaging__Core Message/Overall Takeaway",
+            "Audio__Primary Audio Composition"
+        ]
+        
+        creative_context = {}
+        for dim in dimensions:
+            res = AnalyticsService.analyze_variable(dim, aggregation_metric, business_unit, brand, None, channel, None, from_date, to_date)
+            if res.get("data"):
+                # Take top 3 for context
+                creative_context[dim] = res["data"][:3]
+        
+        return {
+            "portfolio_performance": portfolio,
+            "creative_distributions": creative_context,
+            "aggregation_used": aggregation_metric,
+            "filters_applied": {
+                "bu": business_unit,
+                "brand": brand,
+                "channel": channel
+            }
+        }
+
 analytics_service = AnalyticsService()

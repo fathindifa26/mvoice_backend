@@ -91,6 +91,79 @@ class AIService:
             print(f"AI Service Error: {str(e)}")
             return self._generate_mock_response(brand_a, brand_b)
 
+    async def generate_portfolio_insights(
+        self,
+        context_data: Dict
+    ) -> Dict:
+        """
+        Generates dynamic portfolio summary, strengths, and weaknesses.
+        """
+        prompt = f"""
+        You are a Senior Marketing Data Scientist. Analyze the following portfolio performance and creative distribution data.
+        
+        DATA CONTEXT (JSON):
+        {json.dumps(context_data, indent=2)}
+        
+        TASK:
+        1. Write a 2-sentence SUMMARY of the overall portfolio health.
+        2. Identify 3 key STRENGTHS based on top-performing creative dimensions.
+        3. Identify 3 key WEAKNESSES or areas for improvement based on the data.
+        
+        STRENGTHS/WEAKNESSES should be specific (e.g., mention specific Hook strategies or Visual styles that are dominant).
+        
+        FORMAT: Return ONLY a JSON object with these keys: 
+        "summary": "string",
+        "strengths": ["list of strings"],
+        "weaknesses": ["list of strings"]
+        """
+
+        print("\n" + "="*50)
+        print("AI PORTFOLIO INSIGHTS DEBUG")
+        print("="*50)
+        print("CONTEXT DATA SENT TO AI:")
+        print(json.dumps(context_data, indent=2))
+        print("\nFULL PROMPT SENT TO AI:")
+        print(prompt)
+        print("="*50 + "\n")
+
+        if not self.api_key:
+            return {
+                "summary": "Analyzing your portfolio based on " + context_data.get("aggregation_used", "views") + ".",
+                "strengths": ["Strong hook strategy", "Consistent visuals"],
+                "weaknesses": ["Low engagement in audio", "Talent variety needed"]
+            }
+
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "HTTP-Referer": "https://mvoice-intelligence.com",
+            "X-Title": "MVoice Intelligence",
+            "Content-Type": "application/json"
+        }
+
+        payload = {
+            "model": self.model,
+            "messages": [
+                {"role": "system", "content": "You are a professional marketing analyst providing structured JSON insights."},
+                {"role": "user", "content": prompt}
+            ],
+            "response_format": { "type": "json_object" }
+        }
+
+        try:
+            async with httpx.AsyncClient(timeout=30.0) as client:
+                response = await client.post(self.base_url, headers=headers, json=payload)
+                response.raise_for_status()
+                result = response.json()
+                content = result["choices"][0]["message"]["content"]
+                return json.loads(content)
+        except Exception as e:
+            print(f"AI Portfolio Insights Error: {str(e)}")
+            return {
+                "summary": "Error generating insights. Please try again.",
+                "strengths": [],
+                "weaknesses": []
+            }
+
     def _generate_mock_response(self, brand_a: str, brand_b: str) -> Dict:
         """Fallback mock response for development/testing."""
         return {
