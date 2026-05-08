@@ -145,7 +145,16 @@ class ComparisonAgentService(BaseAgentService):
 
     async def chat_with_agent(self, user_message: str, history: List[Dict] = []) -> Dict:
         system_prompt = "You are a Comparison Specialist AI for MVoice. You help users compare two brands side-by-side. Use tools to update the dashboard view."
-        messages = [{"role": "system", "content": system_prompt}, *history, {"role": "user", "content": user_message}]
+        messages = [{"role": "system", "content": system_prompt}]
+        
+        # Avoid duplicating the last user message if it's already in history
+        if history and history[-1].get("role") == "user" and history[-1].get("content") == user_message:
+            messages.extend(history)
+        else:
+            messages.extend(history)
+            if user_message:
+                messages.append({"role": "user", "content": user_message})
+                
         return await self._call_llm(messages, self.get_tools_definition())
 
 class PortfolioAgentService(BaseAgentService):
@@ -187,10 +196,21 @@ class PortfolioAgentService(BaseAgentService):
     async def chat_with_agent(self, user_message: str, history: List[Dict] = []) -> Dict:
         system_prompt = (
             "You are a Portfolio Intelligence Agent. You help users explore creative performance across their entire portfolio. "
-            "You can 'see' data by calling tools. If a user asks about a brand, BU, or specific creative elements (like hooks or visuals), "
-            "call the appropriate tool to get the data first. You can call multiple tools to compare brands."
+            "IMPORTANT: If a user asks a question, call the appropriate tools (like get_portfolio_insights) FIRST to see the data. "
+            "Once you have the tool results, SUMMARIZE the findings for the user in a clear, professional way. "
+            "Do not call the same tool multiple times for the same brand in a single turn. "
+            "If comparing brands, call the tools for each brand, then provide a comparative analysis."
         )
-        messages = [{"role": "system", "content": system_prompt}, *history, {"role": "user", "content": user_message}]
+        messages = [{"role": "system", "content": system_prompt}]
+        
+        # Avoid duplicating the last user message if it's already in history
+        if history and history[-1].get("role") == "user" and history[-1].get("content") == user_message:
+            messages.extend(history)
+        else:
+            messages.extend(history)
+            if user_message:
+                messages.append({"role": "user", "content": user_message})
+
         return await self._call_llm(messages, self.get_tools_definition())
 
 # Export specialized instances
