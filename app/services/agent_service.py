@@ -196,10 +196,13 @@ class PortfolioAgentService(BaseAgentService):
     async def chat_with_agent(self, user_message: str, history: List[Dict] = []) -> Dict:
         system_prompt = (
             "You are a Portfolio Intelligence Agent. You help users explore creative performance across their entire portfolio. "
-            "IMPORTANT: If a user asks a question, call the appropriate tools (like get_portfolio_insights) FIRST to see the data. "
-            "Once you have the tool results, SUMMARIZE the findings for the user in a clear, professional way. "
-            "Do not call the same tool multiple times for the same brand in a single turn. "
-            "If comparing brands, call the tools for each brand, then provide a comparative analysis."
+            "WORKFLOW: \n"
+            "1. If the user's request requires data, use the available tools to fetch it.\n"
+            "2. Once you have the tool output in the message history, STOP calling tools.\n"
+            "3. Analyze the provided data and synthesize a comprehensive, professional answer for the user.\n"
+            "4. If comparing brands, fetch data for both before summarizing.\n"
+            "CRITICAL: Do NOT repeat a tool call if the exact same parameters were already used in the current conversation history. "
+            "Always prioritize providing a strategic answer over fetching more data if you already have relevant insights."
         )
         messages = [{"role": "system", "content": system_prompt}]
         
