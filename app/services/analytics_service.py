@@ -146,36 +146,52 @@ class AnalyticsService:
         channel: Optional[str] = None,
         from_date: Optional[str] = None,
         to_date: Optional[str] = None
-    ) -> Dict:
-        # 1. Base Portfolio Data
-        portfolio = AnalyticsService.get_portfolio_summary(aggregation_metric, business_unit, brand, channel, from_date, to_date)
-        
-        # 2. Key Creative Dimensions to Analyze
-        dimensions = [
-            "Hook__Primary Message/Question",
-            "Hook__Visual Strategy",
-            "Visuals__Visual Aesthetic/Style",
-            "Talent__Main Talent Type",
-            "Messaging__Core Message/Overall Takeaway",
-            "Audio__Primary Audio Composition"
-        ]
+    ):
+        df = base_data_manager.apply_base_filters(base_data_manager.get_df(), business_unit, brand, None, channel, None, from_date, to_date)
+        if df.empty:
+            return {"error": "No data found for selected filters"}
+
+        # Identify all creative dimensions (columns starting with specific prefixes)
+        prefixes = ["Visuals__", "Talent__", "Messaging__", "Hook__", "Audio__", "Meaningful & Different__"]
+        creative_cols = [col for col in df.columns if any(col.startswith(p) for p in prefixes)]
         
         creative_context = {}
-        for dim in dimensions:
-            res = AnalyticsService.analyze_variable(dim, aggregation_metric, business_unit, brand, None, channel, None, from_date, to_date)
-            if res.get("data"):
-                # Take top 3 for context
-                creative_context[dim] = res["data"][:3]
-        
+        for col in creative_cols:
+            # Group by dimension and aggregate based on metric
+            if aggregation_metric == "frequency":
+                dist = df.groupby(col).size().reset_index(name='value')
+            else:
+                dist = df.groupby(col)[aggregation_metric].sum().reset_index(name='value')
+            
+            # Sort by value descending and take TOP 3
+            dist = dist.sort_values(by='value', ascending=False).head(3)
+            
+            # Calculate percentages
+            total = dist['value'].sum()
+            if total > 0:
+                dist['percentage'] = (dist['value'] / total) * 100
+            else:
+                dist['percentage'] = 0
+                
+            creative_context[col] = dist.to_dict('records')
+
+        # Add some overall performance stats
+        total_assets = len(df)
+        avg_views = df['views'].mean() if 'views' in df.columns else 0
+        avg_eng = df['engagements'].mean() if 'engagements' in df.columns else 0
+
         return {
-            "portfolio_performance": portfolio,
-            "creative_distributions": creative_context,
-            "aggregation_used": aggregation_metric,
-            "filters_applied": {
-                "bu": business_unit,
+            "filters": {
+                "business_unit": business_unit,
                 "brand": brand,
-                "channel": channel
-            }
+                "metric": aggregation_metric,
+                "total_assets": total_assets
+            },
+            "performance_stats": {
+                "avg_views": round(avg_views, 2),
+                "avg_engagements": round(avg_eng, 2)
+            },
+            "creative_distributions": creative_context
         }
 
 analytics_service = AnalyticsService()

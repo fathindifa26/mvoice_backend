@@ -38,8 +38,7 @@ async def get_portfolio_summary(
     from_date: Optional[str] = None,
     to_date: Optional[str] = None
 ):
-    # 1. Get base portfolio data
-    base_data = analytics_service.get_portfolio_summary(
+    return analytics_service.get_portfolio_summary(
         aggregation_metric=aggregation_metric,
         business_unit=business_unit,
         brand=brand,
@@ -47,8 +46,17 @@ async def get_portfolio_summary(
         from_date=from_date,
         to_date=to_date
     )
-    
-    # 2. Get AI context and generate dynamic insights
+
+@router.get("/portfolio-summary-ai")
+async def get_portfolio_summary_ai(
+    aggregation_metric: str = "views",
+    business_unit: Optional[str] = None,
+    brand: Optional[str] = None,
+    channel: Optional[str] = None,
+    from_date: Optional[str] = None,
+    to_date: Optional[str] = None
+):
+    # Get AI context and generate dynamic insights
     ai_context = analytics_service.get_ai_portfolio_context(
         aggregation_metric=aggregation_metric,
         business_unit=business_unit,
@@ -60,10 +68,4 @@ async def get_portfolio_summary(
     
     ai_insights = await ai_service.generate_portfolio_insights(ai_context)
     
-    # 3. Merge base data with AI insights
-    return {
-        **base_data,
-        "summaryText": ai_insights.get("summary", base_data["summaryText"]),
-        "strengths": ai_insights.get("strengths", []),
-        "weaknesses": ai_insights.get("weaknesses", [])
-    }
+    return ai_insights
