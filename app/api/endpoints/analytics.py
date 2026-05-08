@@ -32,6 +32,7 @@ async def analyze_metric(
 async def get_portfolio_summary(
     aggregation_metric: str = "views",
     business_unit: Optional[str] = None,
+    brand: Optional[str] = None,
     channel: Optional[str] = None,
     from_date: Optional[str] = None,
     to_date: Optional[str] = None
@@ -39,6 +40,7 @@ async def get_portfolio_summary(
     return analytics_service.get_portfolio_summary(
         aggregation_metric=aggregation_metric,
         business_unit=business_unit,
+        brand=brand,
         channel=channel,
         from_date=from_date,
         to_date=to_date

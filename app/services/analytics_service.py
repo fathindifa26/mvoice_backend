@@ -88,12 +88,13 @@ class AnalyticsService:
     def get_portfolio_summary(
         aggregation_metric: str = "views",
         business_unit: Optional[str] = None,
+        brand: Optional[str] = None,
         channel: Optional[str] = None,
         from_date: Optional[str] = None,
         to_date: Optional[str] = None
     ) -> Dict:
         df = base_data_manager.apply_base_filters(
-            base_data_manager.get_df(), business_unit=business_unit, channel=channel, from_date=from_date, to_date=to_date
+            base_data_manager.get_df(), business_unit=business_unit, brand=brand, channel=channel, from_date=from_date, to_date=to_date
         )
         
         if df.empty:
