@@ -1,14 +1,47 @@
 import json
 from typing import List, Dict, Any, Optional
 from app.core.config import settings
+from app.services.analytics_service import analytics_service
 import httpx
 
-class AgentService:
+class BaseAgentService:
     def __init__(self):
         self.api_key = settings.OPENROUTER_API_KEY
         self.base_url = "https://openrouter.ai/api/v1/chat/completions"
         self.model = settings.AI_MODEL
 
+    async def _call_llm(self, messages: List[Dict], tools: List[Dict]) -> Dict:
+        payload = {
+            "model": self.model,
+            "messages": messages,
+            "tools": [{"type": "function", "function": t} for t in tools],
+            "tool_choice": "auto"
+        }
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "HTTP-Referer": "https://mvoice-intelligence.com",
+            "X-Title": "MVoice Intelligence Agent",
+            "Content-Type": "application/json"
+        }
+        async with httpx.AsyncClient(timeout=60.0) as client:
+            response = await client.post(self.base_url, headers=headers, json=payload)
+            response.raise_for_status()
+            result = response.json()
+            message = result["choices"][0]["message"]
+            tool_calls = message.get("tool_calls", [])
+            return {
+                "answer": message.get("content"),
+                "tool_calls": [
+                    {
+                        "id": tc["id"],
+                        "name": tc["function"]["name"],
+                        "args": json.loads(tc["function"]["arguments"])
+                    } for tc in tool_calls
+                ]
+            }
+
+class ComparisonAgentService(BaseAgentService):
+    """Handles logic for the Comparison menu (Brand A vs Brand B)"""
     def get_tools_definition(self) -> List[Dict[str, Any]]:
         return [
             {
@@ -111,47 +144,58 @@ class AgentService:
         ]
 
     async def chat_with_agent(self, user_message: str, history: List[Dict] = []) -> Dict:
-        """Processes user message and determines which tools to call."""
-        
-        messages = [
-            {"role": "system", "content": "You are a helpful AI Assistant for MVoice Intelligence. You help users navigate and configure their marketing dashboard. If a user asks to change something, use the provided tools. If you use a tool, explain what you've done to the dashboard."},
-            *history,
-            {"role": "user", "content": user_message}
+        system_prompt = "You are a Comparison Specialist AI for MVoice. You help users compare two brands side-by-side. Use tools to update the dashboard view."
+        messages = [{"role": "system", "content": system_prompt}, *history, {"role": "user", "content": user_message}]
+        return await self._call_llm(messages, self.get_tools_definition())
+
+class PortfolioAgentService(BaseAgentService):
+    """Handles logic for the Main Dashboard / Portfolio Insights (Deep Dives)"""
+    def get_tools_definition(self) -> List[Dict[str, Any]]:
+        # ... (definition remains same)
+        return [
+            {
+                "name": "get_portfolio_insights",
+                "description": "Get high-level performance summary (Success Rate, Strengths, Weaknesses) for a specific brand or BU.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "brand": {"type": "string", "description": "Specific brand to analyze"},
+                        "business_unit": {"type": "string", "description": "Business unit to filter by"},
+                        "metric": {"type": "string", "enum": ["frequency", "views", "engagements"]}
+                    }
+                }
+            },
+            {
+                "name": "get_creative_deep_dive",
+                "description": "Get detailed data distributions for specific creative categories (Visuals, Hook, Talent, Messaging, Audio).",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "category": {
+                            "type": "string", 
+                            "enum": ["Visuals", "Hook", "Talent", "Messaging", "Audio", "All"],
+                            "description": "The creative category to pull data for."
+                        },
+                        "brand": {"type": "string"},
+                        "metric": {"type": "string", "enum": ["frequency", "views", "engagements"]}
+                    },
+                    "required": ["category"]
+                }
+            }
         ]
 
-        payload = {
-            "model": self.model,
-            "messages": messages,
-            "tools": [{"type": "function", "function": t} for t in self.get_tools_definition()],
-            "tool_choice": "auto"
-        }
+    async def chat_with_agent(self, user_message: str, history: List[Dict] = []) -> Dict:
+        system_prompt = (
+            "You are a Portfolio Intelligence Agent. You help users explore creative performance across their entire portfolio. "
+            "You can 'see' data by calling tools. If a user asks about a brand, BU, or specific creative elements (like hooks or visuals), "
+            "call the appropriate tool to get the data first. You can call multiple tools to compare brands."
+        )
+        messages = [{"role": "system", "content": system_prompt}, *history, {"role": "user", "content": user_message}]
+        return await self._call_llm(messages, self.get_tools_definition())
 
-        headers = {
-            "Authorization": f"Bearer {self.api_key}",
-            "HTTP-Referer": "https://mvoice-intelligence.com",
-            "X-Title": "MVoice Intelligence Agent",
-            "Content-Type": "application/json"
-        }
+# Export specialized instances
+comparison_agent = ComparisonAgentService()
+portfolio_agent = PortfolioAgentService()
 
-        async with httpx.AsyncClient(timeout=30.0) as client:
-            response = await client.post(self.base_url, headers=headers, json=payload)
-            response.raise_for_status()
-            result = response.json()
-            
-            message = result["choices"][0]["message"]
-            
-            # Handle Tool Calls
-            tool_calls = message.get("tool_calls", [])
-            
-            return {
-                "answer": message.get("content"),
-                "tool_calls": [
-                    {
-                        "id": tc["id"],
-                        "name": tc["function"]["name"],
-                        "args": json.loads(tc["function"]["arguments"])
-                    } for tc in tool_calls
-                ]
-            }
-
-agent_service = AgentService()
+# Backward compatibility alias
+agent_service = comparison_agent
