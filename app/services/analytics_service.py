@@ -1,5 +1,5 @@
 import pandas as pd
-from typing import Optional, Dict
+from typing import Optional, Dict, List
 from app.services.base import base_data_manager
 
 class AnalyticsService:
@@ -139,23 +139,58 @@ class AnalyticsService:
         }
 
     @staticmethod
+    def get_available_dimensions() -> Dict:
+        """Returns all available creative categories and their specific sub-metrics (columns)."""
+        df = base_data_manager.get_df()
+        prefixes = ["Visuals__", "Talent__", "Messaging__", "Hook__", "Audio__", "Meaningful & Different__"]
+        
+        dimensions = {}
+        for p in prefixes:
+            category_name = p.replace("__", "").strip()
+            cols = [col for col in df.columns if col.startswith(p)]
+            dimensions[category_name] = cols
+            
+        return {
+            "categories": list(dimensions.keys()),
+            "dimensions": dimensions
+        }
+
+    @staticmethod
     def get_ai_portfolio_context(
         aggregation_metric: str = "views",
         business_unit: Optional[str] = None,
         brand: Optional[str] = None,
         channel: Optional[str] = None,
         from_date: Optional[str] = None,
-        to_date: Optional[str] = None
+        to_date: Optional[str] = None,
+        dimensions: Optional[List[str]] = None,
+        limit: int = 3,
+        sort_order: str = "desc" # "desc" for top, "asc" for bottom
     ):
         df = base_data_manager.apply_base_filters(base_data_manager.get_df(), business_unit, brand, None, channel, None, from_date, to_date)
         if df.empty:
             return {"error": "No data found for selected filters"}
 
-        # Identify all creative dimensions (columns starting with specific prefixes)
         prefixes = ["Visuals__", "Talent__", "Messaging__", "Hook__", "Audio__", "Meaningful & Different__"]
-        creative_cols = [col for col in df.columns if any(col.startswith(p) for p in prefixes)]
+        
+        # Identify dimensions to process
+        if dimensions:
+            # Match input categories to prefixes
+            # e.g. "Visuals" -> all columns starting with "Visuals__"
+            creative_cols = []
+            for dim in dimensions:
+                matched_prefix = next((p for p in prefixes if p.lower().startswith(dim.lower())), None)
+                if matched_prefix:
+                    creative_cols.extend([col for col in df.columns if col.startswith(matched_prefix)])
+                elif dim in df.columns: # fallback to exact column if provided
+                    creative_cols.append(dim)
+        else:
+            # Default behavior: all creative dimensions
+            creative_cols = [col for col in df.columns if any(col.startswith(p) for p in prefixes)]
         
         creative_context = {}
+        ascending = (sort_order == "asc")
+        
         for col in creative_cols:
             # Group by dimension and aggregate based on metric
             if aggregation_metric == "frequency":
@@ -163,13 +198,14 @@ class AnalyticsService:
             else:
                 dist = df.groupby(col)[aggregation_metric].sum().reset_index(name='value')
             
-            # Sort by value descending and take TOP 3
-            dist = dist.sort_values(by='value', ascending=False).head(3)
+            # Sort and take limit
+            dist = dist.sort_values(by='value', ascending=ascending).head(limit)
             
-            # Calculate percentages
-            total = dist['value'].sum()
-            if total > 0:
-                dist['percentage'] = (dist['value'] / total) * 100
+            # Calculate percentages relative to the whole dataset (not just the head)
+            total_sum = df[aggregation_metric].sum() if aggregation_metric != "frequency" else len(df)
+            
+            if total_sum > 0:
+                dist['percentage'] = (dist['value'] / total_sum) * 100
             else:
                 dist['percentage'] = 0
                 
@@ -185,7 +221,9 @@ class AnalyticsService:
                 "business_unit": business_unit,
                 "brand": brand,
                 "metric": aggregation_metric,
-                "total_assets": total_assets
+                "total_assets": total_assets,
+                "limit": limit,
+                "sort_order": sort_order
             },
             "performance_stats": {
                 "avg_views": round(avg_views, 2),

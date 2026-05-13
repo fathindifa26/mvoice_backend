@@ -14,10 +14,11 @@ async def execute_tool(name, args):
     
     brand = args.get("brand")
     bu = args.get("business_unit")
+    metric = args.get("metric", "views")
 
     if name == "get_portfolio_insights":
         data = analytics_service.get_portfolio_summary(
-            aggregation_metric=args.get("metric", "views"),
+            aggregation_metric=metric,
             brand=brand,
             business_unit=bu
         )
@@ -27,9 +28,12 @@ async def execute_tool(name, args):
     
     elif name == "get_creative_deep_dive":
         return analytics_service.get_ai_portfolio_context(
-            aggregation_metric=args.get("metric", "views"),
+            aggregation_metric=metric,
             brand=brand,
-            business_unit=bu
+            business_unit=bu,
+            dimensions=args.get("dimensions"),
+            limit=args.get("limit", 3),
+            sort_order=args.get("sort_order", "desc")
         )
 
     return {"error": "Tool not found"}
@@ -39,16 +43,10 @@ async def terminal_chat():
     print("Type 'exit' to quit.\n")
     
     history = []
-    # Get system prompt from the actual service
+    # Simplified system prompt for testing
     system_prompt = (
-        "You are a Portfolio Intelligence Agent. You help users explore creative performance across their entire portfolio. "
-        "WORKFLOW: \n"
-        "1. If the user's request requires data, use the available tools to fetch it.\n"
-        "2. Once you have the tool output in the message history, STOP calling tools.\n"
-        "3. Analyze the provided data and synthesize a comprehensive, professional answer for the user.\n"
-        "4. If comparing brands, fetch data for both before summarizing.\n"
-        "CRITICAL: Do NOT repeat a tool call if the exact same parameters were already used in the current conversation history. "
-        "Always prioritize providing a strategic answer over fetching more data if you already have relevant insights."
+        "You are a Portfolio Intelligence Agent. Use tools to fetch data surgically. "
+        "Fetch specific data via get_creative_deep_dive with dimensions (categories like Visuals, Hook, Talent), limit, and sort_order."
     )
     
     while True:
@@ -87,7 +85,7 @@ async def terminal_chat():
                     tool_output = await execute_tool(tc["name"], tc["args"])
                     
                     # PRINT DATA FOR USER
-                    print(f"[Tool Result Data]: {json.dumps(tool_output, indent=2, default=str)[:1000]}...") # Truncate if too long
+                    print(f"[Tool Result Data]: {json.dumps(tool_output, indent=2, default=str)[:2000]}...") # Truncate if too long
                     
                     messages.append({
                         "role": "tool",

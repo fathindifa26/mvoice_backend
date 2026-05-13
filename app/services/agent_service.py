@@ -176,13 +176,20 @@ class PortfolioAgentService(BaseAgentService):
             },
             {
                 "name": "get_creative_deep_dive",
-                "description": "Get the full data context (distributions across all creative dimensions) for the current portfolio/brand selection.",
+                "description": "Get detailed data context for specific creative categories. Categories available: Visuals, Talent, Messaging, Hook, Audio, Meaningful & Different.",
                 "parameters": {
                     "type": "object",
                     "properties": {
                         "brand": {"type": "string", "description": "Brand to analyze"},
                         "business_unit": {"type": "string", "description": "Business unit to analyze"},
-                        "metric": {"type": "string", "enum": ["frequency", "views", "engagements"]}
+                        "metric": {"type": "string", "enum": ["frequency", "views", "engagements"], "description": "The metric to analyze (views, frequency/count, or engagements)"},
+                        "dimensions": {
+                            "type": "array", 
+                            "items": {"type": "string"},
+                            "description": "List of categories to fetch (e.g. ['Visuals', 'Hook']). If empty, fetches all categories."
+                        },
+                        "limit": {"type": "integer", "description": "How many rows per dimension. Default is 3.", "default": 3},
+                        "sort_order": {"type": "string", "enum": ["desc", "asc"], "description": "Use 'desc' for Top performers, 'asc' for Bottom performers. Default is 'desc'."}
                     }
                 }
             }
@@ -191,13 +198,13 @@ class PortfolioAgentService(BaseAgentService):
     async def chat_with_agent(self, user_message: str, history: List[Dict] = []) -> Dict:
         system_prompt = (
             "You are a Portfolio Intelligence Agent. You help users explore creative performance across their entire portfolio. "
-            "WORKFLOW: \n"
-            "1. If the user's request requires data, use the available tools to fetch it.\n"
-            "2. Once you have the tool output in the message history, STOP calling tools.\n"
-            "3. Analyze the provided data and synthesize a comprehensive, professional answer for the user.\n"
-            "4. If comparing brands, fetch data for both before summarizing.\n"
-            "CRITICAL: Do NOT repeat a tool call if the exact same parameters were already used in the current conversation history. "
-            "Always prioritize providing a strategic answer over fetching more data if you already have relevant insights."
+            "WORKFLOW FOR DATA REQUESTS: \n"
+            "1. TARGETED FETCH: Call `get_creative_deep_dive` with relevant categories (Visuals, Hook, Messaging, Talent, Audio, Meaningful & Different). "
+            "If the user asks for a general overview, you can leave the dimensions empty to fetch all.\n"
+            "2. Decide if the user wants 'Top performers' (sort_order='desc') or 'Bottom performers' (sort_order='asc') "
+            "and set an appropriate `limit` (default is 3).\n"
+            "3. ANALYSIS: Once you have the data, synthesize a comprehensive answer.\n"
+            "Be efficient: Only fetch the categories that are actually relevant to the user's question."
         )
         messages = [{"role": "system", "content": system_prompt}]
         

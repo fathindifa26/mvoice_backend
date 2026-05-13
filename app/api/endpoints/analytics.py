@@ -70,6 +70,10 @@ async def get_portfolio_summary_ai(
     
     return ai_insights
 
+@router.get("/portfolio-dimensions")
+async def get_portfolio_dimensions():
+    return analytics_service.get_available_dimensions()
+
 @router.get("/portfolio-ai-context")
 async def get_portfolio_ai_context(
     aggregation_metric: str = "views",
@@ -77,13 +81,20 @@ async def get_portfolio_ai_context(
     brand: Optional[str] = None,
     channel: Optional[str] = None,
     from_date: Optional[str] = None,
-    to_date: Optional[str] = None
+    to_date: Optional[str] = None,
+    dimensions: Optional[str] = None, # Comma separated
+    limit: int = 3,
+    sort_order: str = "desc"
 ):
+    dims_list = dimensions.split(",") if dimensions else None
     return analytics_service.get_ai_portfolio_context(
         aggregation_metric=aggregation_metric,
         business_unit=business_unit,
         brand=brand,
         channel=channel,
         from_date=from_date,
-        to_date=to_date
+        to_date=to_date,
+        dimensions=dims_list,
+        limit=limit,
+        sort_order=sort_order
     )
