@@ -223,7 +223,8 @@ class AnalyticsService:
                 "metric": aggregation_metric,
                 "total_assets": total_assets,
                 "limit": limit,
-                "sort_order": sort_order
+                "sort_order": sort_order,
+                "dimensions": dimensions
             },
             "performance_stats": {
                 "avg_views": round(avg_views, 2),
