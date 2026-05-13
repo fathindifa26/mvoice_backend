@@ -12,6 +12,32 @@ class BaseDataManager:
         self._df = None
         self.load_data()
 
+    @staticmethod
+    def normalize_string(s: str) -> str:
+        """Removes spaces, punctuation and converts to lowercase for robust matching."""
+        if not s: return ""
+        import re
+        # Remove all non-alphanumeric characters and convert to lower
+        return re.sub(r'[^a-zA-Z0-9]', '', str(s)).lower()
+
+    def find_exact_name(self, column: str, value: str) -> str:
+        """Matches a value against a column's unique values using normalization."""
+        if not value or value == "All" or value == "Select Brand":
+            return value
+            
+        df = self.get_df()
+        if df.empty or column not in df.columns:
+            return value
+            
+        target = self.normalize_string(value)
+        unique_names = df[column].dropna().unique()
+        
+        for name in unique_names:
+            if self.normalize_string(str(name)) == target:
+                return name
+                
+        return value
+
     def load_data(self):
         if not os.path.exists(self.csv_path):
             print(f"Warning: CSV file not found at {self.csv_path}")
@@ -101,9 +127,12 @@ class BaseDataManager:
         filtered_df = df.copy()
         
         if business_unit and business_unit != "All":
-            filtered_df = filtered_df[filtered_df["business_unit"] == business_unit]
+            exact_bu = self.find_exact_name("business_unit", business_unit)
+            filtered_df = filtered_df[filtered_df["business_unit"] == exact_bu]
+            
         if brand and brand != "All" and brand != "Select Brand":
-            filtered_df = filtered_df[filtered_df["brand"] == brand]
+            exact_brand = self.find_exact_name("brand", brand)
+            filtered_df = filtered_df[filtered_df["brand"] == exact_brand]
         if talent_type and talent_type != "All":
             filtered_df = filtered_df[filtered_df["talent_type"] == talent_type]
         if channel and channel != "All" and "channels" in filtered_df.columns:

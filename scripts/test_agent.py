@@ -12,18 +12,8 @@ from app.services.base import base_data_manager
 async def execute_tool(name, args):
     print(f"\n[AI Calling Tool: {name} with args: {args}]")
     
-    # Simple case-insensitive matching helper
-    def get_exact_name(df, column, value):
-        if not value or value == "All": return value
-        unique_names = df[column].dropna().unique()
-        for name in unique_names:
-            if str(name).lower() == str(value).lower():
-                return name
-        return value
-
-    df = base_data_manager.get_df()
-    brand = get_exact_name(df, "brand", args.get("brand"))
-    bu = get_exact_name(df, "business_unit", args.get("business_unit"))
+    brand = args.get("brand")
+    bu = args.get("business_unit")
 
     if name == "get_portfolio_insights":
         data = analytics_service.get_portfolio_summary(
