@@ -69,3 +69,21 @@ async def get_portfolio_summary_ai(
     ai_insights = await ai_service.generate_portfolio_insights(ai_context)
     
     return ai_insights
+
+@router.get("/portfolio-ai-context")
+async def get_portfolio_ai_context(
+    aggregation_metric: str = "views",
+    business_unit: Optional[str] = None,
+    brand: Optional[str] = None,
+    channel: Optional[str] = None,
+    from_date: Optional[str] = None,
+    to_date: Optional[str] = None
+):
+    return analytics_service.get_ai_portfolio_context(
+        aggregation_metric=aggregation_metric,
+        business_unit=business_unit,
+        brand=brand,
+        channel=channel,
+        from_date=from_date,
+        to_date=to_date
+    )

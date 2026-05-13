@@ -164,7 +164,7 @@ class PortfolioAgentService(BaseAgentService):
         return [
             {
                 "name": "get_portfolio_insights",
-                "description": "Get high-level performance summary (Success Rate, Strengths, Weaknesses) for a specific brand or BU.",
+                "description": "Get high-level performance values (High Performing, Average, Needs Review counts) for a specific brand or business unit.",
                 "parameters": {
                     "type": "object",
                     "properties": {
@@ -176,19 +176,14 @@ class PortfolioAgentService(BaseAgentService):
             },
             {
                 "name": "get_creative_deep_dive",
-                "description": "Get detailed data distributions for specific creative categories (Visuals, Hook, Talent, Messaging, Audio).",
+                "description": "Get the full data context (distributions across all creative dimensions) for the current portfolio/brand selection.",
                 "parameters": {
                     "type": "object",
                     "properties": {
-                        "category": {
-                            "type": "string", 
-                            "enum": ["Visuals", "Hook", "Talent", "Messaging", "Audio", "All"],
-                            "description": "The creative category to pull data for."
-                        },
-                        "brand": {"type": "string"},
+                        "brand": {"type": "string", "description": "Brand to analyze"},
+                        "business_unit": {"type": "string", "description": "Business unit to analyze"},
                         "metric": {"type": "string", "enum": ["frequency", "views", "engagements"]}
-                    },
-                    "required": ["category"]
+                    }
                 }
             }
         ]
